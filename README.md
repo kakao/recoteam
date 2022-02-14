@@ -74,9 +74,9 @@
 
 > <https://if.kakao.com/2018/>
 
-- `2018-09-03` **[눈으로 듣는 음악 추천 시스템](https://if.kakao.com/2018/program?sessionId=959a3047-0a08-4a42-99ce-35a9210ab49a)** - [발표 자료](https://mk.kakaocdn.net/dn/if-kakao/conf2018/%E1%84%82%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%83%E1%85%B3%E1%86%AE%E1%84%82%E1%85%B3%E1%86%AB%20%E1%84%8B%E1%85%B3%E1%86%B7%E1%84%8B%E1%85%A1%E1%86%A8%20%E1%84%8E%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7.pdf) / [발표 영상](http://tv.kakao.com/v/391418802)
+- `2018-09-04` **[눈으로 듣는 음악 추천 시스템](https://if.kakao.com/2018/program?sessionId=959a3047-0a08-4a42-99ce-35a9210ab49a)** - [발표 자료](https://mk.kakaocdn.net/dn/if-kakao/conf2018/%E1%84%82%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%83%E1%85%B3%E1%86%AE%E1%84%82%E1%85%B3%E1%86%AB%20%E1%84%8B%E1%85%B3%E1%86%B7%E1%84%8B%E1%85%A1%E1%86%A8%20%E1%84%8E%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7.pdf) / [발표 영상](http://tv.kakao.com/v/391418802)
   - `2018-10-01` **[눈으로 듣는 음악 추천 시스템](https://brunch.co.kr/@kakao-it/282)** / 카카오 AI 리포트
-- `2016-09-01` **[TOROS N2 - lightweight approximate Nearest Neighbor library](https://if.kakao.com/2018/program?sessionId=ad6ea793-70e6-495c-b154-c765e6339793)** - [발표 자료](https://mk.kakaocdn.net/dn/if-kakao/conf2018/TOROS%20N2%20-%20lightweight%20approximate%20Nearest%20Neighbor%20library.pdf) / [발표 영상](http://tv.kakao.com/v/391419278)
+- `2018-09-04` **[TOROS N2 - lightweight approximate Nearest Neighbor library](https://if.kakao.com/2018/program?sessionId=ad6ea793-70e6-495c-b154-c765e6339793)** - [발표 자료](https://mk.kakaocdn.net/dn/if-kakao/conf2018/TOROS%20N2%20-%20lightweight%20approximate%20Nearest%20Neighbor%20library.pdf) / [발표 영상](http://tv.kakao.com/v/391419278)
   - `2018-11-21` **[TOROS N2](https://brunch.co.kr/@kakao-it/300)** / 카카오 AI 리포트
 
 ### 카카오 아레나
