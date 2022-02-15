@@ -92,7 +92,7 @@
 
 ### 외부 발표
 
-- `2021-12-15` **[우리 생활 속 추천 시스템. 어떻게 발전해왔고, 어떻게 발전해나가고 있는가?](https://www.youtube.com/watch?v=jJfXHo7nNe8)** / 데이터 그랜드 컨퍼런스 2021
+- `2021-12-15` **[우리 생활 속 추천 시스템, 어떻게 발전해왔고 어떻게 발전해나가고 있는가?](https://www.youtube.com/watch?v=jJfXHo7nNe8)** / 데이터 그랜드 컨퍼런스 2021
 - `2021-05-21` **[추천 기술이 마주하고 있는 현실적인 문제들](https://www.youtube.com/watch?v=UUY8YEesIVY)** / AI Frontiers Summit 2021
 - `2020-11-25` **[유저가 좋은 작품(웹툰)를 만났을 때(유저의 탐색, 발견 그리고 만족도에 대하여 탐색적 분석하기)](https://deview.kr/2020/sessions/332)** / DEVIEW 2020
 - `2019-08-18` **[추천시스템, 이제는 돈이 되어야 한다.](https://archive.pycon.kr/2019/program/talk-detail/?id=136)** / PyCon Korea 2019
