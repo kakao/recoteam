@@ -82,19 +82,19 @@
 
 #### 3회 대회 (Melon Playlist Continuation)
 
-- `2020-04-28` **[멜론 플레이리스트 데이터 탐색 - _카카오 아레나 3회 대회(Part.2)_](https://brunch.co.kr/@kakao-it/343)**
-- `2020-04-22` **[멜론에서 음악 추천을 어떻게 할까? - _카카오 아레나 3회 대회(Part.1)_](https://brunch.co.kr/@kakao-it/342)**
+- `2020-04-28` **[멜론 플레이리스트 데이터 탐색 - _카카오 아레나 3회 대회 (Part.2)_](https://brunch.co.kr/@kakao-it/343)**
+- `2020-04-22` **[멜론에서 음악 추천을 어떻게 할까? - _카카오 아레나 3회 대회 (Part.1)_](https://brunch.co.kr/@kakao-it/342)**
 
 #### 2회 대회 (브런치 사용자를 위한 글 추천 대회)
 
 - `2019-07-04` **[브런치 추천의 힘에 대한 6가지 기술(記述) - _카카오 아레나 2회 대회 (Part. 2)_](https://brunch.co.kr/@kakao-it/333)**
-- `2019-06-24` **[브런치 데이터의 탐색과 시각화 - _카카오 아레나 2회 대회(Part.1)_](https://brunch.co.kr/@kakao-it/332)**
+- `2019-06-24` **[브런치 데이터의 탐색과 시각화 - _카카오 아레나 2회 대회 (Part.1)_](https://brunch.co.kr/@kakao-it/332)**
 
 ### 외부 발표
 
 - `2021-12-15` **[우리 생활 속 추천 시스템, 어떻게 발전해왔고 어떻게 발전해나가고 있는가?](https://www.youtube.com/watch?v=jJfXHo7nNe8)** / 데이터 그랜드 컨퍼런스 2021
 - `2021-05-21` **[추천 기술이 마주하고 있는 현실적인 문제들](https://www.youtube.com/watch?v=UUY8YEesIVY)** / AI Frontiers Summit 2021
-- `2020-11-25` **[유저가 좋은 작품(웹툰)를 만났을 때(유저의 탐색, 발견 그리고 만족도에 대하여 탐색적 분석하기)](https://deview.kr/2020/sessions/332)** / DEVIEW 2020
+- `2020-11-25` **[유저가 좋은 작품(웹툰)를 만났을 때 (유저의 탐색, 발견 그리고 만족도에 대하여 탐색적 분석하기)](https://deview.kr/2020/sessions/332)** / DEVIEW 2020
 - `2019-08-18` **[추천시스템, 이제는 돈이 되어야 한다.](https://archive.pycon.kr/2019/program/talk-detail/?id=136)** / PyCon Korea 2019
 - `2018-08-19` **[추천 시스템을 위한 어플리케이션 서버 개발 후기](https://archive.pycon.kr/2018/program/33)** / PyCon Korea 2018
 - `2016-08-13` **[TOROS: Python Framework for Recommender](https://archive.pycon.kr/2016apac/program/50)** / PyCon Korea 2016
