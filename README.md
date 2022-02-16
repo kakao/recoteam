@@ -3,6 +3,7 @@
 ## 목차 <!-- omit in toc -->
 
 - [소개](#소개)
+- [오픈소스](#오픈소스)
 - [발행 문서, 발표 영상 자료 모음](#발행-문서-발표-영상-자료-모음)
   - [추천팀 소개](#추천팀-소개)
   - [추천 시스템](#추천-시스템)
@@ -23,6 +24,10 @@
 
 팀 소개 문구
 
+## 오픈소스
+
+- **[TOROS Buffalo](https://github.com/kakao/buffalo)** - A fast and scalable production-ready open source project for recommender systems
+- **[TOROS N2](https://github.com/kakao/n2)** - lightweight approximate Nearest Neighbor library which runs fast even with large datasets
 ## 발행 문서, 발표 영상 자료 모음
 
 ### 추천팀 소개
