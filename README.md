@@ -28,6 +28,7 @@
 
 - **[TOROS Buffalo](https://github.com/kakao/buffalo)** - A fast and scalable production-ready open source project for recommender systems
 - **[TOROS N2](https://github.com/kakao/n2)** - lightweight approximate Nearest Neighbor library which runs fast even with large datasets
+
 ## 발행 문서, 발표 영상 자료 모음
 
 ### 추천팀 소개
