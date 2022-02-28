@@ -107,7 +107,7 @@
 
 ## 영입 기출 문제
 
-- Mini Reco (별도 문서로 작성)
+- [Mini Reco](problem/Mini_Reco)
 
 ## RecSys 2021 리뷰
 
