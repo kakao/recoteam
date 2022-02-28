@@ -94,7 +94,7 @@ The user based top-N recommendation algorithm uses a similarity-based vector mod
 1 2 6.21  // 사용자 1이 아이템 2에 6.21점 부여
 2 3 1.1   // 사용자 2가 아이템 3에 1.1점 부여
 ...
-...       // 20th line (5 + num_rows)
+...       // Line 20 (= 5 + num_rows)
 2         // num_reco_users
 1         // print num_item_rec_top_M items for user 1
 2         // print num_item_rec_top_M items for user 2
