@@ -24,7 +24,7 @@
 
 The [memory-based](https://en.wikipedia.org/wiki/Collaborative_filtering#Memory-based) approach uses user rating data to compute the similarity between users or items. Typical examples of this approach are neighbourhood-based CF and item-based/user-based top-N recommendations. For example, in user based approaches, the value of ratings user u gives to item i is calculated as an aggregation of some similar users' rating of the item:
 
-![r_{u,i} = \mathrm{aggr}_{u^\' \in U} r_{u^\', i}](https://render.githubusercontent.com/render/math?math=\color{white}\LARGE{r_{u,i}%20=%20\mathrm{aggr}_{u\'%20\in%20U}%20r_{u\',%20i}})  
+![r_{u,i} = \mathrm{aggr}_{u^\' \in U} r_{u^\', i}](https://render.githubusercontent.com/render/math?math=\color{white}\LARGE{r_{u,i}%20=%20\mathrm{aggr}_{u^\'%20\in%20U}%20r_{u^\',%20i}})
 
 where U denotes the set of top N users that are most similar to user u who rated item i.
 
