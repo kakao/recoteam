@@ -6,10 +6,10 @@
 - [영입 지원 링크](#영입-지원-링크)
 - [영입 기출 문제](#영입-기출-문제)
 - [오픈소스](#오픈소스)
+- [RecSys 리뷰](#recsys-리뷰)
 - [발행 문서, 발표 영상 자료 모음](#발행-문서-발표-영상-자료-모음)
   - [추천팀 소개](#추천팀-소개)
   - [추천 시스템](#추천-시스템)
-  - [RecSys 2021 리뷰](#recsys-2021-리뷰)
   - [if(kakao)](#ifkakao)
     - [if(kakao)2021](#ifkakao2021)
     - [if(kakao)2020](#ifkakao2020)
@@ -41,6 +41,9 @@
 - **[TOROS Buffalo](https://github.com/kakao/buffalo)** - A fast and scalable production-ready open source project for recommender systems
 - **[TOROS N2](https://github.com/kakao/n2)** - lightweight approximate Nearest Neighbor library which runs fast even with large datasets
 
+## RecSys 리뷰
+
+- [RecSys 리뷰 (publish)](https://publish.obsidian.md/kakao-recoteam/README)
 ## 발행 문서, 발표 영상 자료 모음
 
 ### 추천팀 소개
@@ -58,11 +61,6 @@
 - `2018-01-31` **[카카오내비 예측의 정확성 그리고 AI](https://brunch.co.kr/@kakao-it/193)** / 카카오 AI 리포트
 - `2017-10-31` **[카카오I 추천 엔진의 진화](https://brunch.co.kr/@kakao-it/136)** / 카카오 AI 리포트
 - `2017-06-23` **[내 손안의 AI 비서, 추천 알고리듬 - 카카오의 AI 추천 플랫폼, ‘토로스(TOROS)’](https://brunch.co.kr/@kakao-it/72)** / 카카오 AI 리포트
-
-### RecSys 2021 리뷰
-
-- <https://github.daumkakao.com/toros/recsys-paper-review>
-- <https://publish.obsidian.md/kakao-recoteam/README>
 
 ### if(kakao)
 
