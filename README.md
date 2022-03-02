@@ -6,7 +6,7 @@
 - [영입 지원 링크](#영입-지원-링크)
 - [영입 기출 문제](#영입-기출-문제)
 - [오픈소스](#오픈소스)
-- [RecSys 리뷰](#recsys-리뷰)
+- [논문 리뷰](#논문-리뷰)
 - [발행 문서, 발표 영상 자료 모음](#발행-문서-발표-영상-자료-모음)
   - [추천팀 소개](#추천팀-소개)
   - [추천 시스템](#추천-시스템)
@@ -41,9 +41,10 @@
 - **[TOROS Buffalo](https://github.com/kakao/buffalo)** - A fast and scalable production-ready open source project for recommender systems
 - **[TOROS N2](https://github.com/kakao/n2)** - lightweight approximate Nearest Neighbor library which runs fast even with large datasets
 
-## RecSys 리뷰
+## 논문 리뷰
 
-- [RecSys 리뷰 (publish)](https://publish.obsidian.md/kakao-recoteam/README)
+- [논문 리뷰 (publish)](https://publish.obsidian.md/kakao-recoteam/README)
+
 ## 발행 문서, 발표 영상 자료 모음
 
 ### 추천팀 소개
