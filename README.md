@@ -34,7 +34,7 @@
 
 ## 영입 기출 문제
 
-- [Mini Reco](problem/mini_reco)
+- [Mini Reco](programming_assignments/mini_reco)
 
 ## 오픈소스
 
