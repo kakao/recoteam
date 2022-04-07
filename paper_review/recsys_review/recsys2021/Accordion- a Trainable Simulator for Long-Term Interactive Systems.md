@@ -1,10 +1,9 @@
-## Accordion: a Trainable Simulator for Long-Term Interactive Systems
 - Paper : https://dl.acm.org/doi/10.1145/3460231.3474259
 - Authors : [[James McInerney]], [[Ehtsham Elahi]], [[Justin Basilico]], [[Yves Raimond]], [[Tony Jebara]]
 - Reviewer : [[hee.yoon@kakaocorp.com]]
 - Topics
-	- [[Metrics and Evaluation]]
-	- [[_RecSys2021]]
+	- #Metrics_and_Evaluation
+	- #RecSys2021 
 
 ### Summary
 - 유저와 인터렉션이 있는 시스템 기반의 트레인 가능한 시뮬레이터를 개발하였습니다.

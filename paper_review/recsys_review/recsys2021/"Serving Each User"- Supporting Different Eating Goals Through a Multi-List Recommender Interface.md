@@ -1,11 +1,10 @@
-## "Serving Each User": Supporting Different Eating Goals Through a Multi-List Recommender Interface
 - Paper : https://doi.org/10.1145/3460231.3474232
 - Authors : [[Alain Starke]], [[Edis Asotic]], [[Christoph Trattner]]
 - Reviewer : [[bell.park@kakaocorp.com]], [[marv.20@kakaocorp.com]]
 - Topics
-	- [[Users in Focus]]
-	- [[Diversity]]
-	- [[_RecSys2021]]
+	- #Users_in_Focus
+	- #Diversity
+	- #RecSys2021
 	
 ### Summary
 - 음식 추천 시스템에서, 유저의 다양한 목적을 만족시키기 위해 어떻게 노출시키면 좋을지(인터페이스)에 대해서 연구한 논문입니다.

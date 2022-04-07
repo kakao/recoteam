@@ -1,11 +1,10 @@
-## Reverse Maximum Inner Product Search: How to efficiently find users who would like to buy my item?
 - Paper : https://arxiv.org/abs/2110.07131
 - Authors : [[Daichi Amagata]], [[Takahiro Hara]]
 - Reviewer : [[iggy.ll@kakaocorp.com]]
 - Topics
-	- [[Scalable Performance]]
-	- [[Inner Product Search]]
-	- [[_RecSys2021]]
+	- #Scalable_Performance
+	- #Inner_Product_Search
+	- #RecSys2021
 
 ### Summary
 

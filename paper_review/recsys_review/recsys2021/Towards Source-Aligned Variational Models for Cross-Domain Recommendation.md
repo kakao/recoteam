@@ -1,11 +1,10 @@
-## Towards Source-Aligned Variational Models for Cross-Domain Recommendation
 - Paper : https://dl.acm.org/doi/10.1145/3460231.3474265
 - Authors : [[Aghiles Salah]], [[Thanh Binh Tran]], [[Hady Lauw]]
 - Reviewer : [[andrew.y@kakaocorp.com]]
 - Topics
-	- [[Language and Knowledge]]
-	- [[Cross-Domain]]
-	- [[_RecSys2021]]
+	- #Language_and_Knowledge 
+	- #Cross-Domain
+	- #RecSys2021
 
 ### Summary
 - Cross Domain 추천이란?

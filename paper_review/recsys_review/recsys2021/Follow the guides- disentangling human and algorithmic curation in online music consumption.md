@@ -1,11 +1,10 @@
-## Follow the guides: disentangling human and algorithmic curation in online music consumption
 - Paper : https://arxiv.org/abs/2109.03915
 - Authors : [[Quentin Villermet]], [[Jérémie Poiroux]], [[Manuel Moussallam]], [[Thomas Louail]], [[Camille Roth]]
 - Reviewer : jinny.kk@kakaocorp.com
 - Topics
-	- [[Applications-Driven Advances]]
-	- [[Music Recommendation]]
-	- [[_RecSys2021]]
+	- #Applications-Driven_Advances
+	- #Music_Recommendation
+	- #RecSys2021
 
 ### Summary
 - Contribution

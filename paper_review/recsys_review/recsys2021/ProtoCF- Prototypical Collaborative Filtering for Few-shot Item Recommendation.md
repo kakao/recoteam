@@ -1,11 +1,10 @@
-## ProtoCF: Prototypical Collaborative Filtering for Few-shot Item Recommendation
 - Paper : https://dl.acm.org/doi/10.1145/3460231.3474268
 - Authors : [[Aravind Sankar]], [[Junting Wang]], [[Adit Krishnan]], [[Hari Sundaram]]
 - Reviewer : [[matthew.g@kakaocorp.com]]
 - Topics
-	- [[Language and Knowledge]]
-	- [[Few-Shot Learning]]
-	- [[_RecSys2021]]
+	- #Language_and_Knowledge
+	- #Few-Shot_Learning
+	- #RecSys2021
 
 ### Summary
 - Long-tail item (interaction 갯수가 작은 대다수의 아이템) 에 대해서 성능을 떨어지는 문제를 개선하고자 한 논문입니다.

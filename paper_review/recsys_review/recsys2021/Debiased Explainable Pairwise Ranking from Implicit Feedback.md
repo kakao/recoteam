@@ -1,12 +1,11 @@
-## Debiased Explainable Pairwise Ranking from Implicit Feedback
 - Paper : https://arxiv.org/pdf/2107.14768.pdf
 - Authors : [[Khalil Damak]], [[Sami Khenissi]], [[Olfa Nasraoui]]
 - Reviewer : [[hee.yoon@kakaocorp.com]]
 - Topics
-	- [[Privacy, Fairness, Bias]]
-	- [[Matrix Factorization]]
-	- [[Explainable Recommendation]]
-	- [[_RecSys2021]]
+	- #Privacy_Fairness_Bias
+	- #Matrix_Factorization
+	- #Explainable_Recommendation
+	- #RecSys2021 
 
 ### Summary
 - 기존 Bayesian Personalized Ranking(BPR) 대비하여 explainability를 늘리고 exposure bias를 잡은 논문입니다.

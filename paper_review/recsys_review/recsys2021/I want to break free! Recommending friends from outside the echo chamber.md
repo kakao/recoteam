@@ -1,10 +1,9 @@
-## I want to break free! Recommending friends from outside the echo chamber
 - Paper : https://dl.acm.org/doi/10.1145/3460231.3474270
 - Authors : [[Antonela Tommasel]], [[Juan Manuel Rodriguez]], [[Daniela Godoy]]
 - Reviewer : [[iggy.ll@kakaocorp.com]]
 - Topics
-	- [[Echo Chambers and Filter Bubbles]]
-	- [[_RecSys2021]]
+	- #Echo_Chambers_and_Filter_Bubbles
+	- #RecSys2021
 
 ### Summary
 - 논문에서 제안하는 GNN 모델에서는 사실 별로 특별히 느끼는 점이 없었습니다.

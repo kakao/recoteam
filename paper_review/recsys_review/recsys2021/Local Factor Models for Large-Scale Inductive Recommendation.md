@@ -1,11 +1,10 @@
-## Local Factor Models for Large-Scale Inductive Recommendation
 - Paper : https://ylongqi.com/assets/pdf/yang2021local.pdf
 - Authors : [[Longqi Yang]], [[Tobias Schnabel]], [[Paul N. Bennett]], [[Susan Dumais]]
 - Reviewer : [[bell.park@kakaocorp.com]]
 - Topics
-	- [[Scalable Performance]]
-	- [[Local Model]]
-	- [[_RecSys2021]]
+	- #Scalable_Performance
+	- #Local_Model
+	- #RecSys2021
 
 ### Summary
 * User-Item co-clustering을 사용해서 Local Model의 개수를 늘릴 수 있도록 추천 모델을 디자인한 논문입니다.

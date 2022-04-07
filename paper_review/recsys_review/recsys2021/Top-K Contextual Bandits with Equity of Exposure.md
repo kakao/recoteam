@@ -1,11 +1,10 @@
-## Top-K Contextual Bandits with Equity of Exposure
 - Paper : https://dl.acm.org/doi/10.1145/3460231.3474248
 - Authors : [[Olivier Jeunen]], [[Bart Goethals]]
 - Reviewer : [[charlie.cs@kakaocorp.com]]
 - Topics
-	- [[Algorithmic Advances]]
-	- [[Bandits and Reinforcement Learning]]
-	- [[_RecSys2021]]
+	- #Algorithmic_Advances 
+	- #Bandits_and_Reinforcement_Learning 
+	- #RecSys2021
 
 ### Summary
 - "equity of exposure" principle 이 어떻게 추천을 위한 top-K contextual bandit의 문제에 적용될 수 있는지 조사(investigate)한 논문입니다.

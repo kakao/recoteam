@@ -1,11 +1,10 @@
-## Matrix Factorization for Collaborative Filtering Is Just Solving an Adjoint Latent Dirichlet Allocation Model After All
 - Paper : https://dl.acm.org/doi/abs/10.1145/3460231.3474266
 - Authors : [[Florian Wilhelm]]
 - Reviewer : [[tony.yoo@kakaocorp.com]]
 - Topics
-	- [[Theory and Practice]]
-	- [[Matrix Factorization]]
-	- [[_RecSys2021]]
+	- #Theory_and_Practice
+	- #Matrix_Factorization
+	- #RecSys2021
 
 ### Summary
 * Matrix Factorization 문제를 Latent Dirichlet Allocation 으로 접근하여 interpretability를 향상시켰습니다.

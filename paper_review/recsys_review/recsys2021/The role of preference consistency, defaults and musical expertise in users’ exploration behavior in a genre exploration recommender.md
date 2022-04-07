@@ -1,11 +1,10 @@
-## The role of preference consistency, defaults and musical expertise in users’ exploration behavior in a genre exploration recommender
 - Paper : https://dl.acm.org/doi/10.1145/3460231.3474253
 - Authors : [[Yu Liang]], [[Martijn C. Willemsen]]
 - Reviewer : [[jinny.kk@kakaocorp.com]]
 - Topics
-	- [[Interactive Recommendation]]
-	- [[Music Recommendation]]
-	- [[_RecSys2021]]
+	- #Interactive_Recommendation
+	- #Music_Recommendation
+	- #RecSys2021
 
 ### Summary
 - 유저의 preference가 시간이 지남에 따라 어떻게 발전하는지는 많이 연구되지 않았다는 문제의식에서 출발하여 음악 도메인에서 유저들의 short-term, long-term preference간의 관계를 이해해보고자 한 논문입니다. 

@@ -1,10 +1,9 @@
-## Evaluating Off-Policy Evaluation: Sensitivity and Robustness
 - Paper : https://arxiv.org/abs/2108.13703
 - Authors : [[Yuta Saito]], [[Takuma Udagawa]], [[Haruka Kiyohara]], [[Kazuki Mogi]], [[Yusuke Narita]], [[Kei Tateno]]
 - Reviewer : [[iggy.ll@kakaocorp.com]]
 - Topics
-	- [[Metrics and Evaluation]]
-	- [[_RecSys2021]]
+	- #Metrics_and_Evaluation 
+	- #RecSys2021
 
 ### Summary
 - 이 논문의 목표는 online에 올려보지 않고 모델을 평가하는 것입니다.

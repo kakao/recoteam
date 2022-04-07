@@ -1,12 +1,11 @@
-## Cold Start Similar Artists Ranking with Gravity-Inspired Graph Autoencoders
 - Paper : https://arxiv.org/abs/2108.01053
 - Authors : [[Guillaume Salha-Galvan]], [[Romain Hennequin]], [[Benjamin Chapus]], [[Viet-Anh Tran]], [[Michalis Vazirgiannis]]
 - Reviewer : [[tony.yoo@kakaocorp.com]]
 - Topics
-	- [[Real-World Concerns]]
-	- [[Cold Start]]
-	- [[Graph]]
-	- [[_RecSys2021]]
+	- #Real-World_Concerns
+	- #Cold_Start 
+	- #Graph
+	- #RecSys2021  
 
 ### Summary
 - Directed graph로 정의된 item network에 대해 link prediction task을 수행한 논문입니다.

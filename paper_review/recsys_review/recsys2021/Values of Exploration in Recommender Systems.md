@@ -1,10 +1,9 @@
-## Values of Exploration in Recommender Systems
 - Paper : https://dl.acm.org/doi/10.1145/3460231.3474236
 - Authors : [[Minmin Chen]], [[Yuyan Wang]], [[Can Xu]], [[Ya Le]],[[ Mohit Sharma]], [[Lee Richardson]], [[Su-Lin Wu]], [[Ed Chi]]
 - Reviewer : [[andrew.y@kakaocorp.com]]
 - Topics
-	- [[Metrics and Evaluation]]
-	- [[_RecSys2021]]
+	- #Metrics_and_Evaluation 
+	- #RecSys2021 
 
 ### Summary
 - 강화학습 기반 추천 시스템에서 exploration이 어떤 영향을 미치는지 알아보고 user exploration을 추가하는 methodology를 소개한 논문입니다.

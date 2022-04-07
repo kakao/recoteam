@@ -1,11 +1,10 @@
-## Mitigating Confounding Bias in Recommendation via Information Bottleneck
 - Paper : https://dl.acm.org/doi/pdf/10.1145/3460231.3474263
 - Authors : [[Dugang Liu]], [[Pengxiang Cheng]], [[Hong Zhu]], [[Zhenhua Dong]], [[Xiuqiang He]], [[Weike Pan]], [[Zhong Ming]]
 - Reviewer : [[charlie.cs@kakaocorp.com]]
 - Topics
-	- [[Privacy, Fairness, Bias]]
-	- [[Bias]]
-	- [[_RecSys2021]]
+	- #Privacy_Fairness_Bias
+	- #Bias 
+	- #RecSys2021
 
 ### Summary
 * 추천 시스템에서 수집한 feedback 데이터의 bias를 효율적으로 완화(alleviate)할 수 있는 debiased information bottleneck (DIB) objective function을 제시하였습니다.

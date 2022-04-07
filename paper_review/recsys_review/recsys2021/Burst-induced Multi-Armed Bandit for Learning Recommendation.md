@@ -1,11 +1,10 @@
-## # Burst-induced Multi-Armed Bandit for Learning Recommendation
 - Paper : https://dl.acm.org/doi/10.1145/3460231.3474250
 - Authors : [[Rodrigo Alves]], [[Antoine Ledent]], [[Marius Kloft]]
 - Reviewer : [[charlie.cs@kakaocorp.com]]
 - Topics
-	- [[Algorithmic Advances]]
-	- [[Bandits and Reinforcement Learning]]
-	- [[_RecSys2021]]
+	- #Algorithmic_Advances
+	- #Bandits_and_Reinforcement_Learning
+	- #RecSys2021 
 
 ### Summary
 - non-stationary & context-free MAB 상황에서 Cold-start recommendation (CSR) 을 위한 방법인 BMAB (Burst-induced MAB)을 제시하였습니다.

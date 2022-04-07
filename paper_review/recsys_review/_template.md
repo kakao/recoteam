@@ -1,4 +1,3 @@
-## Paper
 - Paper : 
 - Authors : 
 - Reviewer : @kakaocorp.com

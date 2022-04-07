@@ -1,11 +1,10 @@
-## Sparse Feature Factorization for Recommender Systems with Knowledge Graphs
 - Paper : https://arxiv.org/abs/2107.14290
 - Authors : [[Vito Walter Anelli]], [[Tommaso Di Noia]], [[Eugenio Di Sciascio]], [[Antonio Ferrara]], [[Alberto Carlo Maria Mancino]]
 - Reviewer : [[bell.park@kakaocorp.com]]
 - Topics
-	- [[Language and Knowledge]]
-	- [[Knowledge Graphs]]
-	- [[_RecSys2021]]
+	- #Language_and_Knowledge
+	- #Knowledge_Graphs
+	- #RecSys2021
 
 ### Summary
 * 지식그래프(Knowledge Graph)와 엔트로피 기반 feature selection을 결합해서 만든 추천 모델을 제안한 논문입니다.

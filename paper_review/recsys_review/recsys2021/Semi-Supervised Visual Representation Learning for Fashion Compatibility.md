@@ -1,11 +1,10 @@
-## Semi-Supervised Visual Representation Learning for Fashion Compatibility
 - Paper : https://arxiv.org/abs/2109.08052
 - Authors : [[Ambareesh Revanur]], [[Vijay Kuma]], [[Deepthi Sharma]]
 - Reviewer : matthew.g@kakaocorp.com
 - Topics
-	- [[Real-World Concerns]]
-	- [[Semi-Supervised Learning]]
-	- [[_RecSys2021]]
+	- #Real-World_Concerns 
+	- #Semi-Supervised_Learning 
+	- #RecSys2021
 
 ### Summary
 - Semi-Supervised Learning을 사용한 다른 모델들과 다르게, conditional mask를 통해서 color와 pattern 같은 attribute를 학습하는 것이 아니라 color, shape를 직접적으로 변경해주는 self-supervised learning의 방법론을 적용하였습니다.

@@ -1,12 +1,11 @@
-## Transformers4Rec: Bridging the Gap between NLP and Sequential / Session-Based Recommendation
 - Paper : https://dl.acm.org/doi/10.1145/3460231.3474255
 - Authors : [[Gabriel de Souza Pereira Moreira]], [[Sara Rabhi]], [[Jeong Min Lee]], [[Ronay Ak]], [[Even Oldridge]]
 - Reviewer : [[marv.20@kakaocorp.com]]
 - Topics
-	- [[Language and Knowledge]]
-	- [[Semi-Supervised Learning]]
-	- [[Sequential Recommendation]]
-	- [[_RecSys2021]]
+	- #Language_and_Knowledge 
+	- #Semi-Supervised_Learning 
+	- #Sequential_Recommendation 
+	- #RecSys2021 
 
 ### Summary
 - NLP와 sequential / session 기반 추천 방식이 유사한데, 최근 NLP의 수많은 모델 구조들을 바로 추천에 적용할 수 있게끔 huggingface transformers 라이브러리 기반의 transformer4rec 라이브러리를 공개하였습니다. Huggingface의 모델 구조를 적용, 튜닝하는 것으로 2개의 2021 이커머스 챌린지에서 우승할 수 있었습니다.

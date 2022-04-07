@@ -1,12 +1,11 @@
-## Negative Interactions for Improved Collaborative Filtering: Don’t go Deeper, go Higher
 - Paper : https://dl.acm.org/doi/pdf/10.1145/3460231.3474273
 - Authors : [[Harald Steck]], [[Dawen Liang]]
 - Reviewer : [[marv.20@kakaocorp.com]]
 - Topics
-	- [[Theory and Practice]]
-	- [[Netflix]]
-	- [[High-Order Interactions]]
-	- [[_RecSys2021]]
+	- #Theory_and_Practice 
+	- #Netflix
+	- #High-Order_Interactions
+	- #RecSys2021
 
 ### Summary
 - Collaborative Filtering 모델에서 higher-order interaction을 어떻게 할 것인지에 대한 방법론을 새롭게 제안하고 있습니다. 

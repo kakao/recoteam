@@ -1,12 +1,11 @@
-## Together is Better: Hybrid Recommendations Combining Graph Embeddings and Contextualized Word Representations
 - Paper : https://dl.acm.org/doi/abs/10.1145/3460231.3474272
 - Authors : [[Marco Polignano]], [[Cataldo Musto]], [[Marco de Gemmis]], [[Pasquale Lops]], [[Giovanni Semeraro]]
 - Reviewer : [[tony.yoo@kakaocorp.com]]
 - Topics
-	- [[Language and Knowledge]]
-	- [[Graph]]
-	- [[Sequence Modeling]]
-	- [[_RecSys2021]]
+	- #Language_and_Knowledge 
+	- #Graph
+	- #Sequence_Modeling
+	- #RecSys2021
 
 ### Summary
 Main author: [Marco Polignano](https://scholar.google.it/citations?user=sjQSYGQAAAAJ&hl=it) - BERT 기반의 감정 분석 연구를 많이 하신것 같습니다.

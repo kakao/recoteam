@@ -1,12 +1,11 @@
-## Shared Neural Item Representation for Completely Cold Start Problem
 - Paper : https://dl.acm.org/doi/10.1145/3460231.3474228
 - Authors : [[Ramin Raziperchikolaei]], [[Guannan Liang]], [[Young-joo Chung]]
 - Reviewer : [[matthew.g@kakaocorp.com]]
 - Topics
-	- [[Practical Issues]]
-	- [[Cold Start]]
-	- [[Representation Learning]]
-	- [[_RecSys2021]]
+	- #Practical_Issues
+	- #Cold_Start 
+	- #Representation_Learning
+	- #RecSys2021
 
 ### Summary
 - Complete item cold start 환경에서의 새로운 hybrid 모델을 제안하였습니다.
