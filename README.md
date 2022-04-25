@@ -32,6 +32,7 @@
 
 ## 영입 지원 링크
 
+- [추천/ML SaaS 플랫폼 개발을 위한 MLOps 엔지니어](https://careers.kakao.com/jobs/P-12513)
 - [추천 시스템 연구/개발](https://careers.kakao.com/jobs/P-9883)
 - [추천 시스템 소프트웨어 엔지니어](https://careers.kakao.com/jobs/P-10200)
 - [추천 통계분석/데이터사이언티스트 모집](https://careers.kakao.com/jobs/P-10913)
