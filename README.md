@@ -47,7 +47,7 @@
 
 ## 논문 리뷰
 
-- [논문 리뷰 (publish)](https://publish.obsidian.md/kakao-recoteam/README)
+- [논문 리뷰](paper_review/recsys_review/)
 
 ## 발행 문서, 발표 영상 자료 모음
 
