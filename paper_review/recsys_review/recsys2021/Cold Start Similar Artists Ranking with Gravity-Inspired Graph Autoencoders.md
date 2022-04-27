@@ -1,3 +1,5 @@
+# Cold Start Similar Artists Ranking with Gravity-Inspired Graph Autoencoders
+
 - Paper : <https://arxiv.org/abs/2108.01053>
 - Authors : [[Guillaume Salha-Galvan]], [[Romain Hennequin]], [[Benjamin Chapus]], [[Viet-Anh Tran]], [[Michalis Vazirgiannis]]
 - Reviewer : [[tony.yoo@kakaocorp.com]]
@@ -7,15 +9,15 @@
   - #Graph
   - #RecSys2021
 
-### Summary
+## Summary
 
 - Directed graph로 정의된 item network에 대해 link prediction task을 수행한 논문입니다.
 - Directed 기반의 similarity를 구하기 위해 gravity 기반의 매커니즘을 도입하여 단 방향 선호도를 예측 가능하게 만들었습니다.
 - Cold item (노드 피쳐는 있으나 adjacent 정보가 isolated 된 상황)에 대해 masking과 VAE기반의 구조로 접근하여 성능 향상을 내었습니다.
 
-### Approach
+## Approach
 
-#### Gravity-Inspired similiarity
+### Gravity-Inspired similiarity
 
 ![gravity-inspired-vae-overview](https://user-images.githubusercontent.com/38134957/165449090-f409022d-2da1-440d-87ab-b89a821e17ee.png)
 
@@ -31,7 +33,7 @@ $$
 
 즉, VAE기반의 GNN를 태워 얻은 $\tilde{Z} = [Z; \tilde{M}], Z\in \mathbb{R}^{n \times d}, \tilde{M}\in \mathbb{R}^{n }$ 로 similiarity score $\hat{A}_{ij}$를 예측합니다.
 
-#### Loss
+### Loss
 
 - VAE 기반의 encoding 모델로 GNN을 사용하였습니다.
 $$
@@ -66,7 +68,7 @@ $$
 \mathcal{L}_{Regularization} = \frac{1}{2} \sum_d\sum_i^k exp(\sigma_{ii, b}^2) + \mu_{i, b} - \sigma_{ii, b} - 1
 $$
 
-#### Cold Start Similiar Items Ranking
+### Cold Start Similiar Items Ranking
 
 warm item 수를 $n$, cold item 의 갯수를 $m$ 이라 하면, adjacent matrix $A \in \mathbb{R}^{(n + m) \times (n +m)}$ 에서 cold item의 row는 zero vector로 masking 됩니다.
 
@@ -76,16 +78,16 @@ $$
 \hat{A}_{ij} = \sigma \left( \underbrace{\tilde{m}_j}_{\text{influence of j}} -\lambda \underbrace{\log \Vert z_i - z_j\Vert_2^2}_{\text{proximity of i and j}} \right)
 $$
 
-#### Other Methods
+### Other Methods
 
 - [VGAE](https://arxiv.org/abs/1611.07308):
   - Undirected graph 에 대해 $\hat{A} = \sigma \left(z_i^{T}z_j\right)$ 를 통해 예측합니다. 다만, 이렇게 계산하면 symmetric 하다는 단점이 존재합니다.
 - Sour-Targ GVAE:
   - Directed graph 에 대해 $\hat{A} = \sigma\left( z_i^{(s)T}z_j^{(t)}\right)$, $z^{(s)} = z[:d/2]$, $z^{(t)}=z[d/2:]$. 단, $d$는 짝수이고, 이렇게 계산하면 non-symmetric이 됩니다.
 
-### Results
+## Results
 
-#### Dataset
+### Dataset
 
 - [Deezer](https://www.deezer.com/soon) 의 24,270 수의 artist 들로 구성 된 directed graph입니다.
 - Node feature는 56 dimension을 가지며 다음 component들로 구성되어 있습니다.
@@ -94,11 +96,11 @@ $$
   - Mood vector (4-dim)
 - Train, valid, test 는 8:1:1 로 split. Valid와 test의 경우엔 cold 노드들로 구성되어 있기 때문에 neigbor edge는 masking 되어있습니다.
 
-#### Metric
+### Metric
 
 - Recall, MAP, NDCG를 사용하였습니다.
 
-#### Performance
+### Performance
 
 ![exp](https://user-images.githubusercontent.com/38134957/165449118-bc1e4374-4dfa-4f80-a779-c4a7175abe7f.png)
 
@@ -106,7 +108,7 @@ $$
 - Source.-Targ. 버전이 최근 연구에 대해 약간 우위를 보입니다. Non-symmetric 성질을 띈다는 점에 주목할 수 있습니다. Symmetric인 GAE, GVAE는 더 낮은 걸 보았을때 Non-symmetric 방법이 우수함을 의미합니다.
 - Source.-Targ. 에서 VAE 가 AE보다 좋은 결과를 보였지만, Gravity 버전에서는 반대의 결과를 보였습니다. 상황에 따라 VAE vs AE의 성능이 달라지게 됩니다.
 
-##### Mass parameter
+#### Mass parameter
 
 - 정성적 분석: 왼쪽은 artist별 mass의 크기와 링크 사이를 visualization 한 결과입니다. 빨간색 노드들이 레게 아티스트들 이고, mass가 큰 것 중에 하나를 예로 들은게 레게의 유명한 아티스트 Bob Marley입니다.
 - 정량적 분석: 오른쪽은 mass (아티스트들) 사이의 여러 measure (popularity, in-degree, page rank) 로 상관관계 분석을 해보았습니다. 결과를 보았을 때, mass가 높다고 measure 값들이 꼭 높은 것은 아니지만 어느정도 상관관계가 있다는것을 보여주었습니다.
@@ -115,22 +117,22 @@ $$
 <img src="https://user-images.githubusercontent.com/38134957/165449149-afb80cd5-74a6-4e5a-beb3-604a4f499811.png" style="zoom:50%;" />
 </figure>
 
-##### Impact of attributes
+#### Impact of attributes
 
 - Node feature를 많이 쓸수록 성능이 향상되었습니다.
 <img src="https://user-images.githubusercontent.com/38134957/165449230-747517bf-faaa-49ab-aa64-0380478432e1.png" style="zoom:60%;" />
 
-##### Popularity-diversity trade off
+#### Popularity-diversity trade off
 
 - $\lambda$ 를 높힐 수록 popular한 item의 rank 빈도가 많아지고, 줄이면 distance에 의한 계산만 하기 때문에 줄어들게 됩니다.
 <img src="https://user-images.githubusercontent.com/38134957/165449251-63848fd0-1148-43b5-9d42-16472a022176.png" style="zoom:50%;" />
 
-### Conclusion
+## Conclusion
 
 - 그래프 방법론을 이용하여 similar item 추천을 non-symetric한 상황에서 다루어 성능을 향상시킨 논문입니다.
 - Cold-start 상황에서 masking, VAE 방법론등의 이점을 적용하였습니다.
 
-#### Critical view of points:
+### Critical view of points
 
 - Cold 아이템의 경우 adjacent 정보를 masking (0으로 패딩)하면 모두 동일한 피쳐로 간주되게 됩니다.
 - Cold start 상황에 대해서만 평가를 진행해보았을 때의 우위 비교가 없어 아쉬웠습니다.

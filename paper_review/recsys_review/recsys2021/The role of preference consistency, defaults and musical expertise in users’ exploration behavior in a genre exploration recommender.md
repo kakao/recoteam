@@ -1,3 +1,5 @@
+# The role of preference consistency, defaults and musical expertise in users’ exploration behavior in a genre exploration recommender
+
 - Paper : <https://dl.acm.org/doi/10.1145/3460231.3474253>
 - Authors : [[Yu Liang]], [[Martijn C. Willemsen]]
 - Reviewer : [[jinny.kk@kakaocorp.com]]
@@ -6,13 +8,13 @@
   - #Music_Recommendation
   - #RecSys2021
 
-### Summary
+## Summary
 
 - 유저의 preference가 시간이 지남에 따라 어떻게 발전하는지는 많이 연구되지 않았다는 문제의식에서 출발하여 음악 도메인에서 유저들의 short-term, long-term preference간의 관계를 이해해보고자 한 논문입니다.
 
-### Approach
+## Approach
 
-#### 접근 방법
+### 접근 방법
 
 - 음악 도메인에서 유저들의 short-term, long-term preference간의 관계를 이해해보자.
   - 정의: short-term은 session 내에서의 소비, long-term은 whole history에서의 소비를 뜻한다.
@@ -22,7 +24,7 @@
   - 이전 연구들이 보인 것들은, 단기 취향 ≠ 장기 취향인 것 같더라, 그리고 음악 도메인에선 유저의 음악적 전문성에 따라 청취 행태 (다양성, 추천 시스템 사용 방식)가 다르더라 정도였다.
 - 논문의 도메인: 음악
 
-#### Research Questions
+### Research Questions
 
 - RQ 1: 시간에 따라 유저 취향이 어떻게 변화하는지 이해해보자. (users's preference consistency)
   - 스터디 디자인: data는 (다른 스터디에서 수집한) 스포티파이에서 319명의 유저들의 청취 기록을 사용했다. short (최근 4주), medium (최근 6달), long-term (모든 기록) preference는 track-level, artist-level, tag-level로 측정했다.
@@ -50,7 +52,7 @@
   - RQ 3-3: 유저들이 기꺼이 탐색하고자 하는 거리가 유저의 음악적 전문성에 따라 달리 나타날까?
   - path model을 구축해서 (Fig 7) default setting이 유저의 (현재 취향으로부터의) 탐색 거리에 영향을 끼칠 수 있다고 분석했다.
 
-### Conclusion
+## Conclusion
 
 - `Strong Points?`
   - 음악적 전문성에 따라 시간에 따른 유저 취향의 일관성 정도가 다르다는 걸 분석했다는 점이 흥미로웠다.

@@ -1,3 +1,5 @@
+# Burst-induced Multi-Armed Bandit for Learning Recommendation
+
 - Paper : <https://dl.acm.org/doi/10.1145/3460231.3474250>
 - Authors : [[Rodrigo Alves]], [[Antoine Ledent]], [[Marius Kloft]]
 - Reviewer : [[charlie.cs@kakaocorp.com]]
@@ -6,16 +8,16 @@
   - #Bandits_and_Reinforcement_Learning
   - #RecSys2021
 
-### Summary
+## Summary
 
 - non-stationary & context-free MAB 상황에서 Cold-start recommendation (CSR) 을 위한 방법인 BMAB (Burst-induced MAB)을 제시하였습니다.
 - 기존 non-stationary MAB(EXP3, Discounted-UCB etc.)의 방식과 비교되는 특징은 다음과 같습니다.
   1. context-free: feature vector가 필요하지 않습니다.
   2. reward 분포의 변화를 확인하는 대신, 시스템의 temporal dynamics를 활용합니다.
 
-### Approach
+## Approach
 
-#### Intuition
+### Intuition
 
 - 추천 환경에는 크게 두가지 상태가 있다고 가정: loyal (stable) state 그리고 curious (unstable) state
 - 전체 time horizon은 일정 구간으로 나뉘어져서, 두 state 중 하나가 발생한다고 가정함
@@ -23,7 +25,7 @@
   <img src="https://user-images.githubusercontent.com/38134957/165448255-7e73d749-683e-44a5-9b29-c66dd37ef158.png " width=65%>
 - state 마다 MAB 모델을 세우고, 특정 state 상황에 해당하는 모델을 이용하여 추천을 진행
 
-#### Burst-induced MAB (BMAB)
+### Burst-induced MAB (BMAB)
 
 - Algorithm
   1. 두 state (loyal, curious)마다 각각 K개의 beta parameter를 두고, orcale이 timestamp마다 어떤 state인지 알려줌
@@ -31,7 +33,7 @@
   3. 만약 curious (s = 1) 에서 loyal (s = 0) 상태로 넘어가는 경우, curious state에 해당하는 beta parameter를 decay
   <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gwg5vya71xj30ou0j6gno.jpg"  width=75%>
 
-#### State Detector
+### State Detector
 
 - 매 timestamp 마다 어떤 state인지 파악하는 orcale을 구성하기 위해서는 homoheneous Poisson process에 대한 intensity (`lambda_L`)가 알려져 있다는 가정이 요구됨
   - intensity (function)는 쉽게 말하면 특정 구간에서 발생한 이벤트의 rate
@@ -55,7 +57,7 @@
 - 해당 intensity를 몰라도 쉽게 유추할 수 있다고 주장
   - solve with EM - Burstiness scale: A parsimonious model for characterizing random series of events. In Proceedings of the 22nd ACM SIGKDD
 
-### Results
+## Results
 
 - 합성 데이터, 실제 데이터 모두를 사용해서 제안한 방법을 평가하였습니다.
   - 제안한 방법들: BMAB-O (oracle), BMAB-R (detector)

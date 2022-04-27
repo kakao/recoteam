@@ -1,3 +1,5 @@
+# "Serving Each User"- Supporting Different Eating Goals Through a Multi-List Recommender Interface
+
 - Paper : <https://doi.org/10.1145/3460231.3474232>
 - Authors : [[Alain Starke]], [[Edis Asotic]], [[Christoph Trattner]]
 - Reviewer : [[bell.park@kakaocorp.com]], [[marv.20@kakaocorp.com]]
@@ -6,13 +8,13 @@
   - #Diversity
   - #RecSys2021
 
-### Summary
+## Summary
 
 - 음식 추천 시스템에서, 유저의 다양한 목적을 만족시키기 위해 어떻게 노출시키면 좋을지(인터페이스)에 대해서 연구한 논문입니다.
 - 추천 결과를 single-list와 multi-list 각각의 방법으로 노출했을 때 어떠한 차이가 있는지 유저 스터디로 비교 분석하였습니다.
 - 리스트 간의 순서를 정하는 모델이나 로직이 없다는 것은 아쉽지만, 현실적인 접근이라고 생각됩니다.
 
-### Approach
+## Approach
 
 - 기본적으로 현재 보고있는 레시피와 유사한 레시피를 추천하는 연관 추천 환경입니다.
 - 저자들이 직접 레시피 데이터를 긁어와서 5가지 추천 리스트를 구성하였습니다.
@@ -29,7 +31,7 @@
     - 설명은 붙이는 경우도 있고 안붙이는 경우(Similar recipies)도 있음
     - 참가자는 레시피를 하나 고르고 레시피와 추천에 대해 만족도를 리포트
 
-### Results
+## Results
 
 - 참가자의 피드백을 Structural Equation Modeling (SEM) 기법으로 분석하였습니다.
 - 주목할 만한 결론은 다음과 같습니다.

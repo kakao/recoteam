@@ -1,3 +1,5 @@
+# Mitigating Confounding Bias in Recommendation via Information Bottleneck
+
 - Paper : <https://dl.acm.org/doi/pdf/10.1145/3460231.3474263>
 - Authors : [[Dugang Liu]], [[Pengxiang Cheng]], [[Hong Zhu]], [[Zhenhua Dong]], [[Xiuqiang He]], [[Weike Pan]], [[Zhong Ming]]
 - Reviewer : [[charlie.cs@kakaocorp.com]]
@@ -6,7 +8,7 @@
   - #Bias
   - #RecSys2021
 
-### Summary
+## Summary
 
 - 추천 시스템에서 수집한 feedback 데이터의 bias를 효율적으로 완화(alleviate)할 수 있는 debiased information bottleneck (DIB) objective function을 제시하였습니다.
 - 제시된 DIB objective function은 intractable 한데, 이를 information theory에 기반하여 tractable 한 solution으로 derive할 수 있었습니다.
@@ -14,9 +16,9 @@
   - Related works: (1) heuristic-based (2) inverse propensity score-based (3) unbiased data augmentation (4) some theoretical tools-based
 - 해당 논문에서는 confounding bias 라는 포괄적 형태의 bias를 정의하고, 이 bias를 완화하는 것에 초점을 두었습니다.
 
-### Approach
+## Approach
 
-#### Confounding Bias
+### Confounding Bias
 
 ![image](https://s2.loli.net/2022/01/11/wOSW7EnrHGF3CuR.png)
 
@@ -37,7 +39,7 @@
   - 쉽게 말하면 Figure  1.(a) 와 1.(b)의 차이가 confounding bias
   - Figure 1.(b)는 `x`를 고려하지 않은 추천이므로, uniform random 추천을 생각할 수 있습니다.
 
-#### The proposed method: DIB objective function
+### The proposed method: DIB objective function
 
 ![image](https://s2.loli.net/2022/01/11/AMLDoOWieNzfFnp.png)
 
@@ -57,11 +59,11 @@
   - (d)는 embedding representation의 robustness를 추가하기 위한 regularization term
     - variational approximation을 활용하여 `z`는 Gaussian 분포를 따른다고 가정했습니다.
 
-#### Complement optimization process of DIB
+### Complement optimization process of DIB
 
 ![image](https://s2.loli.net/2022/01/11/TiRa7SY62OHDKdX.png)
 
-### Results
+## Results
 
 - 기존의 추천 모델 Matrix Factorization (MF)과 neural collaborative filtering (NCF)에 DIB를 적용하여 학습했을 때, 상대적으로 어느정도의 성능 향상이 있는지 실험하였습니다.
   - 측정 metrics: AUC, precision (P@K), recall (R@K), 그리고 nDCG(@50)
@@ -72,14 +74,14 @@
 - Baselines
   - MF, NCF (classic reco models) / IPS, SNIPS (IPS-based) / AT, Rel, CVIB (theoretical tools-based)
 
-#### MF
+### MF
 
 ![image](https://s2.loli.net/2022/01/11/CD2OhbjpTRe3ukA.png)
 
 - 제안한 DIB-MF가 가장 높은 성능을 보였습니다.
 - dataset 사이즈가 커질수록 상대적으로 높은 성능을 보였습니다.
 
-#### NCF
+### NCF
 
 ![image](https://s2.loli.net/2022/01/11/LGXFpr7stONHVjd.png)
 

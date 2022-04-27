@@ -1,3 +1,5 @@
+# Together is Better- Hybrid Recommendations Combining Graph Embeddings and Contextualized Word Representations
+
 - Paper : <https://dl.acm.org/doi/abs/10.1145/3460231.3474272>
 - Authors : [[Marco Polignano]], [[Cataldo Musto]], [[Marco de Gemmis]], [[Pasquale Lops]], [[Giovanni Semeraro]]
 - Reviewer : [[tony.yoo@kakaocorp.com]]
@@ -7,7 +9,7 @@
   - #Sequence_Modeling
   - #RecSys2021
 
-### Summary
+## Summary
 
 Main author: [Marco Polignano](https://scholar.google.it/citations?user=sjQSYGQAAAAJ&hl=it) - BERT 기반의 감정 분석 연구를 많이 하신것 같습니다.
 
@@ -28,9 +30,9 @@ Main author: [Marco Polignano](https://scholar.google.it/citations?user=sjQSYGQA
 - Collaborative Filtering 모듈: graph embedding 방법을 사용합니다.
 - Content-based 모듈: contextual word representation 방법을 사용합니다.
 
-### Approach
+## Approach
 
-#### Graph Embedding
+### Graph Embedding
 
 다음 두개의 모델 사용. (이 외에도 TransR, TransD, ... 많은 모델 존재. [survey paper](https://www.mdpi.com/2073-8994/13/3/485/htm) 참고.)
 
@@ -46,21 +48,21 @@ Main author: [Marco Polignano](https://scholar.google.it/citations?user=sjQSYGQA
 
 > TransE 에서 "동일 entity가 여러 relation에서 구분이 안된다"는 단점을 TransH에서 hyperplane을 도입시킴으로써 해결.
 
-#### Contextual Word Reprentation
+### Contextual Word Reprentation
 
 Text 정보를 임베딩. 둘다 Transformer 기반의 모델. (자세한 설명 생략)
 
 - [BERT, NAACL'19](https://arxiv.org/abs/1810.04805)
 - [USE, ICLR'19](https://arxiv.org/abs/1804.07461)
 
-### Results
+## Results
 
-#### Dataset
+### Dataset
 
 비교적 적은 데이터셋. 참고할 점은 train, test 셋을 나눌때, positive 비율을 train과 동일하게 나눔.
 <img src="https://user-images.githubusercontent.com/38134957/165453586-8ba4b994-2d45-4f58-9594-e3a810679141.png" style="zoom:80%;" />
 
-#### Protocol
+### Protocol
 
 [TestRating](https://dl.acm.org/doi/10.1145/2043932.2043996) strategy 사용. 각 유저별로 테스트 셋에 있는 rating만 예측. ranking을 구할때는 예측한 평점들을 sorting하여 구함.
 <img src="https://user-images.githubusercontent.com/38134957/165453619-20aa2173-20a3-4c76-be9f-634204d3dd5c.png" style="zoom:50%;" />
@@ -69,7 +71,7 @@ Text 정보를 임베딩. 둘다 Transformer 기반의 모델. (자세한 설명
 >
 > <img src="https://user-images.githubusercontent.com/38134957/165453674-e668d165-7bef-43ed-b43b-986877cb9753.png" style="zoom:50%;" />
 
-#### Performance
+### Performance
 
 | error-based | ranking-based |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -86,12 +88,12 @@ Text 정보를 임베딩. 둘다 Transformer 기반의 모델. (자세한 설명
 
 위의 오픈 벤치 마킹 정보에 의한 nDCG@10 Score와는 다른 test evaluation 프로토콜을 사용하였기 때문에 참고 부탁드립니다.
 
-### Conclusion
+## Conclusion
 
 - user, item 임베딩을 얻는 두가지 hybrid 방법(entity, feature-based)을 제시하였습니다.
 - 모델 architecture가 simple하여 sota 모델을 쉽게 적용 가능할 수 있고 성능도 우수합니다.
 
-#### Weak points
+### Weak points
 
 - CF 기반 모델에서 interaction 정보만 사용할 거면 굳이 graph model을 쓸 필요는 없을 것 같습니다. CF Sota를 넣어도 될 것 같습니다.
 

@@ -1,3 +1,5 @@
+# Evaluating Off-Policy Evaluation- Sensitivity and Robustness
+
 - Paper : <https://arxiv.org/abs/2108.13703>
 - Authors : [[Yuta Saito]], [[Takuma Udagawa]], [[Haruka Kiyohara]], [[Kazuki Mogi]], [[Yusuke Narita]], [[Kei Tateno]]
 - Reviewer : [[iggy.ll@kakaocorp.com]]
@@ -5,7 +7,7 @@
   - #Metrics_and_Evaluation
   - #RecSys2021
 
-### Summary
+## Summary
 
 - 이 논문의 목표는 online에 올려보지 않고 모델을 평가하는 것입니다.
 ![image](https://user-images.githubusercontent.com/38134957/165455983-1bb220ad-6dfd-4a13-8289-acb2cd085277.png)
@@ -18,7 +20,7 @@
 - reward:유저가 클릭했거나 안 했거나, 우리가 보여준 레이아웃에 따른 유저의 행동 결과(숫자)
  여기서 문제는 $p(r_i...)$를 알 수가 없다는 점과, 모델이 아이템을 선택해서 보여주어야 그에 대한 결과를 만들 수 있다는 점이 있습니다.
 
-### Approach
+## Approach
 
 Off Policy Evaluation은 두 가지 분류로 나눌 수 있습니다.
 
@@ -31,7 +33,7 @@ DM은 모델을 하나 더 만들어야 하기 때문에, 이 모델에 관한 �
 
 ![image](https://user-images.githubusercontent.com/38134957/165455998-662b684f-72fb-4243-b7ad-dfa4b279b2b6.png)
 
-### Conclusion
+## Conclusion
 
 - mean reward를 estimate하기 어렵기 때문에  계열의 방법은 사용하지 않는게 좋을 것 같습니다.
 - SNIPW가 일반적으로 가장 괜찮았습니다. (적절히 Calibration해줄 수 있다면 IPW를 써도 괜찮을 것 같습니다.)

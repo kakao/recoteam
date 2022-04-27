@@ -1,3 +1,5 @@
+# Matrix Factorization for Collaborative Filtering Is Just Solving an Adjoint Latent Dirichlet Allocation Model After All
+
 - Paper : <https://dl.acm.org/doi/abs/10.1145/3460231.3474266>
 - Authors : [[Florian Wilhelm]]
 - Reviewer : [[tony.yoo@kakaocorp.com]]
@@ -6,22 +8,22 @@
   - #Matrix_Factorization
   - #RecSys2021
 
-### Summary
+## Summary
 
 - Matrix Factorization 문제를 Latent Dirichlet Allocation 으로 접근하여 interpretability를 향상시켰습니다.
 - 추천시트템에 맞게 Bias term을 추가(기존 단점 개선)한 LDA4Rec 을 제안하여 Classic LDA 대비 성능 향상이 있었습니다.
 - LDA4Rec의 rating 예측으로 MF, NMF(Non-negative MF), SNMF(Semi-NMP)의 personalized ranking 처럼 사용 할 수 있다는 걸 증명하였습니다. (증명 관점에서는 다루지 않겠습니다.)
 
-### Approach
+## Approach
 
-#### Matrix Factorization
+### Matrix Factorization
 
 User, item 에 대한 latent vector 에 item에 대한 bias 가 있는 MF를 벤치마킹하였습니다.
 $$
 \hat{x} = < \mathbf{x}_u , \mathbf{h}_i > + b_i
 $$
 
-#### LDA Approach
+### LDA Approach
 
 아래의 [Probabilistic Graph Model, PGM](https://en.wikipedia.org/wiki/Graphical_model) 을 보면, 관측되는 $i_{us}$ 를 이용하여 다른 변수들을 [EM algorithm](https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm) 을 통해 unsupervised 방법으로 학습해나가게 됩니다. (기존 모델은 [smoothed LDA](https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf))
 
@@ -40,9 +42,9 @@ p(i_{us} &\vert \boldsymbol{\varphi}_{z_{us}}, \delta_i, \lambda_i) := Categoric
 \end{align}
 $$
 
-### Results
+## Results
 
-#### Datasets
+### Datasets
 
 - Split: train(90%), valid(5%), test(5%)
 - The explicit feedback of these datasets was treated as implicit.
@@ -55,7 +57,7 @@ $$
 
 > The bottleneck of LDA4Rec is the prediction of the personalized rankings for which we need a high number of samples per user to compute a stable ranking. Thus for each user 10,000 items were sampled.
 
-#### Performance
+### Performance
 
 - [[MoiveLens-100K]] 에서 성능 향상이 있었습니다.
 <img src="https://user-images.githubusercontent.com/38134957/165450153-ca5300b3-4845-448d-a49a-6fa142dff3b4.png" alt="ex1" style="zoom:67%;" />
@@ -63,13 +65,13 @@ $$
 아쉽게도 [[Goodbooks]]에서 LDA4Rec 비교가 빠져 있지만, MF가 SNMF 보다 성능 면에서는 우수했습니다.
 <img src="https://user-images.githubusercontent.com/38134957/165450159-23e829f6-3b95-4950-8b02-e47a9a34c49b.png" alt="ex2" style="zoom:60%;" />
 
-### Conclusion
+## Conclusion
 
 - Traditional LDA 를 the popularity of items 과 conformity of user를 통합하여 성능 향상을 이끌어 내었습니다.
 - MF의 personalized ranking과 NMF, SNMF, LDA4Rec의 personalized ranking으로 transformable하다는 걸 증명하였습니다.
 - (MF대비) accuracy의 큰 손실 없이 interpretability를 높혔습니다.
 
-#### Question & View
+### Question & View
 
 - Q. Item에 대한 user의 bias로 접근하였는데, 굳이 종속적인 방법으로 할 필요가 있을까?
 - Evalutaion 이 느리다는 단점 때문에 실용면에서 떨어집니다.

@@ -1,3 +1,5 @@
+# Follow the guides- disentangling human and algorithmic curation in online music consumption
+
 - Paper : <https://arxiv.org/abs/2109.03915>
 - Authors : [[Quentin Villermet]], [[Jérémie Poiroux]], [[Manuel Moussallam]], [[Thomas Louail]], [[Camille Roth]]
 - Reviewer : jinny.kk@kakaocorp.com
@@ -6,7 +8,7 @@
   - #Music_Recommendation
   - #RecSys2021
 
-### Summary
+## Summary
 
 - Contribution
   1. algorithmic guidance에 대한 유저의 태도에 따라 유저군을 선분류하고 각 유저군별로 나눠서 콘텐츠 소비 방식을 분석하였습니다.
@@ -26,16 +28,16 @@
     - (오프라인 vs 플랫폼) 라디오 플레이리스트나 온라인 플랫폼 유저들이나 곡들의 평균 popularity는 비슷비슷했습니다.
   - 그리고 dispersion과 artist popularity간에 mild correlation도 관찰되었습니다.
 
-### Results
+## Results
 
-#### Dataset
+### Dataset
 
 - [[Deezer]] (프랑스 음악 스트리밍 플랫폼) 2019년 1년동안 8639명의 구독자들의 play history (총 51m 개) (어떤 유저가 어떤 가수의 어떤 노래를 몇 분간 들었는지) + 노래에 접근한 경로 (access mode) (직접 검색, 추천 등)
 - 동일 기간동안 프랑스의 라디오 방송국 39곳의 플레이리스트 히스토리를 사용하였습니다.
 
-#### User Practices
+### User Practices
 
-##### Modes of access and user behavior classes
+#### Modes of access and user behavior classes
 
 - Three types of content access mode
   - organic (self-selected)
@@ -47,7 +49,7 @@
     - a (989명), e (655명), o (1614명), o+ (5381명)
     - 각 유저 클래스별로 number of plays의 분포는 비슷했습니다 (= 모든 클래스에는 active한 유저 덜 active한 유저가 모두 있습니다. 평균 activity는 e 유저 클래스에서 다소 낮긴 했습니다) (`fig 1 - right`)
 
-##### Two dimensions of diversity
+#### Two dimensions of diversity
 
 - dispersion: (functional diversity - denoting the lack of redundancy in the listening history)
   - 정의 = S (number of unique songs) /  P (number of plays)
@@ -68,14 +70,14 @@
   - `fig 4 -left`
     - artist popularity와 dispersion이 서로 연관이 되어 있다. 인기도 낮은 아티스트 곡 소비하는 (x축 우측) 유저들의 dispersion 값이 더 높더라 (y축).
 
-##### User types and access mode biases
+#### User types and access mode biases
 
 - user type, access mode, diversity가 어떻게 상호 작용을 하는지 “disentangle”한 그래프가 `fig 5.` 그래프의 y축이 완전히 이해 가는 것은 아님.
   - 각 유저 타입별로 소비하는 곡들의 인기도 경향성이 어떻게 되는지를 보여준 건데, access mode에 따라 세분화한 게 밑에 있는 그림.
   - `fig 5 - top` : algorithmic users under-consume popular artists, editorial users over-consume popular artists, organic users favor less popular artists in monotonous manner, and very organic users 는 인기도 양 극단에서의 소비가 “약간 더” 많다. (그림에서 잘 보이지 않기는 하는 듯..)
   - `fig 5 - bottom` : 유저 타입 구분 없이 모두 전반적으로, algorithmic access로 덜 유명한 아티스트 곡 소비가 되고 editorial access는 인기 있는 아티스트 곡 소비로 치우치고 organic은 그 사이 어디쯤을 보여주는 것으로 해석함.
 
-#### The diversity of human-assisted guidance
+### The diversity of human-assisted guidance
 
 - 바로 위에서 관찰한 것 중에서, algorithm으로는 덜 유명한 곡 소비를, editor들은 유명한 곡 소비를 이끌어내는 경향성이 보인다는 점이 있는데, 이를 좀더 확인하기 위해 전통적인 오프라인의 editorial 추천이라고 볼 수 있는 라디오 프로그램 플레이리스트를 분석했다.
 - `fig 6 - left`
@@ -83,13 +85,13 @@
   - 그리고 색깔 그라데이션 보면 알 수 있듯, dispersion과 popularity의 mild correlation도 볼 수 있다.
 - `fig 6 - right`: 대부분의 user type이 중간 부근에 있다. 즉 해석하면 “while online music listening practices seem to foster functional diversity (dispersion), in terms of semantic diversity (popularity) they seem, on average, to be neither significantly above nor significantly below the mass of the radios we focus on.”
 
-#### Concluding Remarks
+### Concluding Remarks
 
 - future work로 언급하는 것들
   - “the chronology of access modes to a song probably carries valuable information.” (특정 곡이 어떤 access mode를 통해 최초 발견되었는가.)
   - “user trajectories and transitions between classes”
 
-### Conclusion
+## Conclusion
 
 - 우리의 경우도 비즈니스 로직이 항상 끼어 들어가서 human curation에 의한 것과 알고리즘에 의한 것이 복합적으로 섞여 있는 경우가 많은 것 같아서 공감이 되었다. 몇 가지 디테일들은 잘 이해 못 한 것도 있는데, 나름 흥미로운 논문이었다.
   - (diversity를 functional diversity (number of unique songs played / total number of plays) 와 semantic diversity (popularity) 로 나누고, semantic diversity를 보기 위해 왜 embedding space를 사용한 diversity가 아니라 인기도를 보았는지를 기술했는데, 그 이유가 잘 이해가 안 갔다.)

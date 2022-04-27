@@ -1,3 +1,5 @@
+# Debiased Explainable Pairwise Ranking from Implicit Feedback
+
 - Paper : <https://arxiv.org/pdf/2107.14768.pdf>
 - Authors : [[Khalil Damak]], [[Sami Khenissi]], [[Olfa Nasraoui]]
 - Reviewer : [[hee.yoon@kakaocorp.com]]
@@ -7,20 +9,20 @@
   - #Explainable_Recommendation
   - #RecSys2021
 
-### Summary
+## Summary
 
 - 기존 Bayesian Personalized Ranking(BPR) 대비하여 explainability를 늘리고 exposure bias를 잡은 논문입니다.
   - 기존 BPR 모델은 설명 불가능한 블랙박스 모델이었습니다. -> a novel explainable loss function and a corresponding Matrix Factorization-based model called Explainable Bayesian Personalized Ranking (EBPR) that generates recommendations along with item-based explanations.
   - 기존 BPR 모델은 Missing Not At Random (MNAR) 데이터 특성 때문에 exposure bias에 취약했었습니다. -> an unbiased estimator for the ideal EBPR loss.
 
-### Approach
+## Approach
 
-#### BPR
+### BPR
 
 - objective function:
   <img width="403" src="https://user-images.githubusercontent.com/38134957/165450622-feaf8ae5-a197-4091-b3a9-e862857ca90d.png">
 
-#### Explainable BPR
+### Explainable BPR
 
 - objective function:
   <img width="412" src="https://user-images.githubusercontent.com/38134957/165450632-6b932ca6-71e3-4ca3-a561-b84e2253f4a3.png">
@@ -45,7 +47,7 @@
   - user 기반 explainability 사용시:
     - <img width="262" src="https://user-images.githubusercontent.com/38134957/165450849-6a219ded-aeb6-44a5-9748-c7d0951250c8.png">
 
-#### Unbiased Explainable BPR (UEBPR)
+### Unbiased Explainable BPR (UEBPR)
 
 - objective function:
   - <img width="403" src="https://user-images.githubusercontent.com/38134957/165450866-14ebe685-15c8-4b7d-a037-a82e9c3b447a.png">
@@ -58,24 +60,24 @@
     - <img width="96" src="https://user-images.githubusercontent.com/38134957/165451017-9b05f8d7-64c6-41d4-bda4-54ddbaf219f9.png">
     - <img width="137" src="https://user-images.githubusercontent.com/38134957/165451021-f977c481-a9d7-4b7c-a321-c66e1f2409a8.png">
 
-##### Unbiased BPR Loss (UBPR)
+#### Unbiased BPR Loss (UBPR)
 
 - objective function:
 <img width="413" src="https://user-images.githubusercontent.com/38134957/165451226-1757c3d5-18f7-4f59-aa1e-fd3069474ade.png">
 
-##### Ideal Explainable BPR
+#### Ideal Explainable BPR
 
 - objective function:
 <img width="403" src="https://user-images.githubusercontent.com/38134957/165451231-7247f495-40f1-4227-aca3-4e2cf6ccf78b.png">
 
 <img width="425" src="https://user-images.githubusercontent.com/38134957/165451234-6b09a4e0-09fd-4bda-a95c-a8e53b130320.png">
 
-##### Partially Unbiased Explainable BPR (pUEBPR)
+#### Partially Unbiased Explainable BPR (pUEBPR)
 
 - objective function:
 <img width="396" src="https://user-images.githubusercontent.com/38134957/165451247-65014171-77dc-46e2-8a9c-83919065f26e.png">
 
-### Results
+## Results
 
 <img width="815" src="https://user-images.githubusercontent.com/38134957/165451256-5957ea77-ef9f-4b02-8e96-5045c50368ea.png">
 <img width="816" src="https://user-images.githubusercontent.com/38134957/165451259-f01fdf91-f6d6-4460-9a6a-36ed018bad14.png">

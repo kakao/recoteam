@@ -1,3 +1,5 @@
+# Top-K Contextual Bandits with Equity of Exposure
+
 - Paper : <https://dl.acm.org/doi/10.1145/3460231.3474248>
 - Authors : [[Olivier Jeunen]], [[Bart Goethals]]
 - Reviewer : [[charlie.cs@kakaocorp.com]]
@@ -6,7 +8,7 @@
   - #Bandits_and_Reinforcement_Learning
   - #RecSys2021
 
-### Summary
+## Summary
 
 - "equity of exposure" principle 이 어떻게 추천을 위한 top-K contextual bandit의 문제에 적용될 수 있는지 조사(investigate)한 논문입니다.
   - equity of exposure: 동일한 relevance를 가진 아이템들은 동일한 노출이 있을 것을 기대하게 됩니다.(_items of equal relevance should receive equal exposure in expectation_)
@@ -15,9 +17,9 @@
 - top-K contextual bandits 추천에서 relevance-fairness trade-off 문제를 다룰 수 있는 EARS (Exposure-Aware aRm Selection) 알고리즘을 제시하였습니다.
   - model-agnostic algorithm이라 기존 bandit system에 적용이 가능합니다.
 
-### Approach
+## Approach
 
-#### Intuition
+### Intuition
 
 - 사용자마다 추천 결과에 적용된 diversify의 반응이 다르며, 랜덤한 추천에 대해서 얼마나 열려(openness)있는지의 정도 또한 다양하다는 것을 관찰한 연구가 있습니다.
   - _Investigating Listeners’ Responses to Divergent Recommendations. R. Mehrotra, et al. RecSys' 20_
@@ -27,7 +29,7 @@
     - x-axis: top-12 items for a given user.
     - y-axis: the probability of relevance over these items for that user.
 
-#### Exposure-Aware aRm Selection (EARS)
+### Exposure-Aware aRm Selection (EARS)
 
 - 아이템이 클릭될 확률 `P(C)` 는 사용자가 이 아이템이 연관 있다고 고려할 확률 `P(R)`과 그 사용자에게 노출될 확률 `P(E)` 로 factorize될 수 있습니다.
   - <img src="https://tva1.sinaimg.cn/large/008i3skNgy1gxcz1xaqdkj30gc02y0sq.jpg" width="50%" />
@@ -44,7 +46,7 @@
     - 위에서 설명한 ε 조건을 만족할 수 있을 때까지 K값을 감소시키면서 shuffle을 진행합니다.
     - Why? 상위 추천 결과에서 shuffle을 진행해야 expected clicks 손해가 적고, 그에 따른 disparity 감소가 크기 때문입니다.
 
-### Results ([github](https://github.com/olivierjeunen/EARS-recsys-2021))
+## Results ([github](https://github.com/olivierjeunen/EARS-recsys-2021))
 
 - Real-world data from the [[Deezer]] music streaming platform
   - Relevance information between 862 playlists (items) and 974,960 users.
@@ -64,7 +66,7 @@
     - greedy 와 동일하지만, 추천 결과를 K개까지 shuffling 한 모든 조합에 대해서 expected clicks을 일일이 구해야하므로 `O(K!)` 만큼의 비용이 소모됩니다.
     - 논문에서는 이를 효율적으로 계산하기 위한 방법을 제시했고, `O(K*2^(K-1)*(K-1))`까지 복잡도를 줄였다고 합니다.
 
-#### 실험 결과
+### 실험 결과
 
 ![image](https://s2.loli.net/2021/12/14/X9FnyGpm5DLSN7T.png)
 
@@ -79,7 +81,7 @@
   - expected clicks과 expected disparity의 linear한 관계를 확인할 수 있었습니다.
   - `ε=0.01`의 경우 greedy 방식에 비교했을 때, expected reward 증가와 disparity 감소를 보입니다.
 
-### Conclusion
+## Conclusion
 
 - 컨텐츠의 노출에 따라 수익이 발생하는 환경이면 이와 관련된 이슈가 있을 것 같다는 생각이 들었습니다.
 - 제안된 EARS 알고리즘은 cost가 높고, 단순 랜덤 셔플 방식이라 실제로 적용하기는 좋아보이지 않았습니다. (K 또한 낮았음)
