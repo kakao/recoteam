@@ -1,5 +1,7 @@
 # Mini Reco <!-- omit in toc -->
 
+> 이 문제로 영입을 진행하며 지원자분들에게 드렸던 인터뷰 질문들은 [interview.md](interview.md)에 있습니다. 문제를 풀어보시고 이 문서도 확인해보세요.
+
 ## 목차 <!-- omit in toc -->
 
 - [소개](#소개)
