@@ -55,7 +55,3 @@ User-based Collaborative Filtering 설명의 식 (1)이 다음과 같이 바꾸�
 - 따라서 ![k=\frac{1}{|U|} (dark)](https://render.githubusercontent.com/render/math?math=\color{white}\Large{k=\frac{1}{|U|}}#gh-dark-mode-only)![k=\frac{1}{|U|} (light)](https://render.githubusercontent.com/render/math?math=\Large{k=\frac{1}{|U|}}#gh-light-mode-only)로 수정하면 최근접 이웃의 평점의 산술 평균으로 계산한 추천 결과(예상 평점)를 얻을 수 있을 것이다.
 
 </details>
-
-
-![ (dark)](https://render.githubusercontent.com/render/math?math=\color{white}\Large{}#gh-dark-mode-only)
-![ (light)](https://render.githubusercontent.com/render/math?math=\Large{}#gh-light-mode-only)
