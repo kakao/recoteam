@@ -6,7 +6,7 @@ Mini Reco 문제로 영입을 진행하며 지원자분에게 드렸던 인터�
 
 ## 질문 1
 
-User-based Collaborative Filtering 설명의 식 (1)을 보고 추천 결과가 어떻게 생성되는지 설명해주세요.
+[User-based Collaborative Filtering 설명](https://github.com/kakao/recoteam/blob/master/programming_assignments/mini_reco/README.md#user-based-collaborative-filtering)의 식 (1)을 보고 추천 결과가 어떻게 생성되는지 설명해주세요.
 
 **(1)** ![r_{u,i} = \bar{r_u} + k\sum_{u^\' \in U}\mathrm{simil}(u,u^\')(r_{u^\', i}-\bar{r_{u^\'}}) (dark)](https://render.githubusercontent.com/render/math?math=\color{white}\Large{r_{u,i}%20=%20\bar{r_u}%20%2B%20k\sum_{u^\'%20\in%20U}\mathrm{simil}(u,u^\')(r_{u^\',%20i}-\bar{r_{u^\'}})}#gh-dark-mode-only)![r_{u,i} = \bar{r_u} + k\sum_{u^\' \in U}\mathrm{simil}(u,u^\')(r_{u^\', i}-\bar{r_{u^\'}}) (light)](https://render.githubusercontent.com/render/math?math=\Large{r_{u,i}%20=%20\bar{r_u}%20%2B%20k\sum_{u^\'%20\in%20U}\mathrm{simil}(u,u^\')(r_{u^\',%20i}-\bar{r_{u^\'}})}#gh-light-mode-only)
 
@@ -21,7 +21,7 @@ User-based Collaborative Filtering 설명의 식 (1)을 보고 추천 결과가 
 
 ## 질문 2
 
-User-based Collaborative Filtering 설명의 식 (1)이 다음과 같이 바뀐다면(![\bar{r_u} (dark)](https://render.githubusercontent.com/render/math?math=\color{white}\large{\bar{r_u}}#gh-dark-mode-only)![\bar{r_u} (light)](https://render.githubusercontent.com/render/math?math=\large{\bar{r_u}}#gh-light-mode-only), ![\bar{r_{u^\'}} (dark)](https://render.githubusercontent.com/render/math?math=\color{white}\large{\bar{r_{u^\'}}}#gh-dark-mode-only)![\bar{r_{u^\'}} (light)](https://render.githubusercontent.com/render/math?math=\large{\bar{r_{u^\'}}}#gh-light-mode-only) 항이 사라진다면) 추천 결과가 어떻게 달라질까요?
+[User-based Collaborative Filtering 설명](https://github.com/kakao/recoteam/blob/master/programming_assignments/mini_reco/README.md#user-based-collaborative-filtering)의 식 (1)이 다음과 같이 바뀐다면(![\bar{r_u} (dark)](https://render.githubusercontent.com/render/math?math=\color{white}\large{\bar{r_u}}#gh-dark-mode-only)![\bar{r_u} (light)](https://render.githubusercontent.com/render/math?math=\large{\bar{r_u}}#gh-light-mode-only), ![\bar{r_{u^\'}} (dark)](https://render.githubusercontent.com/render/math?math=\color{white}\large{\bar{r_{u^\'}}}#gh-dark-mode-only)![\bar{r_{u^\'}} (light)](https://render.githubusercontent.com/render/math?math=\large{\bar{r_{u^\'}}}#gh-light-mode-only) 항이 사라진다면) 추천 결과가 어떻게 달라질까요?
 
 **(1-1)** ![r_{u,i} = k\sum_{u^\' \in U}\mathrm{simil}(u,u^\')(r_{u^\', i}) (dark)](https://render.githubusercontent.com/render/math?math=\color{white}\Large{r_{u,i}%20=%20k\sum_{u^\'%20\in%20U}\mathrm{simil}(u,u^\')(r_{u^\',%20i})}#gh-dark-mode-only)![r_{u,i} = k\sum_{u^\' \in U}\mathrm{simil}(u,u^\')(r_{u^\', i}) (light)](https://render.githubusercontent.com/render/math?math=\Large{r_{u,i}%20=%20k\sum_{u^\'%20\in%20U}\mathrm{simil}(u,u^\')(r_{u^\',%20i})}#gh-light-mode-only)
 
@@ -44,7 +44,7 @@ User-based Collaborative Filtering 설명의 식 (1)이 다음과 같이 바뀐�
 
 ## 질문 3
 
-User-based Collaborative Filtering 설명의 식 (1)이 다음과 같이 바꾸려고 한다면(![\mathrm{simil}(u,u^\') (dark)](https://render.githubusercontent.com/render/math?math=\color{white}\large{\mathrm{simil}(u,u^\')}#gh-dark-mode-only)![\mathrm{simil}(u,u^\') (light)](https://render.githubusercontent.com/render/math?math=\large{\mathrm{simil}(u,u^\')}#gh-light-mode-only) 항이 사라진다면) 식을 어떻게 수정해야할까요?
+[User-based Collaborative Filtering 설명](https://github.com/kakao/recoteam/blob/master/programming_assignments/mini_reco/README.md#user-based-collaborative-filtering)의 식 (1)이 다음과 같이 바꾸려고 한다면(![\mathrm{simil}(u,u^\') (dark)](https://render.githubusercontent.com/render/math?math=\color{white}\large{\mathrm{simil}(u,u^\')}#gh-dark-mode-only)![\mathrm{simil}(u,u^\') (light)](https://render.githubusercontent.com/render/math?math=\large{\mathrm{simil}(u,u^\')}#gh-light-mode-only) 항이 사라진다면) 식을 어떻게 수정해야할까요?
 
 **(1-2)** ![r_{u,i} = \bar{r_u} + k\sum_{u^\' \in U}(r_{u^\', i}-\bar{r_{u^\'}}) (dark)](https://render.githubusercontent.com/render/math?math=\color{white}\Large{r_{u,i}%20=%20\bar{r_u}%20%2B%20k\sum_{u^\'%20\in%20U}(r_{u^\',%20i}-\bar{r_{u^\'}})}#gh-dark-mode-only)![r_{u,i} = \bar{r_u} + k\sum_{u^\' \in U}\mathrm{simil}(u,u^\')(r_{u^\', i}-\bar{r_{u^\'}}) (light)](https://render.githubusercontent.com/render/math?math=\Large{r_{u,i}%20=%20\bar{r_u}%20%2B%20k\sum_{u^\'%20\in%20U}(r_{u^\',%20i}-\bar{r_{u^\'}})}#gh-light-mode-only)
 
