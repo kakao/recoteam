@@ -11,8 +11,10 @@
 - [오픈소스](#오픈소스)
 - [지식 저장소 (논문 리뷰)](#지식-저장소-논문-리뷰)
 - [발행 문서, 발표 영상 자료 모음](#발행-문서-발표-영상-자료-모음)
-  - [추천팀 소개](#추천팀-소개)
-  - [추천 시스템](#추천-시스템)
+  - [테크 블로그 / AI 리포트](#테크-블로그--ai-리포트)
+    - [추천팀 소개](#추천팀-소개)
+    - [추천 시스템](#추천-시스템)
+  - [논문](#논문)
   - [if(kakao)](#ifkakao)
     - [if(kakao)2021](#ifkakao2021)
     - [if(kakao)2020](#ifkakao2020)
@@ -68,13 +70,15 @@
 
 공개적으로 발행한 문서나, 발표 영상을 아래에 모아놓았습니다.
 
-### 추천팀 소개
+### 테크 블로그 / AI 리포트
+
+#### 추천팀 소개
 
 - `2021-11-02` [charlie의 추천팀 인턴 생활기](https://tech.kakao.com/2021/11/02/charlie-internship/) / 카카오 테크 블로그
 - `2021-03-11` [카카오 AI 추천을 소개합니다.](https://tech.kakao.com/2021/03/11/kakao-ai/) / 카카오 테크 블로그
 - `2020-06-23` [데이터를 기반으로 새로운 경험을 선사하는 추천팀 이야기](https://tech.kakao.com/2020/06/23/recruit-algorithm-ml/) / 카카오 테크 블로그
 
-### 추천 시스템
+#### 추천 시스템
 
 - `2021-12-27` [카카오 AI추천 : 카카오의 콘텐츠 기반 필터링 (Content-based Filtering in Kakao)](https://tech.kakao.com/2021/12/27/content-based-filtering-in-kakao/) / 카카오 테크 블로그
 - `2021-10-18` [카카오 AI추천 : 협업 필터링 모델 선택 시의 기준에 대하여](https://tech.kakao.com/2021/10/18/collaborative-filtering/) / 카카오 테크 블로그
@@ -83,6 +87,18 @@
 - `2018-01-31` [카카오내비 예측의 정확성 그리고 AI](https://brunch.co.kr/@kakao-it/193) / 카카오 AI 리포트
 - `2017-10-31` [카카오I 추천 엔진의 진화](https://brunch.co.kr/@kakao-it/136) / 카카오 AI 리포트
 - `2017-06-23` [내 손안의 AI 비서, 추천 알고리듬 - 카카오의 AI 추천 플랫폼, ‘토로스(TOROS)’](https://brunch.co.kr/@kakao-it/72) / 카카오 AI 리포트
+
+### 논문
+
+- [An Efficient Combinatorial Optimization Model Using Learning-to-Rank Distillation](https://www.aaai.org/AAAI22Papers/AAAI-4140.WooH.pdf) (AAAI '22)
+- [Melon Playlist Dataset: a public dataset for audio-based playlist generation and music tagging](https://arxiv.org/abs/2102.00201) (ICASSP '21)
+- [How Low Can You Go? Reducing Frequency and Time Resolution in Current CNN Architectures for Music Auto-tagging](https://arxiv.org/abs/1911.04824) (EUSIPCO '20)
+- [FlexGraph: Flexible partitioning and storage for scalable graph mining](https://journals.plos.org/plosone/article/metrics?id=10.1371/journal.pone.0227032) (PLoS ONE)
+- [Artist and style exposure bias in collaborative filtering based music recommendations](https://arxiv.org/abs/1911.04827) (ISMIR '19 Workshop)
+- [Enhancing VAEs for Collaborative Filtering: Flexible Priors & Gating Mechanisms](https://arxiv.org/abs/1911.00936) (RecSys '19)
+- [Sequential and Diverse Recommendation with Long Tail](https://www.ijcai.org/proceedings/2019/380) (IJCAI '19)
+- [Automatic playlist continuation using a hybrid recommender system combining features from text and audio](https://arxiv.org/abs/1901.00450) (RecSys '18 Challenge)
+- [A study on intelligent personalized push notification with user history](https://ieeexplore.ieee.org/document/8258081) (BigData '17)
 
 ### if(kakao)
 
