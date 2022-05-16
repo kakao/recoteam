@@ -91,6 +91,7 @@
 ### 논문
 
 - [An Efficient Combinatorial Optimization Model Using Learning-to-Rank Distillation](https://www.aaai.org/AAAI22Papers/AAAI-4140.WooH.pdf) (AAAI '22)
+- [A Global DAG Task Scheduler Using Deep Reinforcement Learning and Graph Convolution Network](https://ieeexplore.ieee.org/abstract/document/9626004) (IEEE Access)
 - [Melon Playlist Dataset: a public dataset for audio-based playlist generation and music tagging](https://arxiv.org/abs/2102.00201) (ICASSP '21)
 - [How Low Can You Go? Reducing Frequency and Time Resolution in Current CNN Architectures for Music Auto-tagging](https://arxiv.org/abs/1911.04824) (EUSIPCO '20)
 - [FlexGraph: Flexible partitioning and storage for scalable graph mining](https://journals.plos.org/plosone/article/metrics?id=10.1371/journal.pone.0227032) (PLoS ONE)
