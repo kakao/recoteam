@@ -74,19 +74,19 @@
 
 #### 추천팀 소개
 
-- `2021-11-02` [charlie의 추천팀 인턴 생활기](https://tech.kakao.com/2021/11/02/charlie-internship/) / 카카오 테크 블로그
-- `2021-03-11` [카카오 AI 추천을 소개합니다.](https://tech.kakao.com/2021/03/11/kakao-ai/) / 카카오 테크 블로그
-- `2020-06-23` [데이터를 기반으로 새로운 경험을 선사하는 추천팀 이야기](https://tech.kakao.com/2020/06/23/recruit-algorithm-ml/) / 카카오 테크 블로그
+- `2021-11-02` [charlie의 추천팀 인턴 생활기](https://tech.kakao.com/2021/11/02/charlie-internship/)
+- `2021-03-11` [카카오 AI 추천을 소개합니다.](https://tech.kakao.com/2021/03/11/kakao-ai/)
+- `2020-06-23` [데이터를 기반으로 새로운 경험을 선사하는 추천팀 이야기](https://tech.kakao.com/2020/06/23/recruit-algorithm-ml/)
 
 #### 추천 시스템
 
-- `2021-12-27` [카카오 AI추천 : 카카오의 콘텐츠 기반 필터링 (Content-based Filtering in Kakao)](https://tech.kakao.com/2021/12/27/content-based-filtering-in-kakao/) / 카카오 테크 블로그
-- `2021-10-18` [카카오 AI추천 : 협업 필터링 모델 선택 시의 기준에 대하여](https://tech.kakao.com/2021/10/18/collaborative-filtering/) / 카카오 테크 블로그
-- `2021-06-25` [카카오 AI추천 : 토픽 모델링과 MAB를 이용한 카카오 개인화 추천](https://tech.kakao.com/2021/06/25/kakao-ai-recommendation-01/) / 카카오 테크 블로그
-- `2021-05-20` [카카오 AI추천 : 카카오페이지와 멜론으로 살펴보는 카카오 연관 추천](https://tech.kakao.com/2021/05/20/kakao-ai-recommendation/) / 카카오 테크 블로그
-- `2018-01-31` [카카오내비 예측의 정확성 그리고 AI](https://brunch.co.kr/@kakao-it/193) / 카카오 AI 리포트
-- `2017-10-31` [카카오I 추천 엔진의 진화](https://brunch.co.kr/@kakao-it/136) / 카카오 AI 리포트
-- `2017-06-23` [내 손안의 AI 비서, 추천 알고리듬 - 카카오의 AI 추천 플랫폼, ‘토로스(TOROS)’](https://brunch.co.kr/@kakao-it/72) / 카카오 AI 리포트
+- `2021-12-27` [카카오 AI추천 : 카카오의 콘텐츠 기반 필터링 (Content-based Filtering in Kakao)](https://tech.kakao.com/2021/12/27/content-based-filtering-in-kakao/)
+- `2021-10-18` [카카오 AI추천 : 협업 필터링 모델 선택 시의 기준에 대하여](https://tech.kakao.com/2021/10/18/collaborative-filtering/)
+- `2021-06-25` [카카오 AI추천 : 토픽 모델링과 MAB를 이용한 카카오 개인화 추천](https://tech.kakao.com/2021/06/25/kakao-ai-recommendation-01/)
+- `2021-05-20` [카카오 AI추천 : 카카오페이지와 멜론으로 살펴보는 카카오 연관 추천](https://tech.kakao.com/2021/05/20/kakao-ai-recommendation/)
+- `2018-01-31` [카카오내비 예측의 정확성 그리고 AI](https://brunch.co.kr/@kakao-it/193)
+- `2017-10-31` [카카오I 추천 엔진의 진화](https://brunch.co.kr/@kakao-it/136)
+- `2017-06-23` [내 손안의 AI 비서, 추천 알고리듬 - 카카오의 AI 추천 플랫폼, ‘토로스(TOROS)’](https://brunch.co.kr/@kakao-it/72)
 
 ### 논문
 
@@ -132,13 +132,13 @@
 > <https://if.kakao.com/2018/>
 
 - `2018-09-04` [눈으로 듣는 음악 추천 시스템](https://if.kakao.com/2018/program?sessionId=959a3047-0a08-4a42-99ce-35a9210ab49a) - [발표 자료](https://mk.kakaocdn.net/dn/if-kakao/conf2018/%E1%84%82%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%83%E1%85%B3%E1%86%AE%E1%84%82%E1%85%B3%E1%86%AB%20%E1%84%8B%E1%85%B3%E1%86%B7%E1%84%8B%E1%85%A1%E1%86%A8%20%E1%84%8E%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7.pdf) / [발표 영상](http://tv.kakao.com/v/391418802)
-  - `2018-10-01` [눈으로 듣는 음악 추천 시스템](https://brunch.co.kr/@kakao-it/282) / 카카오 AI 리포트
+  - `2018-10-01` [눈으로 듣는 음악 추천 시스템](https://brunch.co.kr/@kakao-it/282)
 - `2018-09-04` [TOROS N2 - lightweight approximate Nearest Neighbor library](https://if.kakao.com/2018/program?sessionId=ad6ea793-70e6-495c-b154-c765e6339793) - [발표 자료](https://mk.kakaocdn.net/dn/if-kakao/conf2018/TOROS%20N2%20-%20lightweight%20approximate%20Nearest%20Neighbor%20library.pdf) / [발표 영상](http://tv.kakao.com/v/391419278)
-  - `2018-11-21` [TOROS N2](https://brunch.co.kr/@kakao-it/300) / 카카오 AI 리포트
+  - `2018-11-21` [TOROS N2](https://brunch.co.kr/@kakao-it/300)
 
 ### 카카오 아레나
 
-- `2018-12-31` [문제 해결을 위한 머신러닝 오픈 플랫폼, 카카오 아레나](https://brunch.co.kr/@kakao-it/321) / 카카오 AI 리포트
+- `2018-12-31` [문제 해결을 위한 머신러닝 오픈 플랫폼, 카카오 아레나](https://brunch.co.kr/@kakao-it/321)
 
 #### 3회 대회 (Melon Playlist Continuation)
 
@@ -152,9 +152,9 @@
 
 ### 외부 발표
 
-- `2021-12-15` [우리 생활 속 추천 시스템, 어떻게 발전해왔고 어떻게 발전해나가고 있는가?](https://www.youtube.com/watch?v=jJfXHo7nNe8) / 데이터 그랜드 컨퍼런스 2021
-- `2021-05-21` [추천 기술이 마주하고 있는 현실적인 문제들](https://www.youtube.com/watch?v=UUY8YEesIVY) / AI Frontiers Summit 2021
-- `2020-11-25` [유저가 좋은 작품(웹툰)를 만났을 때 (유저의 탐색, 발견 그리고 만족도에 대하여 탐색적 분석하기)](https://deview.kr/2020/sessions/332) / DEVIEW 2020
-- `2019-08-18` [추천시스템, 이제는 돈이 되어야 한다.](https://archive.pycon.kr/2019/program/talk-detail/?id=136) / PyCon Korea 2019
-- `2018-08-19` [추천 시스템을 위한 어플리케이션 서버 개발 후기](https://archive.pycon.kr/2018/program/33) / PyCon Korea 2018
-- `2016-08-13` [TOROS: Python Framework for Recommender](https://archive.pycon.kr/2016apac/program/50) / PyCon Korea 2016
+- `2021-12-15` [우리 생활 속 추천 시스템, 어떻게 발전해왔고 어떻게 발전해나가고 있는가?](https://www.youtube.com/watch?v=jJfXHo7nNe8) @ 데이터 그랜드 컨퍼런스 2021
+- `2021-05-21` [추천 기술이 마주하고 있는 현실적인 문제들](https://www.youtube.com/watch?v=UUY8YEesIVY) @ AI Frontiers Summit 2021
+- `2020-11-25` [유저가 좋은 작품(웹툰)를 만났을 때 (유저의 탐색, 발견 그리고 만족도에 대하여 탐색적 분석하기)](https://deview.kr/2020/sessions/332) @ DEVIEW 2020
+- `2019-08-18` [추천시스템, 이제는 돈이 되어야 한다.](https://archive.pycon.kr/2019/program/talk-detail/?id=136) @ PyCon Korea 2019
+- `2018-08-19` [추천 시스템을 위한 어플리케이션 서버 개발 후기](https://archive.pycon.kr/2018/program/33) @ PyCon Korea 2018
+- `2016-08-13` [TOROS: Python Framework for Recommender](https://archive.pycon.kr/2016apac/program/50) @ PyCon Korea 2016
