@@ -142,6 +142,7 @@
 
 #### 3회 대회 (Melon Playlist Continuation)
 
+- `2022-05-27` [카카오 AI추천 : 카카오 음악 추천을 경험해보고 싶다면? Melon Playlist Dataset (feats. Kakao Arena)](https://tech.kakao.com/2022/05/27/melon-playlist-dataset/)
 - `2020-04-28` [멜론 플레이리스트 데이터 탐색 - _카카오 아레나 3회 대회 (Part.2)_](https://brunch.co.kr/@kakao-it/343)
 - `2020-04-22` [멜론에서 음악 추천을 어떻게 할까? - _카카오 아레나 3회 대회 (Part.1)_](https://brunch.co.kr/@kakao-it/342)
 
