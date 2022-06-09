@@ -1,4 +1,5 @@
 # Mini Reco <!-- omit in toc -->
+문제 출제 및 검수: [김성진(nick.kim)](https://github.com/lancifollia), [양세현(dan.ce)](https://github.com/yangsehyun)
 
 > 이 문제로 영입을 진행하며 지원자분에게 드렸던 인터뷰 질문은 [interview.md](interview.md)에 있습니다. 문제를 풀어보시고 이 문서도 확인해보세요.
 
