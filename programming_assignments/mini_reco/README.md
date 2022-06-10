@@ -28,26 +28,30 @@
 
 The [memory-based](https://en.wikipedia.org/wiki/Collaborative_filtering#Memory-based) approach uses user rating data to compute the similarity between users or items. Typical examples of this approach are neighbourhood-based CF and item-based/user-based top-N recommendations. For example, in user based approaches, the value of ratings user u gives to item i is calculated as an aggregation of some similar users' rating of the item:
 
-![r_{u,i} = \mathrm{aggr}_{u^\' \in U} r_{u^\', i} (dark)](https://render.githubusercontent.com/render/math?math=\color{white}\LARGE{r_{u,i}%20=%20\mathrm{aggr}_{u^\'%20\in%20U}%20r_{u^\',%20i}}#gh-dark-mode-only)![r_{u,i} = \mathrm{aggr}_{u^\' \in U} r_{u^\', i} (light)](https://render.githubusercontent.com/render/math?math=\LARGE{r_{u,i}%20=%20\mathrm{aggr}_{u^\'%20\in%20U}%20r_{u^\',%20i}}#gh-light-mode-only)
+$$\large r_{u,i} = \operatorname{aggr}\limits_{u^\prime \in U} r_{u^\prime, i}$$
 
 where U denotes the set of top N users that are most similar to user u who rated item i.
 
 Some examples of the aggregation function includes:
 
-![r_{u,i} = \frac{1}{N}\sum_{u^\' \in U}r_{u^\', i} (dark)](https://render.githubusercontent.com/render/math?math=\color{white}\LARGE{r_{u,i}%20=%20\frac{1}{N}\sum_{u^\'%20\in%20U}%20r_{u^\',%20i}}#gh-dark-mode-only)![r_{u,i} = \frac{1}{N}\sum_{u^\' \in U}r_{u^\', i} (light)](https://render.githubusercontent.com/render/math?math=\LARGE{r_{u,i}%20=%20\frac{1}{N}\sum_{u^\'%20\in%20U}%20r_{u^\',%20i}}#gh-light-mode-only)
+$$\large \displaylines{
+r_{u,i} =& \frac{1}{N}\sum\limits_{u^\prime \in U}r_{u^\prime, i}\\
+r_{u,i} =& k\sum\limits_{u^\prime \in U}\operatorname{simil}(u,u^\prime)r_{u^\prime, i}
+}$$
 
-![r_{u,i} = k\sum_{u^\' \in U}\mathrm{simil}(u,u^\')r_{u^\', i} (dark)](https://render.githubusercontent.com/render/math?math=\color{white}\LARGE{r_{u,i}%20=%20k\sum_{u^\'%20\in%20U}\mathrm{simil}(u,u^\')r_{u^\',%20i}}#gh-dark-mode-only)![r_{u,i} = k\sum_{u^\' \in U}\mathrm{simil}(u,u^\')r_{u^\', i} (light)](https://render.githubusercontent.com/render/math?math=\LARGE{r_{u,i}%20=%20k\sum_{u^\'%20\in%20U}\mathrm{simil}(u,u^\')r_{u^\',%20i}}#gh-light-mode-only)
+where k is a normalizing factor defined as $\large k = 1/\sum_{u^\prime \in U}|\operatorname{simil}(u,u^\prime)|$, and
 
-where k is a normalizing factor defined as ![k = 1/\sum_{u^\' \in U}\ left|\mathrm{simil}(u,u^\prime)\right| (dark)](https://render.githubusercontent.com/render/math?math=\color{white}\Large{k%20=1/\sum_{u^\'%20\in%20U}%20\left|\mathrm{simil}(u,u^\')\right|}#gh-dark-mode-only)![k = 1/\sum_{u^\' \in U}\ left|\mathrm{simil}(u,u^\prime)\right| (light)](https://render.githubusercontent.com/render/math?math=\Large{k%20=1/\sum_{u^\'%20\in%20U}%20\left|\mathrm{simil}(u,u^\')\right|}#gh-light-mode-only),  
-and **(1)** ![r_{u,i} = \bar{r_u} + k\sum_{u^\' \in U}\mathrm{simil}(u,u^\')(r_{u^\', i}-\bar{r_{u^\'}}) (dark)](https://render.githubusercontent.com/render/math?math=\color{white}\Large{r_{u,i}%20=%20\bar{r_u}%20%2B%20k\sum_{u^\'%20\in%20U}\mathrm{simil}(u,u^\')(r_{u^\',%20i}-\bar{r_{u^\'}})}#gh-dark-mode-only)![r_{u,i} = \bar{r_u} + k\sum_{u^\' \in U}\mathrm{simil}(u,u^\')(r_{u^\', i}-\bar{r_{u^\'}}) (light)](https://render.githubusercontent.com/render/math?math=\Large{r_{u,i}%20=%20\bar{r_u}%20%2B%20k\sum_{u^\'%20\in%20U}\mathrm{simil}(u,u^\')(r_{u^\',%20i}-\bar{r_{u^\'}})}#gh-light-mode-only) where ![\bar{r_{u^\'}} (dark)](https://render.githubusercontent.com/render/math?math=\color{white}\large{\bar{r_{u^\'}}}#gh-dark-mode-only)![\bar{r_{u^\'}} (light)](https://render.githubusercontent.com/render/math?math=\large{\bar{r_{u^\'}}}#gh-light-mode-only) is the average rating of user u for all the items rated by u.
+$$\large \textbf{(1)} \qquad r_{u,i} = \bar{r_u} + k\sum\limits_{u^\prime \in U}\operatorname{simil}(u,u^\prime)(r_{u^\prime, i}-\bar{r_{u^\prime}})$$
+
+where $\large \bar{r_u}$ is the average rating of user u for all the items rated by u.
 
 The neighborhood-based algorithm calculates the similarity between two users or items, and produces a prediction for the user by taking the [weighted average](https://en.wikipedia.org/wiki/Weighted_average) of all the ratings. Similarity computation between items or users is an important part of this approach. Multiple measures, such as [Pearson correlation](https://en.wikipedia.org/wiki/Pearson_product-moment_correlation_coefficient) and [vector cosine](https://en.wikipedia.org/wiki/Cosine_similarity) based similarity are used for this.
 
-The cosine similarity of two users x, y is defined as **(2)**:
+The cosine similarity of two users x, y is defined as:
 
-![\mathrm{simil}(x,y) = \cos(\vec x,\vec y) = \frac{\vec x \cdot \vec y}{||\vec x|| \times ||\vec y||} = \frac{\sum_{i \in I_{xy}}r_{x,i}r_{y,i}}{\sqrt{\sum_{i \in I_{x}}r_{x,i}^2}\sqrt{\sum_{i \in I_{y}}r_{y,i}^2}} (dark)](https://render.githubusercontent.com/render/math?math=\color{white}\LARGE{\mathrm{simil}(x,y)%20=%20\cos(\vec%20x,\vec%20y)%20=%20\frac{\vec%20x%20\cdot%20\vec%20y}{||\vec%20x||%20\times%20||\vec%20y||}%20=%20\frac{\sum_{i%20\in%20I_{xy}}r_{x,i}r_{y,i}}{\sqrt{\sum_{i%20\in%20I_{x}}r_{x,i}^2}\sqrt{\sum_{i%20\in%20I_{y}}r_{y,i}^2}}}#gh-dark-mode-only)![\mathrm{simil}(x,y) = \cos(\vec x,\vec y) = \frac{\vec x \cdot \vec y}{||\vec x|| \times ||\vec y||} = \frac{\sum_{i \in I_{xy}}r_{x,i}r_{y,i}}{\sqrt{\sum_{i \in I_{x}}r_{x,i}^2}\sqrt{\sum_{i \in I_{y}}r_{y,i}^2}} (light)](https://render.githubusercontent.com/render/math?math=\LARGE{\mathrm{simil}(x,y)%20=%20\cos(\vec%20x,\vec%20y)%20=%20\frac{\vec%20x%20\cdot%20\vec%20y}{||\vec%20x||%20\times%20||\vec%20y||}%20=%20\frac{\sum_{i%20\in%20I_{xy}}r_{x,i}r_{y,i}}{\sqrt{\sum_{i%20\in%20I_{x}}r_{x,i}^2}\sqrt{\sum_{i%20\in%20I_{y}}r_{y,i}^2}}}#gh-light-mode-only)
+$$\large \textbf{(2)} \qquad \operatorname{simil}(x,y) = \cos(\vec x,\vec y) = \frac{\vec x \cdot \vec y}{||\vec x|| \times ||\vec y||} = \frac{\sum\limits_{i \in I_{xy}}r_{x,i}r_{y,i}}{\sqrt{\sum\limits_{i \in I_{x}}r_{x,i}^2}\sqrt{\sum\limits_{i \in I_{y}}r_{y,i}^2}}$$
 
-where ![I_{xy} (dark)](https://render.githubusercontent.com/render/math?math=\color{white}\large{I_{xy}}#gh-dark-mode-only)![I_{xy} (light)](https://render.githubusercontent.com/render/math?math=\large{I_{xy}}#gh-light-mode-only) is the set of items that rated by both user x and user y.
+where $\large I_{xy}$ is the set of items that rated by both user x and user y.
 
 The user based top-N recommendation algorithm uses a similarity-based vector model to identify the k most similar users to an active user. After the k most similar users are found, their corresponding user-item matrices are aggregated to identify the set of items to be recommended.
 
