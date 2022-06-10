@@ -8,7 +8,7 @@ Mini Reco 문제로 영입을 진행하며 지원자분에게 드렸던 인터�
 
 [User-based Collaborative Filtering 설명](README.md#user-based-collaborative-filtering)의 식 (1)을 보고 추천 결과가 어떻게 생성되는지 설명해주세요.
 
-**(1)** ![r_{u,i} = \bar{r_u} + k\sum_{u^\' \in U}\mathrm{simil}(u,u^\')(r_{u^\', i}-\bar{r_{u^\'}}) (dark)](https://render.githubusercontent.com/render/math?math=\color{white}\Large{r_{u,i}%20=%20\bar{r_u}%20%2B%20k\sum_{u^\'%20\in%20U}\mathrm{simil}(u,u^\')(r_{u^\',%20i}-\bar{r_{u^\'}})}#gh-dark-mode-only)![r_{u,i} = \bar{r_u} + k\sum_{u^\' \in U}\mathrm{simil}(u,u^\')(r_{u^\', i}-\bar{r_{u^\'}}) (light)](https://render.githubusercontent.com/render/math?math=\Large{r_{u,i}%20=%20\bar{r_u}%20%2B%20k\sum_{u^\'%20\in%20U}\mathrm{simil}(u,u^\')(r_{u^\',%20i}-\bar{r_{u^\'}})}#gh-light-mode-only)
+$$\large \textbf{(1)} \qquad r_{u,i} = \bar{r_u} + k\sum\limits_{u^\prime \in U}\operatorname{simil}(u,u^\prime)(r_{u^\prime, i}-\bar{r_{u^\prime}})$$
 
 <details>
 <summary>예시 답변</summary>
@@ -21,9 +21,9 @@ Mini Reco 문제로 영입을 진행하며 지원자분에게 드렸던 인터�
 
 ## 질문 2
 
-[User-based Collaborative Filtering 설명](README.md#user-based-collaborative-filtering)의 식 (1)이 다음과 같이 바뀐다면(![\bar{r_u} (dark)](https://render.githubusercontent.com/render/math?math=\color{white}\large{\bar{r_u}}#gh-dark-mode-only)![\bar{r_u} (light)](https://render.githubusercontent.com/render/math?math=\large{\bar{r_u}}#gh-light-mode-only), ![\bar{r_{u^\'}} (dark)](https://render.githubusercontent.com/render/math?math=\color{white}\large{\bar{r_{u^\'}}}#gh-dark-mode-only)![\bar{r_{u^\'}} (light)](https://render.githubusercontent.com/render/math?math=\large{\bar{r_{u^\'}}}#gh-light-mode-only) 항이 사라진다면) 추천 결과가 어떻게 달라질까요?
+[User-based Collaborative Filtering 설명](README.md#user-based-collaborative-filtering)의 식 (1)이 다음과 같이 바뀐다면($\large\bar{r_u}$, $\large\bar{r_{u^\prime}}$ 항이 사라진다면) 추천 결과가 어떻게 달라질까요?
 
-**(1-1)** ![r_{u,i} = k\sum_{u^\' \in U}\mathrm{simil}(u,u^\')(r_{u^\', i}) (dark)](https://render.githubusercontent.com/render/math?math=\color{white}\Large{r_{u,i}%20=%20k\sum_{u^\'%20\in%20U}\mathrm{simil}(u,u^\')(r_{u^\',%20i})}#gh-dark-mode-only)![r_{u,i} = k\sum_{u^\' \in U}\mathrm{simil}(u,u^\')(r_{u^\', i}) (light)](https://render.githubusercontent.com/render/math?math=\Large{r_{u,i}%20=%20k\sum_{u^\'%20\in%20U}\mathrm{simil}(u,u^\')(r_{u^\',%20i})}#gh-light-mode-only)
+$$\large \textbf{(1-1)} \qquad r_{u,i} = k\sum\limits_{u^\prime \in U}\operatorname{simil}(u,u^\prime)(r_{u^\prime, i})$$
 
 <details>
 <summary>힌트</summary>
@@ -44,14 +44,14 @@ Mini Reco 문제로 영입을 진행하며 지원자분에게 드렸던 인터�
 
 ## 질문 3
 
-[User-based Collaborative Filtering 설명](README.md#user-based-collaborative-filtering)의 식 (1)이 다음과 같이 바꾸려고 한다면(![\mathrm{simil}(u,u^\') (dark)](https://render.githubusercontent.com/render/math?math=\color{white}\large{\mathrm{simil}(u,u^\')}#gh-dark-mode-only)![\mathrm{simil}(u,u^\') (light)](https://render.githubusercontent.com/render/math?math=\large{\mathrm{simil}(u,u^\')}#gh-light-mode-only) 항이 사라진다면) 식을 어떻게 수정해야할까요?
+[User-based Collaborative Filtering 설명](README.md#user-based-collaborative-filtering)의 식 (1)이 다음과 같이 바꾸려고 한다면($\large\operatorname{simil}(u,u^\prime)$ 항이 사라진다면) 식을 어떻게 수정해야할까요?
 
-**(1-2)** ![r_{u,i} = \bar{r_u} + k\sum_{u^\' \in U}(r_{u^\', i}-\bar{r_{u^\'}}) (dark)](https://render.githubusercontent.com/render/math?math=\color{white}\Large{r_{u,i}%20=%20\bar{r_u}%20%2B%20k\sum_{u^\'%20\in%20U}(r_{u^\',%20i}-\bar{r_{u^\'}})}#gh-dark-mode-only)![r_{u,i} = \bar{r_u} + k\sum_{u^\' \in U}\mathrm{simil}(u,u^\')(r_{u^\', i}-\bar{r_{u^\'}}) (light)](https://render.githubusercontent.com/render/math?math=\Large{r_{u,i}%20=%20\bar{r_u}%20%2B%20k\sum_{u^\'%20\in%20U}(r_{u^\',%20i}-\bar{r_{u^\'}})}#gh-light-mode-only)
+$$\large \textbf{(1-2)} \qquad r_{u,i} = \bar{r_u} +  k\sum\limits_{u^\prime \in U}(r_{u^\prime, i}-\bar{r_{u^\prime}})$$
 
 <details>
 <summary>예시 답변</summary>
 
 - 식 (1)에서 우변의 마지막 항은 최근접 이웃이 해당 아이템에 매긴 평점의 가중 평균이었으나, 식 (1-2)에서는 가중 평균이 아닌 산술 평균으로 변경하려는 것으로 볼 수 있다.
-- 따라서 ![k=\frac{1}{|U|} (dark)](https://render.githubusercontent.com/render/math?math=\color{white}\Large{k=\frac{1}{|U|}}#gh-dark-mode-only)![k=\frac{1}{|U|} (light)](https://render.githubusercontent.com/render/math?math=\Large{k=\frac{1}{|U|}}#gh-light-mode-only)로 수정하면 최근접 이웃의 평점의 산술 평균으로 계산한 추천 결과(예상 평점)를 얻을 수 있을 것이다.
+- 따라서 $\large k=\frac{1}{|U|}$로 수정하면 최근접 이웃의 평점의 산술 평균으로 계산한 추천 결과(예상 평점)를 얻을 수 있을 것이다.
 
 </details>
