@@ -48,6 +48,7 @@
 
 #### 추천팀 소개
 
+- `2022-06-17` [‘AI 추천 기술’을 선도하는 카카오 추천팀을 소개합니다.](https://tech.kakao.com/2022/06/16/data-recommendation-system/)
 - `2021-11-02` [charlie의 추천팀 인턴 생활기](https://tech.kakao.com/2021/11/02/charlie-internship/)
 - `2021-03-11` [카카오 AI 추천을 소개합니다.](https://tech.kakao.com/2021/03/11/kakao-ai/)
 - `2020-06-23` [데이터를 기반으로 새로운 경험을 선사하는 추천팀 이야기](https://tech.kakao.com/2020/06/23/recruit-algorithm-ml/)
