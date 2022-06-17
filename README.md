@@ -14,11 +14,12 @@
 
 ## 영입 지원 링크
 
-저희는 카카오 추천팀에서 함께 일할 동료분들을 찾고 있습니다. 관심 있으신 분은 아래 영입 공고를 확인해주세요.
+카카오에서는 현재 Data 분야 집중 영입을 진행하고 있습니다. ([집중 영입 안내 바로가기](https://careers.kakao.com/jobs/P-12703))  
+**6/23(목) 오후 8시 ~ 10시에는 추천팀 온라인 설명회**를 진행할 예정이니 자세한 내용은 집중 영입 안내를 확인해주세요.  
+(집중 영입 서류 접수 기간: 6/17(금) ~ **7/8(금) 15:00**)
 
-- [추천/ML SaaS 플랫폼 개발을 위한 MLOps 엔지니어](https://careers.kakao.com/jobs/P-12513)
-- [추천 시스템 연구/개발](https://careers.kakao.com/jobs/P-9883)
-- [추천 통계분석/데이터사이언티스트 모집](https://careers.kakao.com/jobs/P-10913)
+- [추천 시스템 연구/개발](https://careers.kakao.com/jobs/P-12733)
+- [추천/ML SaaS 플랫폼 SW 엔지니어](https://careers.kakao.com/jobs/P-12731)
 
 ## 영입 기출 문제
 
