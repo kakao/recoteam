@@ -26,13 +26,13 @@ _카카오 추천팀에 입사하기 전에 미리 보시면 좋을 내용들을
   * ... etc.
 
 ### 추천 알고리즘
-* 대표적인 올드스쿨 알고리즘들, 해당 알고리즘들은 논문이 발표된지 오래되었지만 아직도 대중적으로 많이 활용되고 있음
+* 대표적인 올드스쿨 알고리즘들, 해당 알고리즘들은 논문이 발표된지 오래되었지만 아직도 대중적으로 많이 활용되고 있습니다
   * iALS ([Collaborative Filtering for Implicit Feedback Datasets](http://yifanhu.net/PUB/cf.pdf))
   * BPR ([BPR: Bayesian Personalized Ranking from Implicit Feedback](https://arxiv.org/pdf/1205.2618.pdf))
   * LinUCB ([A Contextual-Bandit Approach to Personalized News Article Recommendation](https://arxiv.org/pdf/1003.0146.pdf))
 * 카카오 테크블로그에 카카오 추천시스템에 대하여 주제별로 설명한 글들
   * [테크 블로그: 추천 시스템](https://github.com/kakao/recoteam#%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C)
-* 추천 관련 최신 논문들을 서칭해보고 abstract와 related works를 읽어보면 최신 연구방향과 그 기반이 되는 주요 논문들을 알 수 있음
+* 추천 관련 최신 논문들을 서칭해보고 abstract와 related works를 읽어보면 최신 연구방향과 그 기반이 되는 주요 논문들을 알 수 있습니다
   * 추천 관련 대표 학회들: RecSys, WWW, SIGIR, KDD, WSDM, CIKM, AAAI, IJCAI, ICML, NeurIPS, ... etc.
 * (좋은 논문인지와 별개로) 대표적으로 유명한 추천 알고리즘 논문들
   * [BERT4Rec: Sequential Recommendation with Bidirectional Encoder Representations from Transformer, CIKM'19](https://arxiv.org/abs/1904.06690)
@@ -43,7 +43,7 @@ _카카오 추천팀에 입사하기 전에 미리 보시면 좋을 내용들을
 
 ### 그 외
 * 강화학습
-  * 실시간 추천시스템은 사용자와 상호작용하며 사용자들의 취향을 파악하고 추천을 해주는 시스템으로서 강화학습 framework이 잘 어울린다는 평가가 많다, 특히 Multi-Armed Bandit, Contextual-Bandit 등은 팀 내에서도 많이 사용된다
+  * 실시간 추천시스템은 사용자와 상호작용하며 사용자들의 취향을 파악하고 추천을 해주는 시스템으로서 강화학습 framework이 잘 어울린다는 평가가 많습니다, 특히 Multi-Armed Bandit, Contextual-Bandit 등은 팀 내에서도 매우 많이 사용되고 있습니다
   * [강화학습 대표 교재 (Reinforcement Learning: An Introduction)](http://incompleteideas.net/book/the-book.html))
   * [David Silver 강의](https://www.davidsilver.uk/teaching/)
 
