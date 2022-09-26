@@ -52,5 +52,46 @@ _해당 내용에 링크된 자료는 방대하므로(특히 수학/ML 기초) �
   * [강화학습 대표 교재 (Reinforcement Learning: An Introduction)](http://incompleteideas.net/book/the-book.html)
   * [David Silver 강의](https://www.davidsilver.uk/teaching/)
 
-## Section2
-...
+## 팀 개발환경 및 플랫폼
+
+### 기본 개발환경
+* 팀의 메인 개발언어는 Python, C++ 입니다.
+* 코드 Editor로는 주로 Vim을 사용하고 있으나, 제약은 없으며 VSCode, PyCharm등 개발자 본인에게 가장 편한 editor를 사용할 수 있습니다.(단 서버 내에서 작업하는 경우도 많기에, Vim에 대한 기본적인 사용법을 익혀두시면 유용합니다.)
+  * [Vim adventures](https://vim-adventures.com/): Vim을 간단한 게임형태로 배워볼 수 있는 페이지입니다.
+* 코드의 버전관리는 Git / GitHub를 사용하고 있습니다.
+  * [Git/GitHub 안내서](https://subicura.com/git/guide/)
+* 팀 내 대부분의 서비스는 docker 및 kubernetes를 기반으로 동작합니다.
+  * [초보를 위한 도커 안내서](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html)
+  * [쿠버네티스 안내서](https://subicura.com/k8s/guide/#%E1%84%80%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%83%E1%85%B3)
+
+### 플랫폼
+
+#### Kafka
+* 추천 시스템에서는 각 유저가 어떤 아이템을 소비했는지, 또 소비한 아이템에 대해 어떠한 반응을 보였는지에 대한 정보가 중요하게 사용됩니다.
+* 이러한 정보는 서비스단에서 실시간으로 수집되어 Kafka를 통해 저희팀이 받아볼 수 있는 형태로 전달되고 있습니다.
+* 따라서 Kafka의 기본구조 및 동작방식에 대해 미리 알아두시면 팀에서 실제 업무를 하실 때 많은 도움이 됩니다.
+  * [Youtube강의-아파치 카프카](https://www.youtube.com/playlist?list=PL3Re5Ri5rZmkY46j6WcJXQYRlDRZSUQ1j)
+
+#### MongoDB
+* MongoDB는 팀에서 가장 많이 사용하는 key-value storage중 하나입니다.
+* 주 사용처는 다음과 같습니다.
+  * 개별 유저에 대한 추천 결과 저장(캐시 용도)
+  * Feature storage
+  * 유저들의 아이템 소비 로그, 피드백 로그 저장
+* MongoDB 참고자료(팀에서 직접 관리를 하는건 아니기에 깊이 보실 필요는 없습니다. 아래에서는 3, 4, 5를 위주로 보셔도 괜찮습니다.)
+  * [1편: 소개, 설치 및 데이터 모델링](https://velopert.com/436)
+  * [2편: Database/Collection/Document 생성, 제거](https://velopert.com/457)
+  * [3편: Document Query(조회) - find() 메소드](https://velopert.com/479)
+  * [4편: find() 메소드 활용 - sort(), limit(), skip()](https://velopert.com/516)
+  * [5편: Document 수정 - update() 메소드](https://velopert.com/545)
+  * [pymongo docs](https://pymongo.readthedocs.io/en/stable/)
+    * pymongo는 MongoDB의 python client로써, 팀에서 MongoDB를 다룰 때 주로 사용하고 있습니다.
+
+#### Hadoop
+* Hadoop을 구성하는 여러가지 요소가 있지만, 팀에서는 주로 HDFS, Hive(Presto, Spark)를 많이 사용합니다.
+  * Hadoop의 개별 요소를 세세히 설명하기엔 양이 너무 방대하기에, 간단한 개념 위주로 링크를 정리했습니다.
+* HDFS: 유저 x 아이템 interaction 데이터 저장, 학습된 추천 모델 저장 등
+  * [hdfs 기본개념](https://kadensungbincho.tistory.com/30)
+  * [hdfs 명령어 모음](https://blog.voidmainvoid.net/175)
+* Hive(Presto, Spark): 데이터 분석, 전처리등에 사용
+  * [Hive, Presto, Spark 기본 설명](https://seoyoungh.github.io/data-science/distribute-system-1/)
