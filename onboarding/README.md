@@ -40,6 +40,8 @@ _해당 내용에 링크된 자료는 방대하므로(특히 수학/ML 기초) �
   * [Neural Collaborative Filtering, WWW'17](https://dl.acm.org/doi/10.1145/3038912.3052569)
   * [Recommending What Video to Watch Next: A Multitask Ranking System, RecSys'19](https://daiwk.github.io/assets/youtube-multitask.pdf)
   * [Collaborative Metric Learning, WWW'17](https://vision.cornell.edu/se3/wp-content/uploads/2017/03/WWW-fp0554-hsiehA.pdf)
+  * [Convolutional Matrix Factorization for Document Context-Aware Recommendation, RecSys'16](http://uclab.khu.ac.kr/resources/publication/C_351.pdf)
+  * ... etc.
 
 ### 그 외
 * 강화학습
