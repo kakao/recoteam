@@ -30,6 +30,9 @@ _해당 내용에 링크된 자료는 방대하므로(특히 수학/ML 기초) �
   * iALS ([Collaborative Filtering for Implicit Feedback Datasets](http://yifanhu.net/PUB/cf.pdf))
   * BPR ([BPR: Bayesian Personalized Ranking from Implicit Feedback](https://arxiv.org/pdf/1205.2618.pdf))
   * LinUCB ([A Contextual-Bandit Approach to Personalized News Article Recommendation](https://arxiv.org/pdf/1003.0146.pdf))
+* 그 외에도 벤치마크로 자주 등장하는 전통 알고리즘
+  * WARP ([Improving Pairwise Learning for Item Recommendation from Implicit Feedback](http://webia.lip6.fr/~gallinar/gallinari/uploads/Teaching/WSDM2014-rendle.pdf))
+  * SLIM ([SLIM: Sparse Linear Methods for Top-N Recommender Systems](https://ieeexplore.ieee.org/abstract/document/6137254))
 * 카카오 테크블로그에 카카오 추천시스템에 대하여 주제별로 설명한 글들
   * [테크 블로그: 추천 시스템](https://github.com/kakao/recoteam#%EC%B6%94%EC%B2%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C)
 * 추천 관련 최신 논문들을 서칭해보고 abstract와 related works를 읽어보면 최신 연구방향과 그 기반이 되는 주요 논문들을 알 수 있습니다
