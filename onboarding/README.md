@@ -44,7 +44,7 @@ _해당 내용에 링크된 자료는 방대하므로(특히 수학/ML 기초) �
 ### 그 외
 * 강화학습
   * 실시간 추천시스템은 사용자와 상호작용하며 사용자들의 취향을 파악하고 추천을 해주는 시스템으로서 강화학습 framework이 잘 어울린다는 평가가 많습니다, 특히 Multi-Armed Bandit, Contextual-Bandit 등은 팀 내에서도 매우 많이 사용되고 있습니다
-  * [강화학습 대표 교재 (Reinforcement Learning: An Introduction)](http://incompleteideas.net/book/the-book.html))
+  * [강화학습 대표 교재 (Reinforcement Learning: An Introduction)](http://incompleteideas.net/book/the-book.html)
   * [David Silver 강의](https://www.davidsilver.uk/teaching/)
 
 ## Section2
