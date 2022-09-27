@@ -26,11 +26,11 @@
 
 ## User-based Collaborative Filtering
 
-The [memory-based](https://en.wikipedia.org/wiki/Collaborative_filtering#Memory-based) approach uses user rating data to compute the similarity between users or items. Typical examples of this approach are neighbourhood-based CF and item-based/user-based top-N recommendations. For example, in user based approaches, the value of ratings user u gives to item i is calculated as an aggregation of some similar users' rating of the item:
+The [memory-based](https://en.wikipedia.org/wiki/Collaborative_filtering#Memory-based) approach uses user rating data to compute the similarity between users or items. Typical examples of this approach are neighbourhood-based CF and item-based/user-based top-N recommendations. For example, in user based approaches, the value of ratings user $\large u$ gives to item $\large i$ is calculated as an aggregation of some similar users' rating of the item:
 
 $$\large r_{u,i} = \operatorname{aggr}\limits_{u^\prime \in U} r_{u^\prime, i}$$
 
-where U denotes the set of top N users that are most similar to user u who rated item i.
+where $\large U$ denotes the set of top N users that are most similar to user $\large u$ who rated item $\large i$.
 
 Some examples of the aggregation function includes:
 
@@ -39,21 +39,21 @@ r_{u,i} =& \frac{1}{N}\sum\limits_{u^\prime \in U}r_{u^\prime, i}\\
 r_{u,i} =& k\sum\limits_{u^\prime \in U}\operatorname{simil}(u,u^\prime)r_{u^\prime, i}
 }$$
 
-where k is a normalizing factor defined as $\large k = 1/\sum_{u^\prime \in U}|\operatorname{simil}(u,u^\prime)|$, and
+where $\large k$ is a normalizing factor defined as $\large k = 1/\sum_{u^\prime \in U}|\operatorname{simil}(u,u^\prime)|$, and
 
 $$\large \textbf{(1)} \qquad r_{u,i} = \bar{r_u} + k\sum\limits_{u^\prime \in U}\operatorname{simil}(u,u^\prime)(r_{u^\prime, i}-\bar{r_{u^\prime}})$$
 
-where $\large \bar{r_u}$ is the average rating of user u for all the items rated by u.
+where $\large \bar{r_u}$ is the average rating of user $\large u$ for all the items rated by $\large u$.
 
 The neighborhood-based algorithm calculates the similarity between two users or items, and produces a prediction for the user by taking the [weighted average](https://en.wikipedia.org/wiki/Weighted_average) of all the ratings. Similarity computation between items or users is an important part of this approach. Multiple measures, such as [Pearson correlation](https://en.wikipedia.org/wiki/Pearson_product-moment_correlation_coefficient) and [vector cosine](https://en.wikipedia.org/wiki/Cosine_similarity) based similarity are used for this.
 
-The cosine similarity of two users x, y is defined as:
+The cosine similarity of two users $\large x$, $\large y$ is defined as:
 
 $$\large \textbf{(2)} \qquad \operatorname{simil}(x,y) = \cos(\vec x,\vec y) = \frac{\vec x \cdot \vec y}{||\vec x|| \times ||\vec y||} = \frac{\sum\limits_{i \in I_{xy}}r_{x,i}r_{y,i}}{\sqrt{\sum\limits_{i \in I_{x}}r_{x,i}^2}\sqrt{\sum\limits_{i \in I_{y}}r_{y,i}^2}}$$
 
-where $\large I_{xy}$ is the set of items that rated by both user x and user y.
+where $\large I_{xy}$ is the set of items that rated by both user $\large x$ and user $\large y$.
 
-The user based top-N recommendation algorithm uses a similarity-based vector model to identify the k most similar users to an active user. After the k most similar users are found, their corresponding user-item matrices are aggregated to identify the set of items to be recommended.
+The user based top-N recommendation algorithm uses a similarity-based vector model to identify the $\large k$ most similar users to an active user. After the $\large k$ most similar users are found, their corresponding user-item matrices are aggregated to identify the set of items to be recommended.
 
 ## 문제
 
@@ -61,11 +61,11 @@ The user based top-N recommendation algorithm uses a similarity-based vector mod
 
 추천 결과를 만드는 방법은 다음과 같습니다.
 
-1. 식 (2)를 활용하여 최근접 이웃 집합 U를 계산합니다.
-    - U는 사용자와 유사도가 가장 높은 `num_sim_user_top_N`명의 최근접 이웃 사용자로 구성됩니다.
+1. 식 (2)를 활용하여 최근접 이웃 집합 $\large U$를 계산합니다.
+    - $\large U$는 사용자와 유사도가 가장 높은 `num_sim_user_top_N`명의 최근접 이웃 사용자로 구성됩니다.
 1. 식 (1)로 생성한 `num_item_rec_top_M` 개의 추천 결과를 한 줄로 출력합니다.
     - 추천 결과의 각 아이템 ID는 공백으로 구분되어야 합니다.
-    - 사용자에게 추천할 수 있는 아이템은 전체 아이템 집합 I가 아닌 최근접 이웃 U가 평가한 아이템 집합 I'입니다.
+    - 사용자에게 추천할 수 있는 아이템은 전체 아이템 집합 $\large I$가 아닌 최근접 이웃 $\large U$가 평가한 아이템 집합 $\large I^\prime$입니다.
 
 ### 참고 사항
 
@@ -76,7 +76,7 @@ The user based top-N recommendation algorithm uses a similarity-based vector mod
 1. 한 사용자가 같은 아이템을 중복해서 평가한 경우는 없습니다.
 1. 데이터는 희소 행렬 데이터입니다. 그러므로 모든 사용자와 아이템 쌍에 대한 평가가 존재하는 것은 아닙니다.
 1. Cosine similarity 계산이 정의되지 않는 경우에는 0으로 정의합니다.
-1. 식 (1)에서 normalizing factor k 값이 정의되지 않는 경우에는 0으로 정의합니다.
+1. 식 (1)에서 normalizing factor $\large k$ 값이 정의되지 않는 경우에는 0으로 정의합니다.
 
 ## 입력 데이터
 
@@ -247,7 +247,7 @@ def ndcg(gt, rec):
 - Line 22~23: 추천 결과를 만들어야 할 사용자의 ID 리스트 (`user_id`= 1, 2에 해당하는 사용자의 추천 결과를 만들어서 출력해야 함)
 
 정리하면, 주어진 평점 데이터를 이용해서 사용자 1, 사용자 2에게 각각 추천 결과를 2개씩 만들어주면 됩니다.  
-식(1)을 이용해 추천 결과를 계산할 때 사용하는 집합 U는 추천 결과를 만들어야 할 사용자와 가장 유사한 사용자 2명으로 구성합니다.
+식(1)을 이용해 추천 결과를 계산할 때 사용하는 집합 $\large U$는 추천 결과를 만들어야 할 사용자와 가장 유사한 사용자 2명으로 구성합니다.
 
 사용자 1의 경우, 최고 유사 사용자는 사용자 3, 사용자 4이고, 사용자 1과의 유사도는 각각 0.85263, 0.80806입니다.  
 이렇게 구한 집합 U를 이용해서 식(1)을 계산해서 예상 평점이 가장 높은 아이템 2개를 예상 평점 순으로 내림차순 정렬해서 출력하면 됩니다.  
