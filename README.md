@@ -63,7 +63,7 @@
 - `2017-06-23` [내 손안의 AI 비서, 추천 알고리듬 - 카카오의 AI 추천 플랫폼, ‘토로스(TOROS)’](https://brunch.co.kr/@kakao-it/72)
 
 ### 논문
-
+- [Simple and Efficient Recommendation Strategy for Warm/Cold Sessions for RecSys Challenge 2022](https://dl.acm.org/doi/10.1145/3556702.3556851) (Recsys'22 Challenge)
 - [An Efficient Combinatorial Optimization Model Using Learning-to-Rank Distillation](https://www.aaai.org/AAAI22Papers/AAAI-4140.WooH.pdf) (AAAI '22)
 - [A Global DAG Task Scheduler Using Deep Reinforcement Learning and Graph Convolution Network](https://ieeexplore.ieee.org/abstract/document/9626004) (IEEE Access)
 - [Melon Playlist Dataset: a public dataset for audio-based playlist generation and music tagging](https://arxiv.org/abs/2102.00201) (ICASSP '21)
