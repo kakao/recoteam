@@ -74,6 +74,7 @@
 - [Microservices (MSA)](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices)
 - [Event Driven Architecture (EDA)](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/event-driven)
 - [Cloud Native](https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/definition)
+- [CI/CD](https://en.wikipedia.org/wiki/CI/CD)
 - [Test Driven Development (TDD)](https://martinfowler.com/bliki/TestDrivenDevelopment.html)
 
 ### 플랫폼
