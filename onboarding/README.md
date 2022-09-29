@@ -63,6 +63,36 @@
 - [강화학습 대표 교재 (Reinforcement Learning: An Introduction)](http://incompleteideas.net/book/the-book.html)
 - [David Silver 강의](https://www.davidsilver.uk/teaching/)
 
+## 머신러닝플랫폼 관련 자료
+
+아래의 키워드는 모두 머신러닝플랫폼에서 중요한 것들이지만 업무에 필수는 아닙니다.
+학습 비용이 만만치 않기 때문에 천천히 기반 다지는 것을 추천합니다.
+
+### 방법론, 가이드
+
+- [Domain Driven Design (DDD)](https://martinfowler.com/bliki/DomainDrivenDesign.html)
+- [Microservices (MSA)](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices)
+- [Event Driven Architecture (EDA)](https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/event-driven)
+- [Cloud Native](https://learn.microsoft.com/en-us/dotnet/architecture/cloud-native/definition)
+- [CI/CD](https://en.wikipedia.org/wiki/CI/CD)
+- [Test Driven Development (TDD)](https://martinfowler.com/bliki/TestDrivenDevelopment.html)
+
+### 플랫폼
+
+- [kafka](https://kafka.apache.org/)
+- [docker](https://www.docker.com/)
+- [kubernetes](https://kubernetes.io/)
+
+### 개발 자원
+
+머신러닝플랫폼은 대부분 파이썬 3.10을 사용하고 있습니다.
+아래는 개발할 때 많이 사용하는 라이브러리를 간추렸습니다.
+
+- [poetry](https://python-poetry.org/)
+- [pydantic](https://pydantic-docs.helpmanual.io/)
+- [pytest](https://pytest.org)
+- [mypy](mypy.readthedocs.io/)
+
 ## 팀 개발환경 및 플랫폼
 
 ### 기본 개발환경
