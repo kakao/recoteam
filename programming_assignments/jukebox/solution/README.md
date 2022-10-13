@@ -1,7 +1,8 @@
 # Shallow AutoEncoder를 이용한 Jukebox 풀이
 
-##데이터 전처리
-`1.데이터 전처리.ipynb`를 참조하세요.
+## 데이터 전처리
+
+[`1. 데이터 전처리.ipynb`](1.%20데이터%20전처리.ipynb)를 참조하세요.
 
 ## 오토인코더를 이용한 추천 모델
 
@@ -10,7 +11,8 @@ $d = Hx, y = Gd$ where $H \in \mathbf{R}^{I \times h}, G \in \mathbf{R}^{h \time
 
 ![오토인코더 모델](https://t1.daumcdn.net/thumb/R1280x0.fpng/?fname=http://t1.daumcdn.net/brunch/service/user/1oU7/image/2pDhz3Hm_pIZ5jZppwtiOmZYMsU.png)
 
-y에서 점수가 높은 index의 아이템이, X가 좋아할 아이템이라 해석할 수 있습니다. 학습 시에는, y는 x를 reconstruct하도록 모델을 최적화할 수 있다($(x-y)^T(x-y)$). $X$를 모든 유저의 bag of words 표현의 행렬($\mathbf{R}^{u \times I}$)이라 하고, Y를 이에 따른 AutoEncoder의 reconstruction이라 하자.
+y에서 점수가 높은 index의 아이템이, X가 좋아할 아이템이라 해석할 수 있고, 학습 시에는, y는 x를 reconstruct하도록 모델을 최적화할 수 있습니다($(x-y)^T(x-y)$).  
+$X$를 모든 유저의 bag of words 표현의 행렬($\mathbf{R}^{u \times I}$)이라 하고, Y를 이에 따른 AutoEncoder의 reconstruction이라 합니다.
 
 $$ L = \sum_{x_u} (x_u - y)^T(x_u - y) = (X - Y)^T(X-Y) = |X - PX|_F $$
 
@@ -35,7 +37,7 @@ $Gd = G(Hx) = GHx$라는 점을 생각해 보면, 우리는 AutoEncoder에서 En
 
 $$ L = \sum_{x_u} (x_u - y)^T(x_u - y) = (X - Y)^T(X-Y) = |X - PX|_F $$
 
-이 모델의 학습 가능한 패러미터는 $P$이며, 다음과 같이 선언할 수 있습니다
+이 모델의 학습 가능한 패러미터는 $P$이며, 다음과 같이 선언할 수 있습니다.
 
 ```python
 P = jnp.array(np.random.normal(0, 0.001, size=(n_items, n_items)))
@@ -77,4 +79,6 @@ scores = np.asarray((scores - X.astype(bool).astype(int) * 10000))
 top_reco = (-scores).argsort(-1)[:, :100]
 ```
 
-내부 데이터로 이 학습/테스트를 수행하는 부분은 `2-1. Shallow AutoEncoder.ipynb`에 저장되어 있습니다. Stochastic Gradient Descent가 아닌, Exact solver를 이용한 풀이는 `2-2. EASE^R.ipynb`에 저장되어 있습니다. 문제가 요구하는 대로 입출력이 구현되어 수행되는 코드는 `code_using_ease` 디렉토리에 저장되어 있습니다.
+내부 데이터로 이 학습/테스트를 수행하는 부분은 [`2-1. Shallow AutoEncoder.ipynb`](2-1.%20Shallow%20AutoEncoder.ipynb)에 저장되어 있습니다.  
+Stochastic Gradient Descent가 아닌, Exact solver를 이용한 풀이는 [`2-2. EASE^R.ipynb`](2-2.%20EASE%5ER.ipynb)에 저장되어 있습니다.  
+문제가 요구하는 대로 입출력이 구현되어 수행되는 코드는 [`code_using_ease`](code_using_ease/) 디렉토리에 저장되어 있습니다.

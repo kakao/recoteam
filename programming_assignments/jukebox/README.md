@@ -1,10 +1,10 @@
 # Jukebox
 
-문제 출제 및 검수: lucas.ii
+- 문제 출제 및 검수: lucas.ii
+- 해설 작성자: iggy.ll
 
-해설 작성자: iggy.ll
-
-> 이 문서에는 Jukebox 문제의 요약과 간단한 설명이 덧붙여져 있습니다. **문제 원문은 [jukebox.pdf](jukebox.pdf) 문서에 있습니다.**
+> 이 문서에는 Jukebox 문제의 요약과 간단한 설명이 덧붙여져 있습니다. **문제 원문은 [jukebox.pdf](jukebox.pdf) 문서에 있습니다.**  
+> 문제에 대한 해설과 풀이는 [solution](solution/) 디렉토리를 참고해주세요.
 
 ## 1. 문제 설명
 
