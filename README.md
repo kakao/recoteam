@@ -25,6 +25,7 @@
 추천팀 영입 과정에서 실제로 사용했던 기출 문제입니다.
 
 - [Mini Reco](programming_assignments/mini_reco)
+- [Jukebox](programming_assignments/jukebox)
 
 ## 오픈소스
 
