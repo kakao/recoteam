@@ -11,8 +11,8 @@ $d = Hx, y = Gd$ where $H \in \mathbf{R}^{I \times h}, G \in \mathbf{R}^{h \time
 
 ![오토인코더 모델](https://t1.daumcdn.net/thumb/R1280x0.fpng/?fname=http://t1.daumcdn.net/brunch/service/user/1oU7/image/2pDhz3Hm_pIZ5jZppwtiOmZYMsU.png)
 
-y에서 점수가 높은 index의 아이템이, X가 좋아할 아이템이라 해석할 수 있고, 학습 시에는, y는 x를 reconstruct하도록 모델을 최적화할 수 있습니다($(x-y)^T(x-y)$).  
-$X$를 모든 유저의 bag of words 표현의 행렬($\mathbf{R}^{u \times I}$)이라 하고, Y를 이에 따른 AutoEncoder의 reconstruction이라 합니다.
+y에서 점수가 높은 index의 아이템이, X가 좋아할 아이템이라 해석할 수 있고, 학습 시에는, y는 x를 reconstruct하도록 모델을 최적화할 수 있습니다( $(x-y)^T(x-y)$ ).  
+$X$를 모든 유저의 bag of words 표현의 행렬( $\mathbf{R}^{u \times I}$ )이라 하고, Y를 이에 따른 AutoEncoder의 reconstruction이라 합니다.
 
 $$ L = \sum_{x_u} (x_u - y)^T(x_u - y) = (X - Y)^T(X-Y) = |X - PX|_F $$
 
