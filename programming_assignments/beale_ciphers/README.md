@@ -14,12 +14,10 @@
 해독된 메세지에는 빌이 묻은 금은보화들의 존재와 위치가 담겨있었다. 마지막 메세지에는 세부 위치와 그 보물들이 누구의 소유인지 밝혀져 있다고 한다.  
 수십 년간 많은 사람이 암호 해독을 시도해보았고 보물을 찾아 나섰지만 모두 실패했다.
 
-![image](https://github.daumkakao.com/storage/user/3223/files/6783cfc5-05f7-4bd1-bb6c-afa111695428)
-
+![빌의 두번째 암호](https://user-images.githubusercontent.com/38134957/205591146-88a80e11-1dee-4d33-8305-40ef6f13d6f1.png)  
 빌의 두번째 암호
 
-![image](https://github.daumkakao.com/storage/user/3223/files/6e733f40-464c-40c8-bab2-3e2cc088acc2)
-
+![빌의 세번째 암호](https://user-images.githubusercontent.com/38134957/205591160-5b7a7fa5-964f-443b-a5bf-01d9dd093420.png)  
 빌의 세번째 암호
 
 그러던 중 카카오 추천팀 레오는 빌의 다른 암호문 중에서 세 번째 암호를 해결하기 위한 단서가 첫 번째 암호와 두 번째 암호에 존재한다는 사실을 발견했다.  
