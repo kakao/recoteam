@@ -40,7 +40,7 @@
 
 2. k×k의 두 행렬의 곱 연산은 일반적인 방법으로 O(k^3)에 구현이 가능하고 가장 빠른 방법은 O(k^2.373)에 구하는 방법으로 알려져 있다.
     하지만 위 두 가지 방법론으로 위 문제를 해결하기에는 적절하지 않기 때문에 다음 방법론을 이용하여 구현해야 한다.
-    링크 - https://en.wikipedia.org/wiki/Freivalds%27_algorithm 
+    - 링크: https://en.wikipedia.org/wiki/Freivalds%27_algorithm 
 
 3. Standard Library만 사용해야 한다. (ex Python 2, Python 3 - numpy 모듈 허용하지 않음)
 
