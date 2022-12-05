@@ -80,35 +80,35 @@
 
 #### if(kakao)2021
 
-> <https://if.kakao.com/>
+> <https://elseif.kakao.com/2021>
 
-- `2021-11-17` [ML로 기프트권 받을 유저 정하기](https://if.kakao.com/session/26)
-- `2021-11-17` [BERT보다 10배 빠른 BERT 모델 구축](https://if.kakao.com/session/27)
-- `2021-11-17` [TensorFlow Serving보다 10배 빠르게 서빙하기](https://if.kakao.com/session/28)
-- `2021-11-17` [추천 시스템 airflow 2.0 도입기](https://if.kakao.com/session/29)
+- `2021-11-17` [ML로 기프트권 받을 유저 정하기](https://elseif.kakao.com/2021/session/26)
+- `2021-11-17` [BERT보다 10배 빠른 BERT 모델 구축](https://elseif.kakao.com/2021/session/27)
+- `2021-11-17` [TensorFlow Serving보다 10배 빠르게 서빙하기](https://elseif.kakao.com/2021/session/28)
+- `2021-11-17` [추천 시스템 airflow 2.0 도입기](https://elseif.kakao.com/2021/session/29)
 
 #### if(kakao)2020
 
-> <https://if.kakao.com/2020/>
+> <https://elseif.kakao.com/2020>
 
-- `2020-11-18` [개인화 콘텐츠 푸시 고도화 후기](https://if.kakao.com/2020/session/93)
-- `2020-11-18` [추천 시스템, 써보지 않겠는가? 맥락과 취향 사이 줄타기](https://if.kakao.com/2020/session/125)
+- `2020-11-18` [개인화 콘텐츠 푸시 고도화 후기](https://elseif.kakao.com/2020/session/93)
+- `2020-11-18` [추천 시스템, 써보지 않겠는가? 맥락과 취향 사이 줄타기](https://elseif.kakao.com/2020/session/125)
 
 #### if(kakao)dev2019
 
-> <https://if.kakao.com/2019/>
+> <https://elseif.kakao.com/2019>
 
-- `2019-08-30` [둥꿍둥꿍 느낌 아는 음악 바텐더](https://if.kakao.com/2019/program?sessionId=1bfc0d56-3946-4e40-9ab1-523f16d8594a) - [발표 자료](https://mk.kakaocdn.net/dn/if-kakao/conf2019/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_2019/T08-S01.pdf) / [발표 영상](https://mk-v1.kakaocdn.net/dn/if-kakao/conf2019/conf_video_2019/2_103_01_m1.mp4)
-- `2019-08-30` [Buffalo: Open Source Project for Recommender System](https://if.kakao.com/2019/program?sessionId=c59d4061-6914-4a65-8fb5-f0a0c6c65b93) - [발표 자료](https://mk.kakaocdn.net/dn/if-kakao/conf2019/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_2019/T08-S02-Buffalo.pdf) / [발표 영상](https://mk-v1.kakaocdn.net/dn/if-kakao/conf2019/conf_video_2019/2_103_02_m1.mp4)
-- `2019-08-30` [상품 카탈로그 자동 생성 ML 모델 소개](https://if.kakao.com/2019/program?sessionId=dce0dd84-d054-4b80-8013-b3d58f61bbe8) - [발표 자료](https://mk.kakaocdn.net/dn/if-kakao/conf2019/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_2019/T08-S04.pdf) / [발표 영상](https://mk-v1.kakaocdn.net/dn/if-kakao/conf2019/conf_video_2019/2_103_04_m1.mp4)
+- `2019-08-30` [둥꿍둥꿍 느낌 아는 음악 바텐더](https://elseif.kakao.com/2019/program?sessionId=1bfc0d56-3946-4e40-9ab1-523f16d8594a) - [발표 자료](https://mk.kakaocdn.net/dn/if-kakao/conf2019/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_2019/T08-S01.pdf) / [발표 영상](https://mk-v1.kakaocdn.net/dn/if-kakao/conf2019/conf_video_2019/2_103_01_m1.mp4)
+- `2019-08-30` [Buffalo: Open Source Project for Recommender System](https://elseif.kakao.com/2019/program?sessionId=c59d4061-6914-4a65-8fb5-f0a0c6c65b93) - [발표 자료](https://mk.kakaocdn.net/dn/if-kakao/conf2019/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_2019/T08-S02-Buffalo.pdf) / [발표 영상](https://mk-v1.kakaocdn.net/dn/if-kakao/conf2019/conf_video_2019/2_103_02_m1.mp4)
+- `2019-08-30` [상품 카탈로그 자동 생성 ML 모델 소개](https://elseif.kakao.com/2019/program?sessionId=dce0dd84-d054-4b80-8013-b3d58f61bbe8) - [발표 자료](https://mk.kakaocdn.net/dn/if-kakao/conf2019/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_2019/T08-S04.pdf) / [발표 영상](https://mk-v1.kakaocdn.net/dn/if-kakao/conf2019/conf_video_2019/2_103_04_m1.mp4)
 
 #### if(kakao)dev2018
 
-> <https://if.kakao.com/2018/>
+> <https://elseif.kakao.com/2018>
 
-- `2018-09-04` [눈으로 듣는 음악 추천 시스템](https://if.kakao.com/2018/program?sessionId=959a3047-0a08-4a42-99ce-35a9210ab49a) - [발표 자료](https://mk.kakaocdn.net/dn/if-kakao/conf2018/%E1%84%82%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%83%E1%85%B3%E1%86%AE%E1%84%82%E1%85%B3%E1%86%AB%20%E1%84%8B%E1%85%B3%E1%86%B7%E1%84%8B%E1%85%A1%E1%86%A8%20%E1%84%8E%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7.pdf) / [발표 영상](http://tv.kakao.com/v/391418802)
+- `2018-09-04` [눈으로 듣는 음악 추천 시스템](https://elseif.kakao.com/2018/program?sessionId=959a3047-0a08-4a42-99ce-35a9210ab49a) - [발표 자료](https://mk.kakaocdn.net/dn/if-kakao/conf2018/%E1%84%82%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%83%E1%85%B3%E1%86%AE%E1%84%82%E1%85%B3%E1%86%AB%20%E1%84%8B%E1%85%B3%E1%86%B7%E1%84%8B%E1%85%A1%E1%86%A8%20%E1%84%8E%E1%85%AE%E1%84%8E%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7.pdf) / [발표 영상](http://tv.kakao.com/v/391418802)
   - `2018-10-01` [눈으로 듣는 음악 추천 시스템](https://brunch.co.kr/@kakao-it/282)
-- `2018-09-04` [TOROS N2 - lightweight approximate Nearest Neighbor library](https://if.kakao.com/2018/program?sessionId=ad6ea793-70e6-495c-b154-c765e6339793) - [발표 자료](https://mk.kakaocdn.net/dn/if-kakao/conf2018/TOROS%20N2%20-%20lightweight%20approximate%20Nearest%20Neighbor%20library.pdf) / [발표 영상](http://tv.kakao.com/v/391419278)
+- `2018-09-04` [TOROS N2 - lightweight approximate Nearest Neighbor library](https://elseif.kakao.com/2018/program?sessionId=ad6ea793-70e6-495c-b154-c765e6339793) - [발표 자료](https://mk.kakaocdn.net/dn/if-kakao/conf2018/TOROS%20N2%20-%20lightweight%20approximate%20Nearest%20Neighbor%20library.pdf) / [발표 영상](http://tv.kakao.com/v/391419278)
   - `2018-11-21` [TOROS N2](https://brunch.co.kr/@kakao-it/300)
 
 ### 카카오 아레나
