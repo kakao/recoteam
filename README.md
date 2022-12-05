@@ -78,6 +78,14 @@
 
 ### if(kakao)
 
+#### if(kakao)dev2022
+
+> <https://if.kakao.com>
+
+- `2022-12-08` [실험을 잘한다는 것은 무엇일까?](https://if.kakao.com/2022/session/4)
+- `2022-12-08` [Sequential Recommendation System 카카오 서비스 적용기](https://if.kakao.com/2022/session/8)
+- `2022-12-08` [Explainable Recommender System in 카카오웹툰](https://if.kakao.com/2022/session/9)
+
 #### if(kakao)2021
 
 > <https://elseif.kakao.com/2021>
