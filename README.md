@@ -25,6 +25,7 @@
 
 - [Mini Reco](programming_assignments/mini_reco)
 - [Jukebox](programming_assignments/jukebox)
+- [Beale Ciphers](programming_assignments/beale_ciphers)
 
 ## 오픈소스
 
