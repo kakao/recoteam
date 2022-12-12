@@ -55,6 +55,7 @@
 
 #### 추천 시스템
 
+- `2022-12-12` [추천팀의 DDD 도입기](https://tech.kakao.com/2022/12/12/ddd-of-recommender-team/)
 - `2021-12-27` [카카오 AI추천 : 카카오의 콘텐츠 기반 필터링 (Content-based Filtering in Kakao)](https://tech.kakao.com/2021/12/27/content-based-filtering-in-kakao/)
 - `2021-10-18` [카카오 AI추천 : 협업 필터링 모델 선택 시의 기준에 대하여](https://tech.kakao.com/2021/10/18/collaborative-filtering/)
 - `2021-06-25` [카카오 AI추천 : 토픽 모델링과 MAB를 이용한 카카오 개인화 추천](https://tech.kakao.com/2021/06/25/kakao-ai-recommendation-01/)
