@@ -57,10 +57,7 @@ for _ in range(num_reco_users):
         sum_u = 0  # SUM for u' in U [simil(u, u') * (r_u'i - r_u')]
 
         # 유사도 top N 사용자에 대해 계산
-        for i in range(num_sim_user_top_N):
-            user = nearest[i][0]  # 현재 사용자의 사용자 ID
-            similarity = nearest[i][1]  # 현재 사용자의 유사도 (query_user와의 유사도)
-
+        for user, similarity in nearest[:num_sim_user_top_N]:
             # 사용자가 아이템을 평가하지 않았으면 계산하지 않음
             if item not in rating_data[user]:
                 continue
