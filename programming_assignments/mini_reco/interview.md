@@ -21,7 +21,7 @@ $$\large \textbf{(1)} \qquad r_{u,i} = \bar{r_u} + k\sum\limits_{u^\prime \in U}
 
 ## 질문 2
 
-[User-based Collaborative Filtering 설명](README.md#user-based-collaborative-filtering)의 식 (1)이 다음과 같이 바뀐다면($\large\bar{r_u}$, $\large\bar{r_{u^\prime}}$ 항이 사라진다면) 추천 결과가 어떻게 달라질까요?
+[User-based Collaborative Filtering 설명](README.md#user-based-collaborative-filtering)의 식 (1)이 다음과 같이 바뀐다면( $\large\bar{r_u}$, $\large\bar{r_{u^\prime}}$ 항이 사라진다면) 추천 결과가 어떻게 달라질까요?
 
 $$\large \textbf{(1-1)} \qquad r_{u,i} = k\sum\limits_{u^\prime \in U}\operatorname{simil}(u,u^\prime)(r_{u^\prime, i})$$
 
@@ -44,7 +44,7 @@ $$\large \textbf{(1-1)} \qquad r_{u,i} = k\sum\limits_{u^\prime \in U}\operatorn
 
 ## 질문 3
 
-[User-based Collaborative Filtering 설명](README.md#user-based-collaborative-filtering)의 식 (1)이 다음과 같이 바꾸려고 한다면($\large\operatorname{simil}(u,u^\prime)$ 항이 사라진다면) 식을 어떻게 수정해야할까요?
+[User-based Collaborative Filtering 설명](README.md#user-based-collaborative-filtering)의 식 (1)이 다음과 같이 바꾸려고 한다면( $\large\operatorname{simil}(u,u^\prime)$ 항이 사라진다면) 식을 어떻게 수정해야할까요?
 
 $$\large \textbf{(1-2)} \qquad r_{u,i} = \bar{r_u} +  k\sum\limits_{u^\prime \in U}(r_{u^\prime, i}-\bar{r_{u^\prime}})$$
 
