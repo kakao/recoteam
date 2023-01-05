@@ -16,7 +16,6 @@
 
 저희는 카카오 추천팀에서 함께 일할 동료분들을 찾고 있습니다. 관심 있으신 분은 아래 영입 공고를 확인해주세요.
 
-- [추천/ML SaaS 플랫폼 SW 엔지니어](https://careers.kakao.com/jobs/P-12513)
 - [추천 시스템 연구/개발](https://careers.kakao.com/jobs/P-9883)
 
 ## 영입 기출 문제
