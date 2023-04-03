@@ -139,7 +139,7 @@
 
 - `2022-12-22` [Machine Learning Engineer 여행 가이드](/presentations/ksc2022/KSC2022_ML_Engineer_%EC%97%AC%ED%96%89%EA%B0%80%EC%9D%B4%EB%93%9C_%EC%B9%B4%EC%B9%B4%EC%98%A4_%EC%B6%94%EC%B2%9C%ED%8C%80_%EA%B9%80%EC%84%B1%EC%A7%84.pdf) @ KSC 2022
 - `2021-12-15` [우리 생활 속 추천 시스템, 어떻게 발전해왔고 어떻게 발전해나가고 있는가?](https://www.youtube.com/watch?v=jJfXHo7nNe8) @ 데이터 그랜드 컨퍼런스 2021
-- `2021-05-21` [추천 기술이 마주하고 있는 현실적인 문제들](https://www.youtube.com/watch?v=UUY8YEesIVY) @ AI Frontiers Summit 2021
+- `2021-05-21` [추천 기술이 마주하고 있는 현실적인 문제들](https://www.youtube.com/watch?v=UUY8YEesIVY) - [발표 자료](/presentations/ai_frontier2021/AIFrontier2021_Recommender_system_in_real_world_nick.pdf) @ AI Frontiers Summit 2021
 - `2020-11-25` [유저가 좋은 작품(웹툰)를 만났을 때 (유저의 탐색, 발견 그리고 만족도에 대하여 탐색적 분석하기)](https://deview.kr/2020/sessions/332) @ DEVIEW 2020
 - `2019-08-18` [추천시스템, 이제는 돈이 되어야 한다.](https://archive.pycon.kr/2019/program/talk-detail/?id=136) @ PyCon Korea 2019
 - `2018-08-19` [추천 시스템을 위한 어플리케이션 서버 개발 후기](https://archive.pycon.kr/2018/program/33) @ PyCon Korea 2018
