@@ -64,6 +64,7 @@
 
 ### 논문
 
+- [How Important is Periodic Model Update in Recommender Systems?](https://doi.org/10.1145/3539618.3591934) (SIGIR '23)
 - [Predicting Query-Item Relationship using Adversarial Training and Robust Modeling Techniques](https://amazonkddcup.github.io/papers/0620.pdf) (KDD Cup '22)
 - [Simple and Efficient Recommendation Strategy for Warm/Cold Sessions for RecSys Challenge 2022](https://dl.acm.org/doi/10.1145/3556702.3556851) (Recsys'22 Challenge)
 - [An Efficient Combinatorial Optimization Model Using Learning-to-Rank Distillation](https://www.aaai.org/AAAI22Papers/AAAI-4140.WooH.pdf) (AAAI '22)
