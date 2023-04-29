@@ -30,6 +30,7 @@
 
 - [TOROS Buffalo](https://github.com/kakao/buffalo) - A fast and scalable production-ready open source project for recommender systems
 - [TOROS N2](https://github.com/kakao/n2) - lightweight approximate Nearest Neighbor library which runs fast even with large datasets
+- [python-ssdb](https://github.com/kakao/python-ssdb) - Python client for [SSDB](https://github.com/ideawu/ssdb)
 
 ## 지식 저장소 (논문 리뷰)
 
