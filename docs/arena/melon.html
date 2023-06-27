@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>kakao dataset</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link href="./app.min.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <p>멜론 데이터셋</p>
+    </header>
+
+    <main>
+      <p class="title">멜론 데이터셋 다운로드 동의서</p>
+      <section>
+        <p style="font-weight: 500; color: black">
+          멜론 데이터셋 다운로드 및 이용에 따른 주의사항
+        </p>
+        <br />
+        <hr />
+        <br />
+        <p>
+          본 데이터셋 다운로드 및 이용을 위해서는 반드시 아래 주의사항을
+          확인하여야 합니다.
+        </p>
+        <div class="border-box">
+          <ul>
+            <li>
+              카카오 엔터테인먼트는 데이터셋에 대한 소유자로 정당한 권리를
+              가지고 있습니다. 본 데이터셋은 비영리 연구 목적으로 공증된 관행에
+              합치되는 방법으로만 이용할 수 있습니다. 연구, 논문에 데이터를
+              이용/인용할 경우 'Kakao Entertainment, melon (www.melon.com) ’와
+              같이 반드시 출처를 포함하여 표기하여야 하며 제공되는 데이터셋의
+              무단전재 및 재배포를 금지합니다.
+            </li>
+
+            <li>
+              카카오 엔터테인먼트는 데이터셋을 다른 목적으로 사용함에 따른
+              정확성, 적합성, 유효성을 보증하지 않습니다. 데이터셋 사용에 따른
+              책임은 전적으로 이용자에게 있으며, 카카오 엔터테인먼트는 그 사용에
+              따른 책임으로 면책됩니다. 본 데이터셋 다운로드 및 이용에 따른
+              주의사항을 위반하거나 데이터셋의 다운로드 및 이용 과정에서 카카오
+              엔터테인먼트에게 손해가 발생할 경우, 카카오 엔터테인먼트에게 해당
+              손해를 배상할 책임이 있습니다.
+            </li>
+
+            <li>
+              본 주의사항을 읽고 이에 동의를 한 경우에만 데이터셋 다운로드 및
+              이용이 가능합니다.
+            </li>
+          </ul>
+        </div>
+        <div class="checkbox">
+          <label for="agree">
+            <input
+              type="checkbox"
+              id="agree"
+              onchange="document.getElementsByName('download').forEach((el) => el.disabled = !this.checked);"
+            />
+            위 주의사항을 확인하였으며, 모든 내용에 동의합니다.
+          </label>
+        </div>
+        <br />
+        <hr />
+        <br />
+
+        <p>데이터셋 설명</p>
+        <div class="border-box">
+          <div class="border-content">
+            <p>
+              이 데이터셋에는 649,091개의 고유 곡으로 구성된 148,826개의
+              플레이리스트와 각 곡에 대한 멜 스펙트로그램 데이터가 포함되어
+              있습니다. 포함된 플레이리스트는 멜론에서 제공하는 멜론 DJ
+              플레이리스트 서비스에 등재된 항목입니다. 또한, 멜론 DJ
+              플레이리스트는 당사와 사전 계약을 맺은 전문가가 품질 보증을 위해
+              만든 플레이리스트와 멜론 이용자가 멜론 DJ 플레이리스트에 올리고
+              싶은 플레이리스트 중 당사의 품질 기준에 의해 필터링된
+              플레이리스트로 구성됩니다. 각 재생목록에는 제목과 함께 재생목록
+              제작자가 지정한 노래와 여러 개의 태그(30,652개의 고유 태그에
+              포함)가 포함되어 있습니다.
+            </p>
+            <ul>
+              <li>
+                song_meta.json: 곡 메타데이터
+                <ul>
+                  <li>
+                    총 707,989개의 곡에 대한 메타데이터가 수록되어 있습니다.
+                  </li>
+                  <li>
+                    <b
+                      >개발 데이터와 평가 데이터에 수록된 모든 곡에 대한
+                      메타데이터가 포함되어 있습니다.</b
+                    >
+                  </li>
+                  <li>
+                    필드 설명
+                    <ul>
+                      <li>_id: 곡 ID</li>
+                      <li>album_id: 앨범 ID</li>
+                      <li>artist_id_basket: 아티스트 ID 리스트</li>
+                      <li>artist_name_basket: 아티스트 리스트</li>
+                      <li>song_name: 곡 제목</li>
+                      <li>song_gn_gnr_basket: 곡 장르 리스트</li>
+                      <li>song_gn_dtl_gnr_basket: 곡 세부 장르 리스트</li>
+                      <li>issue_date: 발매일</li>
+                    </ul>
+                  </li>
+                  <li>
+                    메타데이터의 모든 정보는 저작권자의 비공개 여부 전환, 곡
+                    삭제, 메타데이터 수정 등으로 유효하지 않거나 변동될 수
+                    있습니다.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                genre_gn_all.json:
+                <ul>
+                  <li>
+                    곡 메타데이터에 수록된 장르에 대한 정보입니다. 위
+                    song_meta.json 에서 song_gn_gnr_basket 과
+                    song_gn_dtl_gnr_basket 에 들어가는 정보들에 대한
+                    메타데이터입니다.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                train.json:
+                <ul>
+                  <li>
+                    모델 학습용 파일로, 115,071개 플레이리스트의 원본 데이터가
+                    수록되어 있습니다.
+                  </li>
+                  <li>
+                    필드 설명
+                    <ul>
+                      <li>id: 플레이리스트 ID</li>
+                      <li>plylst_title: 플레이리스트 제목</li>
+                      <li>tags: 태그 리스트</li>
+                      <li>songs: 곡 리스트</li>
+                      <li>like_cnt: 좋아요 개수</li>
+                      <li>updt_date: 수정 날짜</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                val.json:
+                <ul>
+                  <li>
+                    공개 리더보드용 문제 파일로, 23,015개 플레이리스트에 대한
+                    문제가 수록되어 있습니다. 모든 데이터가 수록되어있는 train
+                    파일과는 다르게, 곡과 태그의 일부가 수록되어 있습니다.
+                  </li>
+                  <li>
+                    필드 설명
+                    <ul>
+                      <li>id: 플레이리스트 ID</li>
+                      <li>plylst_title: 플레이리스트 제목</li>
+                      <li>tags: 태그 리스트</li>
+                      <li>songs: 곡 리스트</li>
+                      <li>like_cnt: 좋아요 개수</li>
+                      <li>updt_date: 수정 날짜</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                test.json:
+                <ul>
+                  <li>
+                    파이널 리더보드용 문제 파일로, 10,740개 플레이리스트에 대한
+                    문제가 수록되어 있습니다. 모든 데이터가 수록되어있는 train
+                    파일과는 다르게, 곡과 태그의 일부가 수록되어 있습니다.
+                  </li>
+                  <li>
+                    필드 설명
+                    <ul>
+                      <li>id: 플레이리스트 ID</li>
+                      <li>plylst_title: 플레이리스트 제목</li>
+                      <li>tags: 태그 리스트</li>
+                      <li>songs: 곡 리스트</li>
+                      <li>like_cnt: 좋아요 개수</li>
+                      <li>updt_date: 수정 날짜</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                arena_mel_{0~39}.tar
+                <ul>
+                  <li>
+                    곡에 대한 mel-spectrogram 데이터를 담고있는 파일입니다. 위에
+                    있는 파일들에서 등장하는 각 곡 ID마다 npy 파일 1개가
+                    배정되어있습니다. numpy로 다음과 같이 로드할 수 있습니다.
+                    <pre><code>import numpy as np
+
+mel = np.load("0.npy")</code></pre>
+                  </li>
+                  <li>
+                    곡 ID는 0~707988 까지 배정되어 있으며,
+                    <code>곡ID.npy</code> 의 파일 이름을 가지고 있습니다. 파일의
+                    갯수가 많기 때문에, 각 npy 파일은 각각
+                    <code>{floor(ID / 1000)}/</code> 폴더 아래에 들어가있습니다.
+                    예를 들어 곡 ID가 415263인 파일의 경우
+                    <code>415/415263.npy</code> 로, 곡 ID가 53712인 경우
+                    <code>53/53712.npy</code> 에 존재합니다.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div style="display: flex; place-content: center">
+          <a
+            href="https://drive.google.com/drive/folders/1h3allMBZAG20wYlt1bLFvZrsTQYB_1VU?usp=sharing"
+          >
+            <button name="download" id="download" disabled>Download</button>
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

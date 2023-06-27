@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>kakao dataset</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link href="./app.min.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <p>Melon Dataset</p>
+    </header>
+
+    <main>
+      <p class="title">Melon Dataset Download Consent Form</p>
+      <section>
+        <p style="font-weight: 500; color: black">
+          Precautions Regarding the Download and Use of the Melon Dataset
+        </p>
+        <br />
+        <hr />
+        <br />
+        <p>
+          Before proceeding with the download and utilization of this dataset,
+          it is crucial to review and comply with the following precautions
+          carefully
+        </p>
+        <div class="border-box">
+          <ul>
+            <li>
+              Kakao Entertainment is the lawful owner of the dataset and
+              possesses all the necessary rights. The dataset is intended solely
+              for non-profit research purposes and should be utilized in
+              accordance with established industry practices. When utilizing or
+              referencing the data for research or scholarly papers, it is
+              mandatory to include the appropriate attribution as follows:
+              "Kakao Entertainment, melon (www.melon.com)." Unauthorized
+              reproduction or redistribution of the dataset is strictly
+              prohibited.
+            </li>
+
+            <li>
+              Please be aware that Kakao Entertainment does not guarantee the
+              accuracy, suitability, or validity of the dataset for purposes
+              other than those specified. The user assumes full responsibility
+              for the usage of the dataset, and Kakao Entertainment shall not be
+              held accountable for any consequences or liabilities arising from
+              its use. In case of any violation of the precautions regarding the
+              download and use of this dataset, or if any damages occur to Kakao
+              Entertainment during the process, the user shall be held
+              responsible for compensating Kakao Entertainment for such damages.
+            </li>
+
+            <li>
+              By confirming your understanding and agreement to the above
+              precautions, you may proceed with downloading and utilizing the
+              dataset.
+            </li>
+          </ul>
+        </div>
+        <div class="checkbox">
+          <label for="agree">
+            <input
+              type="checkbox"
+              id="agree"
+              onchange="document.getElementsByName('download').forEach((el) => el.disabled = !this.checked);"
+            />
+            I have carefully read and fully agree to all the above terms and
+            conditions.
+          </label>
+        </div>
+        <br />
+        <hr />
+        <br />
+
+        <p>Dataset Description</p>
+        <div class="border-box">
+          <div class="border-content">
+            <h5>Melon Playlist Dataset</h5>
+            <p>
+              This dataset contains 148,826 playlists composed of 649,091 unique
+              songs and mel-spectrogram data for each song. The included
+              playlists are the listed item in the Melon DJ Playlist service
+              provided by Melon. In addition, Melon DJ Playlist consists of
+              playlists both made by experts contracting with us in advance for
+              quality assurance and filtered by the company’s quality standard
+              among those submitted by Melon users who want to put on the Melon
+              DJ Playlist. Each playlist contains songs and multiple sets of
+              tags (included in the 30,652 unique tags) assigned by the playlist
+              creator, along with its title.
+            </p>
+          </div>
+
+          <div class="border-content">
+            <h5>Playlist Included</h5>
+            <p>
+              For setting contest questions, we will provide the entire playlist
+              data separately as <code>train.json</code> composed of 115,071
+              playlists, <code>val.json</code> composed of 23,015 playlists, and
+              <code>test.json</code> composed of 10,740 playlists. Unlike
+              <code>train.json</code>, <code>test.json</code> and
+              <code>train.json</code> have some of the songs and tags in their
+              playlists masked for the submission of answers.
+            </p>
+            <h6 class="mt-2">Field Description</h6>
+            <ul>
+              <li>id: Playlist ID</li>
+              <li>plylst_title: Playlist title</li>
+              <li>tags: tag list</li>
+              <li>songs: song list</li>
+              <li>like_cnt: like count</li>
+              <li>updt_date: update date</li>
+            </ul>
+          </div>
+
+          <div class="border-content">
+            <h5>Mel-Spectrogram Included</h5>
+            <p>
+              Mel-spectrogram data are saved as a ‘<code>{songID}.npy</code>’
+              file name with the file extension npy. A number from 0 to 707988
+              is assigned as song ID, and each file is allocated to and stored
+              in the <code>{floor(ID / 1000)}/</code> directory. For example,
+              the song with ID 415263 is saved as 415/415263.npy. The
+              2.1b.dev677 version of Essentia library was used to extract each
+              mel-spectrogram. mel-spectrogram was calculated in the use of
+              segments of a song’s 20~50 second-interval to reduce the 16Khz
+              sample size rate, 512 frame size, 256 hop size, Hann window
+              function, and data size and employed 48 mel-bands resolution so
+              that Melon Playlist Dataset can contain about 240GB data.
+            </p>
+          </div>
+
+          <div class="border-content">
+            <h5>Meta-Data Included</h5>
+            <p>
+              Melon Playlist Dataset provides <code>song_meta.json</code>, the
+              song metadata saved in a separate json file format, and
+              <code>genre_gn_all.json</code>, the mapping table for genre
+              included in the song metadata. <code>song_meta.json</code> has
+              metadata for a total of 707,989 songs, including all songs in
+              <code>train.json</code>, <code>val.json</code>, and
+              <code>test.json</code>. The field description included is as
+              follows.
+            </p>
+            <h6 style="margin-top: 0.5rem">Field Description</h6>
+            <ul>
+              <li>_id: song ID</li>
+              <li>album_id: album ID</li>
+              <li>artist_id_basket: artist ID list</li>
+              <li>artist_name_basket: artist list</li>
+              <li>song_name: song title</li>
+              <li>song_gn_gnr_basket: song genre list</li>
+              <li>song_gn_dtl_gnr_basket: song detailed genre list</li>
+              <li>issue_date: issue date</li>
+            </ul>
+          </div>
+          <div class="border-content">
+            <small>
+              * All information in the metadata may be invalid or subject to
+              change due to the copyright holder’s privacy conversion, song
+              deletion, metadata modification, and the like.
+            </small>
+          </div>
+
+          <div class="border-content">
+            <p>
+              <code>genre_gn_all.json</code> contains a total of 254 genre
+              codes, including genre information for 30 major category genre
+              codes (included in <code>song_gn_gnr_basket</code>) and 224
+              detailed category genre codes (included in
+              <code>song_gn_gnr_basket</code>).
+            </p>
+          </div>
+        </div>
+
+        <div style="display: flex; place-content: center">
+          <a
+            href="https://drive.google.com/drive/folders/1h3allMBZAG20wYlt1bLFvZrsTQYB_1VU?usp=sharing"
+          >
+            <button name="download" id="download" disabled>Download</button>
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
