@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* 웹폰트 */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,500&subset=korean');
+@font-face {
+  font-family: 'Noto Sans';
+  src:url(../font/NotoSansCJKkr-Regular.eot?#iefix) format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Noto Sans';
+  src:url(../font/NotoSansCJKkr-Medium.eot?#iefix) format('embedded-opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Noto Sans';
+  src:url(../font/NotoSansCJKkr-Bold.eot?#iefix) format('embedded-opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,button{margin:0;padding:0}
+fieldset,img{border:0 none}
+dl,ul,ol,menu,li{list-style:none}
+blockquote, q{quotes:none}
+blockquote:before, blockquote:after,q:before, q:after{content:'';content:none}
+input,select,textarea,button{vertical-align:middle;font-size:100%}
+button{border:0 none;background-color:transparent;cursor:pointer}
+table{border-collapse:collapse;border-spacing:0}
+body{-webkit-text-size-adjust:none}
+input:checked[type='checkbox']{background-color:#666; -webkit-appearance:checkbox}
+input[type='text'],input[type='password'],input[type='submit'],input[type='search'],input[type='tel'],input[type='email'],html input[type='button'],input[type='reset']{-webkit-appearance:none;border-radius:0}
+input[type='search']::-webkit-search-cancel-button{-webkit-appearance:none}
+body{background:#fff}
+body,th,td,input,select,textarea,button{font-size:13px;line-height:1.5;font-family: 'Noto Sans CJK Kr', 'Noto Sans KR', 'Noto Sans', sans-serif;color:#222}
+a{color:#222;text-decoration:none}
+a:active, a:hover{text-decoration:none}
+address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
+/* global */
+#kakaoIndex{overflow:hidden;position:absolute;left:-9999px;width:0;height:1px;margin:0;padding:0}
+.ir_pm{display:block;overflow:hidden;font-size:1px;line-height:0;color:transparent}
+.ir_wa{display:block;overflow:hidden;position:relative;z-index:-1;width:100%;height:100%}
+.ir_caption{overflow:hidden;width:1px;font-size:1px;line-height:0;text-indent:-9999px}
+.screen_out{overflow:hidden;position:absolute;width:0;height:0;line-height:0;text-indent:-9999px}
+.show{display:block}
+.hide{display:none}
+.comm_layer{display:none;flex-direction:column;overflow:auto;position:fixed;top:0%;left:0%;z-index:1000;width:100%;height:100%;background:rgba(0,0,0,0.4);}
+.comm_layer .inner_layer{position:absolute;top:50%;left:50%;background-color:var(--color-white);border:1px solid #cecece;text-align:center;transform:translate(-50%,-50%);}
+.info_layer .inner_layer{top:139px;transform:translate(-50%, 0);width:498px;height:396px;box-sizing:border-box;}
+.info_layer .layer_head{display:flex;justify-content:center;align-items:center;height:80px;background-color:#fee500;}
+.info_layer .layer_head .tit_info{display: inline-block;font-size:21px;line-height:31px;letter-spacing:-1.05px;color:#1E1E1E;}
+.info_layer .layer_head .tit_info .logo_kakaoarena{display:inline-block;width:129px;}
+.info_layer .layer_body{padding:40px 60px 35px;background-color:#fff;}
+.info_layer .layer_body .txt_info{font-size:15px;line-height: 22px;color:#000000;}
+.info_layer .layer_body .txt_info .tit_item{display:block;margin-bottom:22px;font-size:16px;font-weight:bold;line-height:22px;}
+.info_layer .layer_body .link_detail{display:block;margin:30px auto 0;width:175px;height:50px;background-color:#fee500;font-size:15px;font-weight:500;line-height:50px;text-align:center;color:#1E1E1E;}
+.info_layer .layer_foot{display:flex;justify-content:space-between;}
+.info_layer .layer_foot .btn_alert{flex:1;width:50%;height:50px;background-color:#f5f5f5;border-top:1px solid #cecece;font-size:14px;font-weight:500;line-height:50px;text-align:center;color:#1E1E1E;}
+.info_layer .layer_foot .btn_alert ~ .btn_alert {border-left:1px solid #cecece;}
+.comm_layer.show{display:flex;}
+.notice_type{padding: 11px 0 80px;}
+.notice_type .doc-header .inner-header{max-width:1058px;margin:0 auto;}
+.notice_type .logo_kakaoarena{display:inline-block;width:148px;vertical-align:middle;}
+.notice_type .inner_main{max-width:1058px;margin:69px auto 0;}
+.notice_type .tit_notice{font-size:56px;font-weight:bold;line-height:83px;letter-spacing:-2.33px;color:#1E1E1E;}
+.notice_type .txt_notice{margin:28px 0 60px;font-size:18px;font-weight:500;line-height:32px;letter-spacing:-1px;color:#000000;}
+.notice_type .tbl_notice{margin-bottom:33px;border-top:1px solid #979797;border-bottom:1px solid #979797;}
+.notice_type .tbl_notice th,td{padding:0 42px 0;background-color:#fafafa;border-bottom:1px solid #dadbdc;font-size:14px;font-weight:normal;line-height:70px;color:#000000;text-align:left;vertical-align: middle;}
+.notice_type .tbl_notice .tit_item{font-size:15px;font-weight:500;}
+.notice_type .list_notice{margin-left:14px;}
+.notice_type .list_notice > li{position:relative;padding-left:10px;font-size:13px;line-height:25px;letter-spacing:-0.41px;color:#3C3C3C;}
+.notice_type .list_notice > li:before{content:'';position:absolute;top:50%;left:0;width:3px;height:3px;transform: translateY(-50%);background-color:#3C3C3C;border-radius: 100%;}
+.notice_type .link_notice{display:block;width:391px;height:70px;margin:60px auto 0;background-color: #FEE500;line-height:70px;font-size:18px;font-weight:500;color:#1E1E1E;text-align: center;}
+.tbl_comm{width:100%;border:0;border-spacing:0;table-layout:fixed;border-collapse:collapse;}
