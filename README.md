@@ -12,6 +12,17 @@
 
 저희에게 궁금한 점이나 하고 싶은 이야기가 있다면 [Discussions](https://github.com/kakao/recoteam/discussions)를 이용해주세요.
 
+## 카카오 아레나 데이터셋 다운로드
+
+카카오 아레나 서비스가 2023년 7월 3일 종료되었음을 알려드립니다.
+작성하신 게시글과 제출하신 자료에 대해 백업을 원하신다면 고객센터로 요청 바랍니다.
+
+아레나 서비스에서 제공되던 데이터셋은 아래의 경로를 통해 다운로드할 수 있습니다.
+
+- [멜론 영문](https://kakao.github.io/recoteam/arena/melon-en)
+- [멜론 국문](https://kakao.github.io/recoteam/arena/melon)
+- [브런치 국문](https://kakao.github.io/recoteam/arena/brunch)
+
 ## 영입 지원 링크
 
 (현재는 진행 중인 영입 공고가 없습니다.)
