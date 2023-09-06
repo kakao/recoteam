@@ -28,7 +28,7 @@
 
 The [memory-based](https://en.wikipedia.org/wiki/Collaborative_filtering#Memory-based) approach uses user rating data to compute the similarity between users or items. Typical examples of this approach are neighbourhood-based CF and item-based/user-based top-N recommendations. For example, in user based approaches, the value of ratings user $\large u$ gives to item $\large i$ is calculated as an aggregation of some similar users' rating of the item:
 
-$$\large r_{u,i} = \operatorname{aggr}\limits_{u^\prime \in U} r_{u^\prime, i}$$
+$$\large r_{u,i} = \mathop{\mathrm{aggr}}\limits_{u^\prime \in U} r_{u^\prime, i}$$
 
 where $\large U$ denotes the set of top N users that are most similar to user $\large u$ who rated item $\large i$.
 
@@ -36,12 +36,12 @@ Some examples of the aggregation function includes:
 
 $$\large \displaylines{
 r_{u,i} =& \frac{1}{N}\sum\limits_{u^\prime \in U}r_{u^\prime, i}\\
-r_{u,i} =& k\sum\limits_{u^\prime \in U}\operatorname{simil}(u,u^\prime)r_{u^\prime, i}
+r_{u,i} =& k\sum\limits_{u^\prime \in U}\mathop{\mathrm{simil}}(u,u^\prime)r_{u^\prime, i}
 }$$
 
-where $\large k$ is a normalizing factor defined as $\large k = 1/\sum_{u^\prime \in U}|\operatorname{simil}(u,u^\prime)|$, and
+where $\large k$ is a normalizing factor defined as $\large k = 1/\sum_{u^\prime \in U}|\mathop{\mathrm{simil}}(u,u^\prime)|$, and
 
-$$\large \textbf{(1)} \qquad r_{u,i} = \bar{r_u} + k\sum\limits_{u^\prime \in U}\operatorname{simil}(u,u^\prime)(r_{u^\prime, i}-\bar{r_{u^\prime}})$$
+$$\large \textbf{(1)} \qquad r_{u,i} = \bar{r_u} + k\sum\limits_{u^\prime \in U}\mathop{\mathrm{simil}}(u,u^\prime)(r_{u^\prime, i}-\bar{r_{u^\prime}})$$
 
 where $\large \bar{r_u}$ is the average rating of user $\large u$ for all the items rated by $\large u$.
 
@@ -49,7 +49,7 @@ The neighborhood-based algorithm calculates the similarity between two users or 
 
 The cosine similarity of two users $\large x$, $\large y$ is defined as:
 
-$$\large \textbf{(2)} \qquad \operatorname{simil}(x,y) = \cos(\vec x,\vec y) = \frac{\vec x \cdot \vec y}{||\vec x|| \times ||\vec y||} = \frac{\sum\limits_{i \in I_{xy}}r_{x,i}r_{y,i}}{\sqrt{\sum\limits_{i \in I_{x}}r_{x,i}^2}\sqrt{\sum\limits_{i \in I_{y}}r_{y,i}^2}}$$
+$$\large \textbf{(2)} \qquad \mathop{\mathrm{simil}}(x,y) = \cos(\vec x,\vec y) = \frac{\vec x \cdot \vec y}{||\vec x|| \times ||\vec y||} = \frac{\sum\limits_{i \in I_{xy}}r_{x,i}r_{y,i}}{\sqrt{\sum\limits_{i \in I_{x}}r_{x,i}^2}\sqrt{\sum\limits_{i \in I_{y}}r_{y,i}^2}}$$
 
 where $\large I_{xy}$ is the set of items that rated by both user $\large x$ and user $\large y$.
 
