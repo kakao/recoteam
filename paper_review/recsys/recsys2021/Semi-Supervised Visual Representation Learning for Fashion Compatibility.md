@@ -1,18 +1,18 @@
 # Semi-Supervised Visual Representation Learning for Fashion Compatibility
 
 - Paper : <https://arxiv.org/abs/2109.08052>
-- Authors : [[Ambareesh Revanur]], [[Vijay Kuma]], [[Deepthi Sharma]]
-- Reviewer : matthew.g@kakaocorp.com
+- Authors : Ambareesh Revanur, Vijay Kuma, Deepthi Sharma
+- Reviewer : matthew.g
 - Topics
-  - #Real-World_Concerns
+  - [#Real-World_Concerns](../../topics/Real-World%20Concerns.md)
   - #Semi-Supervised_Learning
-  - #RecSys2021
+  - [#RecSys2021](RecSys2021.md)
 
 ## Summary
 
 - Semi-Supervised Learning을 사용한 다른 모델들과 다르게, conditional mask를 통해서 color와 pattern 같은 attribute를 학습하는 것이 아니라 color, shape를 직접적으로 변경해주는 self-supervised learning의 방법론을 적용하였습니다.
 - pseudo-labeling를 이용하여 unlabeled-image를 이용하여 학습을 진행하였습니다.
-- [[Polyvore]], [[Polyvore-D]], newly created [[Fashion outfit]] dataset에 대해서, 적은 수의 labeled data를 사용하였고, text 등과 같은 metadata 를 전혀 사용하지 않았음에도 supervised method에 준하는 결과를 만들었습니다.
+- Polyvore, Polyvore-D, newly created Fashion outfit dataset에 대해서, 적은 수의 labeled data를 사용하였고, text 등과 같은 metadata 를 전혀 사용하지 않았음에도 supervised method에 준하는 결과를 만들었습니다.
 
 ## Introduction
 
@@ -78,5 +78,5 @@ $$
 
 ## Results
 
-- [[Polyvore]] (패션 커머스 서비스, ssense에 최근 합병됨) dataset, [[Polyvore-disjoint]] (Polyvore 중에서 train/valid/test에 중복된 이미지가 없도록 처리한 것), [[Fashion outfits]] (e-commerce platform에서 데이터를 크롤링하고 **같은 세션에서 산 아이템의 경우 compatible하다고 가정**)를 이용하여 학습을 진행하였습니다.
+- Polyvore (패션 커머스 서비스, ssense에 최근 합병됨) dataset, Polyvore-disjoint (Polyvore 중에서 train/valid/test에 중복된 이미지가 없도록 처리한 것), Fashion outfits (e-commerce platform에서 데이터를 크롤링하고 **같은 세션에서 산 아이템의 경우 compatible하다고 가정**)를 이용하여 학습을 진행하였습니다.
 - 5%의 labeled data만을 이용하여 supervised learning에 준하는 학습 결과를 얻을 수 있었으며 100%를 적용하면 supervised model들을 상회하는 성능을 보여주었습니다.

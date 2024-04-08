@@ -1,13 +1,13 @@
 # Together is Better- Hybrid Recommendations Combining Graph Embeddings and Contextualized Word Representations
 
 - Paper : <https://dl.acm.org/doi/abs/10.1145/3460231.3474272>
-- Authors : [[Marco Polignano]], [[Cataldo Musto]], [[Marco de Gemmis]], [[Pasquale Lops]], [[Giovanni Semeraro]]
-- Reviewer : [[tony.yoo@kakaocorp.com]]
+- Authors : Marco Polignano, Cataldo Musto, Marco de Gemmis, Pasquale Lops, Giovanni Semeraro
+- Reviewer : tony.yoo
 - Topics
-  - #Language_and_Knowledge
+  - [#Language_and_Knowledge](../../topics/Language%20and%20Knowledge.md)
   - #Graph
   - #Sequence_Modeling
-  - #RecSys2021
+  - [#RecSys2021](RecSys2021.md)
 
 ## Summary
 

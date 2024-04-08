@@ -1,12 +1,12 @@
 # Local Factor Models for Large-Scale Inductive Recommendation
 
 - Paper : <https://ylongqi.com/assets/pdf/yang2021local.pdf>
-- Authors : [[Longqi Yang]], [[Tobias Schnabel]], [[Paul N. Bennett]], [[Susan Dumais]]
-- Reviewer : [[bell.park@kakaocorp.com]]
+- Authors : Longqi Yang, Tobias Schnabel, Paul N. Bennett, Susan Dumais
+- Reviewer : bell.park
 - Topics
-  - #Scalable_Performance
+  - [#Scalable_Performance](../../topics/Scalable%20Performance.md)
   - #Local_Model
-  - #RecSys2021
+  - [#RecSys2021](RecSys2021.md)
 
 ## Summary
 

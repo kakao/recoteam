@@ -1,13 +1,13 @@
 # Cold Start Similar Artists Ranking with Gravity-Inspired Graph Autoencoders
 
 - Paper : <https://arxiv.org/abs/2108.01053>
-- Authors : [[Guillaume Salha-Galvan]], [[Romain Hennequin]], [[Benjamin Chapus]], [[Viet-Anh Tran]], [[Michalis Vazirgiannis]]
-- Reviewer : [[tony.yoo@kakaocorp.com]]
+- Authors : Guillaume Salha-Galvan, Romain Hennequin, Benjamin Chapus, Viet-Anh Tran, Michalis Vazirgiannis
+- Reviewer : tony.yoo
 - Topics
-  - #Real-World_Concerns
+  - [#Real-World_Concerns](../../topics/Real-World%20Concerns.md)
   - #Cold_Start
   - #Graph
-  - #RecSys2021
+  - [#RecSys2021](RecSys2021.md)
 
 ## Summary
 

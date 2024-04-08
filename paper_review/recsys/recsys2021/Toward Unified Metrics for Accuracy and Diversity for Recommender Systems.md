@@ -1,12 +1,12 @@
 # Toward Unified Metrics for Accuracy and Diversity for Recommender Systems
 
 - Paper : <https://dl.acm.org/doi/10.1145/3460231.3474234>
-- Authors : [[Javier Parapar]], [[Filip Radlinski]]
-- Reviewer : [[iggy.ll@kakaocorp.com]]
+- Authors : Javier Parapar, Filip Radlinski
+- Reviewer : iggy.ll
 - Topics
-  - #Metrics_and_Evaluation
+  - [#Metrics_and_Evaluation](../../topics/Metrics%20and%20Evaluation.md)
   - #Diversity
-  - #RecSys2021
+  - [#RecSys2021](RecSys2021.md)
 
 ## Summary
 

@@ -1,12 +1,12 @@
 # Towards Source-Aligned Variational Models for Cross-Domain Recommendation
 
 - Paper : <https://dl.acm.org/doi/10.1145/3460231.3474265>
-- Authors : [[Aghiles Salah]], [[Thanh Binh Tran]], [[Hady Lauw]]
-- Reviewer : [[andrew.y@kakaocorp.com]]
+- Authors : Aghiles Salah, Thanh Binh Tran, Hady Lauw
+- Reviewer : andrew.y
 - Topics
-  - #Language_and_Knowledge
+  - [#Language_and_Knowledge](../../topics/Language%20and%20Knowledge.md)
   - #Cross-Domain
-  - #RecSys2021
+  - [#RecSys2021](RecSys2021.md)
 
 ## Summary
 
@@ -68,7 +68,7 @@
 
 ## Results
 
-- [[Amazon]], [[Douban]] 데이터셋에서 실험하였습니다.
+- Amazon, Douban 데이터셋에서 실험하였습니다.
 - 오프라인 실험: 10%, 20%, 30% 랜덤하게 테스트 셋으로 ndcg, recall 계산 (target domain에서 콜드 유저로 인식)
 ![image](https://user-images.githubusercontent.com/38134957/165148128-b304551b-8736-48e7-a162-c3cba55b6e91.png)
 ![image](https://user-images.githubusercontent.com/38134957/165148172-dae9a356-7f06-48d5-a120-0d340e990e05.png)

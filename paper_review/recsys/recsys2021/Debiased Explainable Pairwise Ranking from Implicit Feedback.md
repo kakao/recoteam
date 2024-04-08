@@ -1,13 +1,13 @@
 # Debiased Explainable Pairwise Ranking from Implicit Feedback
 
 - Paper : <https://arxiv.org/pdf/2107.14768.pdf>
-- Authors : [[Khalil Damak]], [[Sami Khenissi]], [[Olfa Nasraoui]]
-- Reviewer : [[hee.yoon@kakaocorp.com]]
+- Authors : Khalil Damak, Sami Khenissi, Olfa Nasraoui
+- Reviewer : hee.yoon
 - Topics
-  - #Privacy_Fairness_Bias
+  - [#Privacy_Fairness_Bias](../../topics/Privacy,%20Fairness,%20Bias.md)
   - #Matrix_Factorization
   - #Explainable_Recommendation
-  - #RecSys2021
+  - [#RecSys2021](RecSys2021.md)
 
 ## Summary
 

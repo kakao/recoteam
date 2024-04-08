@@ -1,13 +1,13 @@
 # Transformers4Rec- Bridging the Gap between NLP and Sequential & Session-Based Recommendation
 
 - Paper : <https://dl.acm.org/doi/10.1145/3460231.3474255>
-- Authors : [[Gabriel de Souza Pereira Moreira]], [[Sara Rabhi]], [[Jeong Min Lee]], [[Ronay Ak]], [[Even Oldridge]]
-- Reviewer : [[marv.20@kakaocorp.com]]
+- Authors : Gabriel de Souza Pereira Moreira, Sara Rabhi, Jeong Min Lee, Ronay Ak, Even Oldridge
+- Reviewer : marv.20
 - Topics
-  - #Language_and_Knowledge
+  - [#Language_and_Knowledge](../../topics/Language%20and%20Knowledge.md)
   - #Semi-Supervised_Learning
   - #Sequential_Recommendation
-  - #RecSys2021
+  - [#RecSys2021](RecSys2021.md)
 
 ## Summary
 

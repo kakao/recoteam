@@ -1,12 +1,12 @@
 # Mitigating Confounding Bias in Recommendation via Information Bottleneck
 
 - Paper : <https://dl.acm.org/doi/pdf/10.1145/3460231.3474263>
-- Authors : [[Dugang Liu]], [[Pengxiang Cheng]], [[Hong Zhu]], [[Zhenhua Dong]], [[Xiuqiang He]], [[Weike Pan]], [[Zhong Ming]]
-- Reviewer : [[charlie.cs@kakaocorp.com]]
+- Authors : Dugang Liu, Pengxiang Cheng, Hong Zhu, Zhenhua Dong, Xiuqiang He, Weike Pan, Zhong Ming
+- Reviewer : charlie.cs
 - Topics
-  - #Privacy_Fairness_Bias
+  - [#Privacy_Fairness_Bias](../../topics/Privacy,%20Fairness,%20Bias.md)
   - #Bias
-  - #RecSys2021
+  - [#RecSys2021](RecSys2021.md)
 
 ## Summary
 
@@ -68,8 +68,8 @@
 - 기존의 추천 모델 Matrix Factorization (MF)과 neural collaborative filtering (NCF)에 DIB를 적용하여 학습했을 때, 상대적으로 어느정도의 성능 향상이 있는지 실험하였습니다.
   - 측정 metrics: AUC, precision (P@K), recall (R@K), 그리고 nDCG(@50)
 - 두 개의 dataset을 사용: Yahoo! R3, Product
-  - [[Yahoo! R3]]: 15,400 명 사용자의 1,000개 곡에 대한 ratings
-  - [[Product]]: 300,000 명 사용자의 122개 광고에 대한 click records
+  - Yahoo! R3: 15,400 명 사용자의 1,000개 곡에 대한 ratings
+  - Product: 300,000 명 사용자의 122개 광고에 대한 click records
   - test를 위해 unbiased 데이터를 확보해야 하는데, 이를 위해 일정 유저 군에게 랜덤 추천을 진행했다고 합니다.
 - Baselines
   - MF, NCF (classic reco models) / IPS, SNIPS (IPS-based) / AT, Rel, CVIB (theoretical tools-based)

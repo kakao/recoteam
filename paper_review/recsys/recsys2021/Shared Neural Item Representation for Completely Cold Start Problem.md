@@ -1,13 +1,13 @@
 # Shared Neural Item Representation for Completely Cold Start Problem
 
 - Paper : <https://dl.acm.org/doi/10.1145/3460231.3474228>
-- Authors : [[Ramin Raziperchikolaei]], [[Guannan Liang]], [[Young-joo Chung]]
-- Reviewer : [[matthew.g@kakaocorp.com]]
+- Authors : Ramin Raziperchikolaei, Guannan Liang, Young-joo Chung
+- Reviewer : matthew.g
 - Topics
-  - #Practical_Issues
+  - [#Practical_Issues](../../topics/Practical%20Issues.md)
   - #Cold_Start
   - #Representation_Learning
-  - #RecSys2021
+  - [#RecSys2021](RecSys2021.md)
 
 ## Summary
 
@@ -68,8 +68,8 @@ $$
 
 ### Dataset
 
-- [[CiteULike]]: 사용자가 인용을 저장하고 학술 논문에 공유 할 수있는 웹 서비스입니다.
-- [[Ichiba 1M]], [[Ichiba 20M]]: *Rakuten Ichiba* (일본 온라인 전자 상거래 플랫폼) interaction 데이터.
+- CiteULike: 사용자가 인용을 저장하고 학술 논문에 공유 할 수있는 웹 서비스입니다.
+- Ichiba 1M, Ichiba 20M: *Rakuten Ichiba* (일본 온라인 전자 상거래 플랫폼) interaction 데이터.
 
 ### Result
 
@@ -93,4 +93,4 @@ Sharing item rep의 경우, 데이터셋의 크기가 작을 수록 더 모델 �
 
 #### Comparison with other models
 
-Cold-start 상황 해결을 다룬 다른 모델 (DropoutNet-WMF, ACCM, DeepMusic, CDL) 대비 [[CiteULike]] 데이터셋에서 높은 test recall을 기록하였습니다.
+Cold-start 상황 해결을 다룬 다른 모델 (DropoutNet-WMF, ACCM, DeepMusic, CDL) 대비 CiteULike 데이터셋에서 높은 test recall을 기록하였습니다.

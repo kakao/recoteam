@@ -1,12 +1,12 @@
 # Top-K Contextual Bandits with Equity of Exposure
 
 - Paper : <https://dl.acm.org/doi/10.1145/3460231.3474248>
-- Authors : [[Olivier Jeunen]], [[Bart Goethals]]
-- Reviewer : [[charlie.cs@kakaocorp.com]]
+- Authors : Olivier Jeunen, Bart Goethals
+- Reviewer : charlie.cs
 - Topics
-  - #Algorithmic_Advances
-  - #Bandits_and_Reinforcement_Learning
-  - #RecSys2021
+  - [#Algorithmic_Advances](../../topics/Algorithmic%20Advances.md)
+  - [#Bandits_and_Reinforcement_Learning](../../topics/Bandits%20and%20Reinforcement%20Learning.md)
+  - [#RecSys2021](RecSys2021.md)
 
 ## Summary
 
@@ -48,7 +48,7 @@
 
 ## Results ([github](https://github.com/olivierjeunen/EARS-recsys-2021))
 
-- Real-world data from the [[Deezer]] music streaming platform
+- Real-world data from the Deezer music streaming platform
   - Relevance information between 862 playlists (items) and 974,960 users.
   - Users are represented by a dense 97d feature vector.
   - 추천 결과 수: top- `K`=12

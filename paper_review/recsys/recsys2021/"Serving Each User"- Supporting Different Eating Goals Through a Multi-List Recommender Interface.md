@@ -1,12 +1,12 @@
 # "Serving Each User"- Supporting Different Eating Goals Through a Multi-List Recommender Interface
 
 - Paper : <https://doi.org/10.1145/3460231.3474232>
-- Authors : [[Alain Starke]], [[Edis Asotic]], [[Christoph Trattner]]
-- Reviewer : [[bell.park@kakaocorp.com]], [[marv.20@kakaocorp.com]]
+- Authors : Alain Starke, Edis Asotic, Christoph Trattner
+- Reviewer : bell.park, marv.20
 - Topics
-  - #Users_in_Focus
+  - [#Users_in_Focus](../../topics/Users%20in%20Focus.md)
   - #Diversity
-  - #RecSys2021
+  - [#RecSys2021](RecSys2021.md)
 
 ## Summary
 

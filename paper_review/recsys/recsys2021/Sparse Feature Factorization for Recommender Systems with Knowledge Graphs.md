@@ -1,12 +1,12 @@
 # Sparse Feature Factorization for Recommender Systems with Knowledge Graphs
 
 - Paper : <https://arxiv.org/abs/2107.14290>
-- Authors : [[Vito Walter Anelli]], [[Tommaso Di Noia]], [[Eugenio Di Sciascio]], [[Antonio Ferrara]], [[Alberto Carlo Maria Mancino]]
-- Reviewer : [[bell.park@kakaocorp.com]]
+- Authors : Vito Walter Anelli, Tommaso Di Noia, Eugenio Di Sciascio, Antonio Ferrara, Alberto Carlo Maria Mancino
+- Reviewer : bell.park
 - Topics
-  - #Language_and_Knowledge
+  - [#Language_and_Knowledge](../../topics/Language%20and%20Knowledge.md)
   - #Knowledge_Graphs
-  - #RecSys2021
+  - [#RecSys2021](RecSys2021.md)
 
 ## Summary
 
@@ -40,5 +40,5 @@
 ![image](https://user-images.githubusercontent.com/38134957/165144170-2732047d-f6f9-4689-8298-568659352c4c.png)
 ![image](https://user-images.githubusercontent.com/38134957/165144161-ab065bdc-3a27-4058-b2aa-cad0883d66c6.png)
 
-- [[Movielens-1M]], [[Facebook Books]], [[Yahoo! Movies]]에서 평가하였습니다.
-- 저자들은 괜찮은 수준이라고 얘기하긴 하지만, nDCG 차이가 많이 나는 편입니다. [[Facebook Books]]의 경우 다른 메서드도 성능이 안좋긴하지만 MP보다도 결과가 안좋았습니다. nDCG가 추천 퀄리티를 담보하진 않지만 차이가 너무나는데 contribution이라고 보기 어렵다고 생각됩니다.
+- Movielens-1M, Facebook Books, Yahoo! Movies에서 평가하였습니다.
+- 저자들은 괜찮은 수준이라고 얘기하긴 하지만, nDCG 차이가 많이 나는 편입니다. Facebook Books의 경우 다른 메서드도 성능이 안좋긴하지만 MP보다도 결과가 안좋았습니다. nDCG가 추천 퀄리티를 담보하진 않지만 차이가 너무나는데 contribution이라고 보기 어렵다고 생각됩니다.

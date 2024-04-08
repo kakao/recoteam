@@ -1,12 +1,12 @@
 # Matrix Factorization for Collaborative Filtering Is Just Solving an Adjoint Latent Dirichlet Allocation Model After All
 
 - Paper : <https://dl.acm.org/doi/abs/10.1145/3460231.3474266>
-- Authors : [[Florian Wilhelm]]
-- Reviewer : [[tony.yoo@kakaocorp.com]]
+- Authors : Florian Wilhelm
+- Reviewer : tony.yoo
 - Topics
-  - #Theory_and_Practice
+  - [#Theory_and_Practice](../../topics/Theory%20and%20Practice.md)
   - #Matrix_Factorization
-  - #RecSys2021
+  - [#RecSys2021](RecSys2021.md)
 
 ## Summary
 
@@ -49,7 +49,7 @@ $$
 - Split: train(90%), valid(5%), test(5%)
 - The explicit feedback of these datasets was treated as implicit.
 
-| [[Movielens-1M,]] [[MoiveLens-100K]] | [[Goodbooks]] |
+| Movielens-1M, MoiveLens-100K | Goodbooks |
 | - | - |
 | 1 million movie ratings across 6,040 users and 3,706 movies<br />100 thousand interactions across 610 users and 9,724 movies | 6 million interactions across 53,425 users and 10,001 books |
 
@@ -59,10 +59,10 @@ $$
 
 ### Performance
 
-- [[MoiveLens-100K]] 에서 성능 향상이 있었습니다.
+- MoiveLens-100K 에서 성능 향상이 있었습니다.
 <img src="https://user-images.githubusercontent.com/38134957/165450153-ca5300b3-4845-448d-a49a-6fa142dff3b4.png" alt="ex1" style="zoom:67%;" />
 
-아쉽게도 [[Goodbooks]]에서 LDA4Rec 비교가 빠져 있지만, MF가 SNMF 보다 성능 면에서는 우수했습니다.
+아쉽게도 Goodbooks에서 LDA4Rec 비교가 빠져 있지만, MF가 SNMF 보다 성능 면에서는 우수했습니다.
 <img src="https://user-images.githubusercontent.com/38134957/165450159-23e829f6-3b95-4950-8b02-e47a9a34c49b.png" alt="ex2" style="zoom:60%;" />
 
 ## Conclusion

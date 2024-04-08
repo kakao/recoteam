@@ -1,19 +1,19 @@
 # Next-item Recommendations in Short Sessions
 
 - Paper : <https://arxiv.org/abs/2107.07453>
-- Authors : [[Wenzhuo Song]], [[Shoujin Wang]], [[Yan Wang]], [[Shengsheng Wang]]
-- Reviewer : [[marv.20@kakaocorp.com]]
+- Authors : Wenzhuo Song, Shoujin Wang, Yan Wang, Shengsheng Wang
+- Reviewer : marv.20
 - Topics
-  - #Algorithmic_Advances
+  - [#Algorithmic_Advances](../../topics/Algorithmic%20Advances.md)
   - #Sequential_Recommendation
   - #Cold_Start
   - #Few-Shot_Learning
-  - #RecSys2021
+  - [#RecSys2021](RecSys2021.md)
 
 ## Summary
 
 - 짧은 길이의 세션에 대해, 유사한 유저들의 세션을 가져온 다음(global module), 유저의 현재 세션과 결합(local module)한 뒤 Few-Shot Learning을 통해 추천(prediction module)하는 모델을 제안하였습니다.
-- [[Delicious]], [[Reddit]] 데이터셋에서 기존 single / multi session 기반 모델들보다 좋은 성능을 보여주었습니다. 세션길이가 짧을 때 더 우수한 상대 지표를 보여주었습니다.
+- Delicious, Reddit 데이터셋에서 기존 single / multi session 기반 모델들보다 좋은 성능을 보여주었습니다. 세션길이가 짧을 때 더 우수한 상대 지표를 보여주었습니다.
 
 ## Approach
 
@@ -41,7 +41,7 @@
 
 ![image](https://user-images.githubusercontent.com/38134957/165445903-1bc7da8b-2913-491e-8ea5-e7a9a7e6a79f.png)
 
-- [[Delicious]], [[Reddit]]에서 짧은 세션들을 뽑아 평가하였습니다.
+- Delicious, Reddit에서 짧은 세션들을 뽑아 평가하였습니다.
 - 논문에서 제안된 모델이 기존 session-based 모델들보다 짧은 세션에서 더 좋은 성능을 보였습니다.
 
 ## Conclusion

@@ -1,12 +1,12 @@
 # ProtoCF- Prototypical Collaborative Filtering for Few-shot Item Recommendation
 
 - Paper : <https://dl.acm.org/doi/10.1145/3460231.3474268>
-- Authors : [[Aravind Sankar]], [[Junting Wang]], [[Adit Krishnan]], [[Hari Sundaram]]
-- Reviewer : [[matthew.g@kakaocorp.com]]
+- Authors : Aravind Sankar, Junting Wang, Adit Krishnan, Hari Sundaram
+- Reviewer : matthew.g
 - Topics
-  - #Language_and_Knowledge
+  - [#Language_and_Knowledge](../../topics/Language%20and%20Knowledge.md)
   - #Few-Shot_Learning
-  - #RecSys2021
+  - [#RecSys2021](RecSys2021.md)
 
 ## Summary
 
@@ -108,7 +108,7 @@ meta learning 방식으로 데이터 셋을 쪼개서 학습을 진행하였습�
 
 ### Overall
 
-- [[Epinions]], [[Yelp]], [[Weeplaces]], [[Gowalla]]에서 실험을 진행하였습니다.
+- Epinions, Yelp, Weeplaces, Gowalla에서 실험을 진행하였습니다.
 - NCF Autoencoder > latent-factor models  
 - ProtoCF는 SOTA를 overall item에서 앞서는 것을 확인할 수 있었습니다.
 

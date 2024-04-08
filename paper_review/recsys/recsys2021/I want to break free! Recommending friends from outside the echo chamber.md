@@ -1,11 +1,11 @@
 # I want to break free! Recommending friends from outside the echo chamber
 
 - Paper : <https://dl.acm.org/doi/10.1145/3460231.3474270>
-- Authors : [[Antonela Tommasel]], [[Juan Manuel Rodriguez]], [[Daniela Godoy]]
-- Reviewer : [[iggy.ll@kakaocorp.com]]
+- Authors : Antonela Tommasel, Juan Manuel Rodriguez, Daniela Godoy
+- Reviewer : iggy.ll
 - Topics
-  - #Echo_Chambers_and_Filter_Bubbles
-  - #RecSys2021
+  - [#Echo_Chambers_and_Filter_Bubbles](../../topics/Echo%20Chambers%20and%20Filter%20Bubbles.md)
+  - [#RecSys2021](RecSys2021.md)
 
 ## Summary
 

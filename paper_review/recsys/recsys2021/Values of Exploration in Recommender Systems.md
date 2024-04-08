@@ -1,11 +1,11 @@
 # Values of Exploration in Recommender Systems
 
 - Paper : <https://dl.acm.org/doi/10.1145/3460231.3474236>
-- Authors : [[Minmin Chen]], [[Yuyan Wang]], [[Can Xu]], [[Ya Le]],[[ Mohit Sharma]], [[Lee Richardson]], [[Su-Lin Wu]], [[Ed Chi]]
-- Reviewer : [[andrew.y@kakaocorp.com]]
+- Authors : Minmin Chen, Yuyan Wang, Can Xu, Ya Le, Mohit Sharma, Lee Richardson, Su-Lin Wu, Ed Chi
+- Reviewer : andrew.y
 - Topics
-  - #Metrics_and_Evaluation
-  - #RecSys2021
+  - [#Metrics_and_Evaluation](../../topics/Metrics%20and%20Evaluation.md)
+  - [#RecSys2021](RecSys2021.md)
 
 ## Summary
 

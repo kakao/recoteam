@@ -1,12 +1,12 @@
 # Burst-induced Multi-Armed Bandit for Learning Recommendation
 
 - Paper : <https://dl.acm.org/doi/10.1145/3460231.3474250>
-- Authors : [[Rodrigo Alves]], [[Antoine Ledent]], [[Marius Kloft]]
-- Reviewer : [[charlie.cs@kakaocorp.com]]
+- Authors : Rodrigo Alves, Antoine Ledent, Marius Kloft
+- Reviewer : charlie.cs
 - Topics
-  - #Algorithmic_Advances
-  - #Bandits_and_Reinforcement_Learning
-  - #RecSys2021
+  - [#Algorithmic_Advances](../../topics/Algorithmic%20Advances.md)
+  - [#Bandits_and_Reinforcement_Learning](../../topics/Bandits%20and%20Reinforcement%20Learning.md)
+  - [#RecSys2021](RecSys2021.md)
 
 ## Summary
 
@@ -73,4 +73,4 @@
 
 - `K` : the number of arms, `N`: the number of events, `T`: the observed time
 - 제안한 BMAB-R이 모든 dataset에서 reward가 우세하였습니다.
-- [[MovieLens]]의 경우 제안한 방법이 TS과 거의 차이가 없었는데 이는 가장 인기있는 다섯개의 아이템이 stationary 하기 때문이라고 주장하였습니다.
+- MovieLens의 경우 제안한 방법이 TS과 거의 차이가 없었는데 이는 가장 인기있는 다섯개의 아이템이 stationary 하기 때문이라고 주장하였습니다.

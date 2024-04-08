@@ -1,13 +1,13 @@
 # Negative Interactions for Improved Collaborative Filtering- Don’t go Deeper, go Higher
 
 - Paper : <https://dl.acm.org/doi/pdf/10.1145/3460231.3474273>
-- Authors : [[Harald Steck]], [[Dawen Liang]]
-- Reviewer : [[marv.20@kakaocorp.com]]
+- Authors : Harald Steck, Dawen Liang
+- Reviewer : marv.20
 - Topics
-  - #Theory_and_Practice
+  - [#Theory_and_Practice](../../topics/Theory%20and%20Practice.md)
   - #Netflix
   - #High-Order_Interactions
-  - #RecSys2021
+  - [#RecSys2021](RecSys2021.md)
 
 ## Summary
 

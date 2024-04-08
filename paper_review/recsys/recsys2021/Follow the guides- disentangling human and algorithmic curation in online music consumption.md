@@ -1,12 +1,12 @@
 # Follow the guides- disentangling human and algorithmic curation in online music consumption
 
 - Paper : <https://arxiv.org/abs/2109.03915>
-- Authors : [[Quentin Villermet]], [[Jérémie Poiroux]], [[Manuel Moussallam]], [[Thomas Louail]], [[Camille Roth]]
-- Reviewer : jinny.kk@kakaocorp.com
+- Authors : Quentin Villermet, Jérémie Poiroux, Manuel Moussallam, Thomas Louail, Camille Roth
+- Reviewer : jinny.kk
 - Topics
-  - #Applications-Driven_Advances
+  - [#Applications-Driven_Advances](../../topics/Applications-Driven%20Advances.md)
   - #Music_Recommendation
-  - #RecSys2021
+  - [#RecSys2021](RecSys2021.md)
 
 ## Summary
 
@@ -32,7 +32,7 @@
 
 ### Dataset
 
-- [[Deezer]] (프랑스 음악 스트리밍 플랫폼) 2019년 1년동안 8639명의 구독자들의 play history (총 51m 개) (어떤 유저가 어떤 가수의 어떤 노래를 몇 분간 들었는지) + 노래에 접근한 경로 (access mode) (직접 검색, 추천 등)
+- Deezer (프랑스 음악 스트리밍 플랫폼) 2019년 1년동안 8639명의 구독자들의 play history (총 51m 개) (어떤 유저가 어떤 가수의 어떤 노래를 몇 분간 들었는지) + 노래에 접근한 경로 (access mode) (직접 검색, 추천 등)
 - 동일 기간동안 프랑스의 라디오 방송국 39곳의 플레이리스트 히스토리를 사용하였습니다.
 
 ### User Practices
