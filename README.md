@@ -36,7 +36,7 @@
 
 추천 관련 학회의 논문들을 읽고 정리한 것을 공개/공유하는 저장소입니다.
 
-- [카카오 추천팀 지식 저장소](https://publish.obsidian.md/kakao-recoteam)
+- [카카오 추천팀 지식 저장소](paper_review/README.md)
 
 ## 발행 문서, 발표 영상 자료 모음
 
