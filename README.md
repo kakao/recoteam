@@ -14,7 +14,7 @@
 
 ## 영입 지원 링크
 
-- 추천 시스템 연구/개발 (경력) [link](https://careers.kakao.com/jobs/P-14202)
+- [추천 시스템 연구/개발 (경력)](https://careers.kakao.com/jobs/P-14202)
 
 ## 영입 기출 문제
 
