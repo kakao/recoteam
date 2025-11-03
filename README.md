@@ -81,7 +81,7 @@
 
 ### if(kakao)
 
-#### if(kakao)dev2025
+#### if(kakao)25
 
 > <https://if.kakao.com/2025>
 
