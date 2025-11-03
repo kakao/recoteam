@@ -81,6 +81,12 @@
 
 ### if(kakao)
 
+#### if(kakao)dev2025
+
+> <https://if.kakao.com/2025>
+
+- `2025-09-23` [커뮤니티로 진화한 오픈채팅, AI로 슬기롭게 연결하다 (추천시스템 파트)](https://if.kakao.com/2025/session?sessionId=11)
+
 #### if(kakao)dev2022
 
 > <https://if.kakao.com/2022>
