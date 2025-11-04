@@ -14,7 +14,8 @@
 
 ## 영입 지원 링크
 
-- [추천 시스템 연구/개발 (경력)](https://careers.kakao.com/jobs/P-14256)
+- [추천 시스템 연구/개발 (경력)](https://careers.kakao.com/jobs/P-14287)
+- [추천 시스템 데이터 엔지니어 (경력)](https://careers.kakao.com/jobs/P-14285)
 
 ## 영입 기출 문제
 
