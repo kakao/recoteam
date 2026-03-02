@@ -28,7 +28,7 @@ If it is explained based on one interval, matrix data was created as logs for va
 
 > Note that Each time period denotes one days other than Article domain. In Article domain, each time period denotes 4 hours.
 
-An interval contains a matrix with [Matrix Market](https://math.nist.gov/MatrixMarket/formats.html) format, and files containing user ID and item ID information. The actual pseudonymized id values in the `uid` and `iid` files are written to the lines corresponding to the id values of users and entries used in the Matrix Martix format.
+An interval contains a matrix with [Matrix Market](https://math.nist.gov/MatrixMarket/formats.html) format, and files containing user ID and item ID information. The actual pseudonymized id values in the `uid` and `iid` files are written to the lines corresponding to the id values of users and entries used in the Matrix Market format.
 ```
 {A Service/[train|validation]-matrix}
 └── {interval-index}
